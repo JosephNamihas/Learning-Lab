@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import React from "react";
+import Home from "./components/Home";
 
 const options = {
   method: 'GET',
@@ -22,8 +23,7 @@ axios.request(options).then(function (response) {
 function App() {
   return (
     <div>
-
-      
+      <Home />
     </div>
   );
 }
