@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import React from "react";
+
+import Quiz from "../src/components/LearningPage/Quiz"
 import Home from "./components/Home";
 
 const options = {
@@ -24,6 +26,7 @@ axios.request(options).then(function (response) {
 function App() {
   return (
     <div>
+      <Quiz />
       <Home />
     </div>
   );
