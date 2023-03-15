@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import React from "react";
+import Quiz from "./components/LearningPage/Quiz"
 
 const options = {
   method: 'GET',
