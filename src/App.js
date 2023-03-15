@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import axios from "axios";
 import React from "react";
+import Collapsible from "./components/Shared/Navbar";
 import Home from "./components/Home";
 import NavBar from './components/Shared/Nav';
 import Math from './components/LearningPage/Math/Math';
@@ -34,6 +35,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className='App'>
+      <Collapsible />
+      <Home />
       <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
