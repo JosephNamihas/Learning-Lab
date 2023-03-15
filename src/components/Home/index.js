@@ -32,6 +32,7 @@ function Home() {
             </Col>
             
           </Row>
+      
         </Container>
       </header>
 		</section>
