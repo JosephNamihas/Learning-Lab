@@ -1,9 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import React from "react";
+import Home from "./components/Home";
 import Quiz from "../src/components/LearningPage/Quiz"
-import Math from "../src/components/LearningPage/Math"
-
 
 const options = {
   method: 'GET',
@@ -26,8 +25,9 @@ axios.request(options).then(function (response) {
 function App() {
   return (
     <div>
-      <Math />
-      
+
+      <Home />
+      <Quiz />
     </div>
   );
 }
