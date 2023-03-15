@@ -1,7 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import React from "react";
+<<<<<<< HEAD
 import Quiz from "../src/components/LearningPage/Quiz"
+=======
+import Home from "./components/Home";
+
+>>>>>>> af677aac196d1e6bb7bb14ade5cef2b0e47d7826
 const options = {
   method: 'GET',
   url: 'https://wordsapiv1.p.rapidapi.com/words/hatchback/typeOf',
@@ -23,8 +28,12 @@ axios.request(options).then(function (response) {
 function App() {
   return (
     <div>
+<<<<<<< HEAD
       <Quiz />
       
+=======
+      <Home />
+>>>>>>> af677aac196d1e6bb7bb14ade5cef2b0e47d7826
     </div>
   );
 }
