@@ -18,7 +18,7 @@ function ContactForm() {
   return (
     <div>
       <h2>Contact Us</h2>
-      <p>We are always looking for ways to serve you better.</p>
+      <p>We are always looking for ways to serve you better. Please leave us feedback or make enquires using the form below.</p>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
