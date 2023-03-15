@@ -2,12 +2,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import axios from "axios";
 import React from "react";
-
-import Quiz from "./components/LearningPage/Math/Quiz";
-
 import Home from "./components/Home";
 import NavBar from './components/Shared/Nav';
 import Math from './components/LearningPage/Math/Math';
+
+
+
 
 const options = {
   method: 'GET',
@@ -37,7 +37,7 @@ function App() {
       <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/math" element={<Math />} />
+          <Route path="/Math" element={<Math />} />
           
         </Routes>
       </div>
