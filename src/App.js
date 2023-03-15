@@ -1,12 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from "axios";
 import React from "react";
-<<<<<<<<< Temporary merge branch 1
 import Home from "./components/Home";
-
-=========
 import Quiz from "../src/components/LearningPage/Quiz"
->>>>>>>>> Temporary merge branch 2
+
+
 const options = {
   method: 'GET',
   url: 'https://wordsapiv1.p.rapidapi.com/words/hatchback/typeOf',
@@ -28,12 +26,12 @@ axios.request(options).then(function (response) {
 function App() {
   return (
     <div>
-<<<<<<<<< Temporary merge branch 1
+
+
       <Home />
-=========
       <Quiz />
-      
->>>>>>>>> Temporary merge branch 2
+
+     
     </div>
   );
 }
