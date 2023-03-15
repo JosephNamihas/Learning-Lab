@@ -1,8 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import axios from "axios";
 import React from "react";
 import Home from "./components/Home";
-import Quiz from "../src/components/LearningPage/Quiz"
+import NavBar from './components/Shared/Nav';
+import Math from './components/LearningPage/Math/Math';
+
 
 
 const options = {
@@ -23,16 +26,19 @@ axios.request(options).then(function (response) {
 // Pass props to Vocabuluary (js)
 
 
+
 function App() {
   return (
-    <div>
-
-
-      <Home />
-      <Quiz />
-
-     
-    </div>
+    <BrowserRouter>
+      <div className='App'>
+      <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/math" element={<Math />} />
+          
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
