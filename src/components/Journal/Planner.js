@@ -39,6 +39,19 @@ const Planner = () => {
 
     setInputValues(storedValues);
   }, []);
+
+  const clearInputField = (date) => {
+    setInputValues((prevValues) => {
+      // Remove the selected date from the inputValues state
+      const newValues = { ...prevValues };
+      delete newValues[date];
+
+      return newValues;
+    });
+
+    // Remove the stored value from localStorage for the selected date
+    localStorage.removeItem(date);
+  };
   // Function to render input elements for each day of the month
   const renderInputs = () => {
     return days.map((day) => {
@@ -53,6 +66,8 @@ const Planner = () => {
             value={value}
             onChange={(e) => handleInputChange(date, e.target.value)}
           />
+          {/* Add a "Clear" button for each input field that calls the clearInputField function */}
+          <button onClick={() => clearInputField(date)}>Clear</button>
         </div>
       );
     });
