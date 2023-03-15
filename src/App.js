@@ -6,6 +6,8 @@ import Home from "./components/Home";
 import NavBar from './components/Shared/Nav';
 import Math from './components/LearningPage/Math/Math';
 
+
+
 const options = {
   method: 'GET',
   url: 'https://wordsapiv1.p.rapidapi.com/words/hatchback/typeOf',
@@ -33,7 +35,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/math" element={<Math />} />
-          <Route path="math/*" element={<Math />} />
+          
         </Routes>
       </div>
     </BrowserRouter>
