@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import axios from "axios";
 import React from "react";
 
-import Quiz from "./components/LearningPage/Quiz"
+import Quiz from "./components/LearningPage/Math/Quiz";
 
 import Home from "./components/Home";
 import NavBar from './components/Shared/Nav';
@@ -23,6 +23,8 @@ axios.request(options).then(function (response) {
 }).catch(function (error) {
 	console.error(error);
 });
+
+
 
 // Pass props to Vocabuluary (js)
 
