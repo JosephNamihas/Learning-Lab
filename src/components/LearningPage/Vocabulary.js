@@ -37,36 +37,29 @@ $("#wordSyl").append(wordSyl);
 $("#wordDef").append(wordDef);
 }
 
-document.getElementById("search-button").addEventListener("click", myFunction);
-
-function myFunction() {
-  document.getElementById("search-input").innerHTML = "Hello World";
-}
 
 return (
+<div>
 
+  <button id ="button-search">Search</button>
 
- <div>
-
-<button id ="button-search">Search</button>
-
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title" id="wordName"></h5>
-          <h5 class="card-text" id ="wordSyl"></h5>
-          <p class="card-text" id="wordDef"></p>
+    <div className="card" style="width: 18rem;">
+        <div className="card-body">
+          <h5 className="card-title" id="wordName"></h5>
+          <h5 className="card-text" id ="wordSyl"></h5>
+          <p className="card-text" id="wordDef"></p>
         </div>
       </div>
 
-      <form id="search-form" class="form">
-        <div class="form-inline form-group">
-          <div class="input-group">
-            <button type="button" class="btn search-button" id="search-button">
+      <form id="search-form" className="form">
+        <div className="form-inline form-group">
+          <div className="input-group">
+            <button type="button" className="btn search-button" id="search-button">
               Search
             </button>
-            <input class="form-input" type="text" id="search-input" placeholder="Word"
+            <input className="form-input" type="text" id="search-input" placeholder="Word"
               aria-labelledby="form-heading" />
-            <div class="input-group-append">
+            <div className="input-group-append">
             </div>
 
           </div>
