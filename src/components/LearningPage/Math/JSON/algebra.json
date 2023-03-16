@@ -1,0 +1,308 @@
+[
+  {
+    "question": "What is Addition?",
+    "answer": "Addition is the mathematical operation of combining two or more numbers to find their total or sum.",
+    "image": ""
+  },
+  {
+    "question": "What is Subtraction?",
+    "answer": "Subtraction is the mathematical operation of finding the difference between two numbers by taking away one number from another.",
+    "image": ""
+  },
+  {
+    "question": "What is Multiplication?",
+    "answer": "Multiplication is the mathematical operation of combining a number with itself a specified number of times, resulting in the product.",
+    "image": ""
+  },
+  {
+    "question": "What is Division?",
+    "answer": "Division is the mathematical operation of splitting a number into equal parts or groups, resulting in the quotient.",
+    "image": ""
+  },
+  {
+    "question": "What is Sum?",
+    "answer": "Sum is the result of adding two or more numbers.",
+    "image": ""
+  },
+  {
+    "question": "What is Difference?",
+    "answer": "Difference is the result of subtracting one number from another.",
+    "image": ""
+  },
+  {
+    "question": "What is Product?",
+    "answer": "Product is the result of multiplying two or more numbers.",
+    "image": ""
+  },
+  {
+    "question": "What is Quotient?",
+    "answer": "Quotient is the result of dividing one number by another.",
+    "image": ""
+  },
+  {
+    "question": "What is Fraction?",
+    "answer": "A fraction is a numerical quantity that represents a part of a whole, consisting of a numerator and a denominator.",
+    "image": ""
+  },
+  {
+    "question": "What is Numerator?",
+    "answer": "The numerator is the top part of a fraction, representing the number of equal parts being considered.",
+    "image": ""
+  },
+  {
+    "question": "What is Denominator?",
+    "answer": "The denominator is the bottom part of a fraction, representing the total number of equal parts in the whole.",
+    "image": ""
+  },
+  {
+    "question": "What is Mixed number?",
+    "answer": "A mixed number is a number that includes both a whole number and a fraction.",
+    "image": ""
+  },
+  {
+    "question": "What is Improper fraction?",
+    "answer": "An improper fraction is a fraction where the numerator is equal to or greater than the denominator.",
+    "image": ""
+  },
+  {
+    "question": "What is Decimal?",
+    "answer": "A decimal is a number expressed in the base-10 system, using a decimal point to separate the whole number part from the fractional part.",
+    "image": ""
+  },
+  {
+    "question": "What is Percent?",
+    "answer": "A percent is a ratio expressed as a fraction of 100, denoted by the symbol %.",
+    "image": ""
+  },
+  {
+    "question": "What is Ratio?",
+    "answer": "A ratio is a comparison of two quantities, often expressed as a fraction.",
+    "image": ""
+  },
+  {
+    "question": "What is Proportion?",
+    "answer": "A proportion is an equation stating that two ratios are equal.",
+    "image": ""
+  },
+
+  {
+    "question": "What is Variable?",
+    "answer": "A variable is a symbol, usually a letter, used to represent an unknown value in a mathematical expression or equation.",
+    "image": ""
+  },
+  {
+    "question": "What is Constant?",
+    "answer": "A constant is a value that does not change in a mathematical expression or equation.",
+    "image": ""
+  },
+  {
+    "question": "What is Expression?",
+    "answer": "An expression is a mathematical phrase that combines numbers, variables, and operations to represent a specific value.",
+    "image": ""
+  },
+  {
+    "question": "What is Equation?",
+    "answer": "An equation is a mathematical statement that asserts the equality of two expressions.",
+    "image": ""
+  },
+  {
+    "question": "What is Inequality?",
+    "answer": "An inequality is a mathematical statement that compares two expressions and indicates that they are not equal, using symbols like <, >, ≤, or ≥.",
+    "image": ""
+  },
+  {
+    "question": "What is Function?",
+    "answer": "A function is a mathematical relationship that assigns each input value in a set to exactly one output value.",
+    "image": ""
+  },
+  {
+    "question": "What is Linear equation?",
+    "answer": "A linear equation is an equation in which the highest power of the variable is 1. It forms a straight line when graphed on a coordinate plane.",
+    "image": ""
+  },
+  {
+    "question": "What is Quadratic equation?",
+    "answer": "A quadratic equation is an equation in which the highest power of the variable is 2. It forms a parabola when graphed on a coordinate plane.",
+    "image": ""
+  },
+  {
+    "question": "What is Polynomial?",
+    "answer": "A polynomial is a mathematical expression that consists of variables, coefficients, and exponents combined using addition, subtraction, and multiplication.",
+    "image": ""
+  },
+  {
+    "question": "What is Coefficient?",
+    "answer": "A coefficient is the numerical factor that multiplies a variable in a term of a polynomial.",
+    "image": ""
+  },
+  {
+    "question": "What is Monomial?",
+    "answer": "A monomial is a polynomial with only one term, consisting of a variable raised to a non-negative integer power and multiplied by a coefficient.",
+    "image": ""
+  },
+  {
+    "question": "What is Binomial?",
+    "answer": "A binomial is a polynomial with exactly two terms.",
+    "image": ""
+  },
+  {
+    "question": "What is Trinomial?",
+    "answer": "A trinomial is a polynomial with exactly three terms.",
+    "image": ""
+  },
+  {
+    "question": "What is a System of equations?",
+    "answer": "A set of two or more equations with the same variables that need to be solved simultaneously.",
+    "image": ""
+  },
+  {
+    "question": "What is a Matrix?",
+    "answer": "A rectangular array of numbers or expressions arranged in rows and columns, used to represent and manipulate linear systems, transformations, and other mathematical objects.",
+    "image": ""
+  },
+  {
+    "question": "What is a Determinant?",
+    "answer": "A scalar value computed from a square matrix that helps determine the properties and behavior of the matrix, such as invertibility.",
+    "image": ""
+  },
+  {
+    "question": "What is an Arithmetic sequence?",
+    "answer": "A sequence of numbers in which the difference between consecutive terms is constant.",
+    "image": ""
+  },
+  {
+    "question": "What is a Geometric sequence?",
+    "answer": "A sequence of numbers in which the ratio between consecutive terms is constant.",
+    "image": ""
+  },
+  {
+    "question": "What is a Sequence?",
+    "answer": "An ordered list of numbers or objects that follow a specific pattern or rule.",
+    "image": ""
+  },
+  {
+    "question": "What is a Series?",
+    "answer": "The sum of the terms of a sequence.",
+    "image": ""
+  },
+  {
+    "question": "What is an Asymptote?",
+    "answer": "A line or curve that a function approaches but never reaches as the input values approach a specific value or infinity.",
+    "image": ""
+  },
+  {
+    "question": "What is a Logarithm?",
+    "answer": "The power to which a given base must be raised to obtain a specific number or value.",
+    "image": ""
+  },
+  {
+    "question": "What is a Common logarithm?",
+    "answer": "A logarithm with a base of 10, often denoted as log(x) or log10(x).",
+    "image": ""
+  },
+  {
+    "question": "What is a Natural logarithm?",
+    "answer": "A logarithm with a base of the mathematical constant e (approximately 2.718), often denoted as ln(x) or loge(x).",
+    "image": ""
+  },
+  {
+    "question": "What is a Base?",
+    "answer": "The number that is raised to a specific power in an exponential expression.",
+    "image": ""
+  },
+  {
+    "question": "What is an Index?",
+    "answer": "The power to which a base is raised in an exponential expression.",
+    "image": ""
+  },
+  {
+    "question": "What is a Permutation?",
+    "answer": "An arrangement of objects in a specific order, where the order matters.",
+    "image": ""
+  },
+  {
+    "question": "What is a Combination?",
+    "answer": "A selection of objects without regard to the order in which they are arranged.",
+    "image": ""
+  },
+  {
+    "question": "What is a Set?",
+    "answer": "A collection of distinct objects, considered as an object in its own right.",
+    "image": ""
+  },
+  {
+    "question": "What is a Subset?",
+    "answer": "A set formed from the elements of another set, where every element in the subset also belongs to the original set.",
+    "image": ""
+  },
+  {
+    "question": "What is a Union?",
+    "answer": "The set containing all the elements of two or more sets, without duplication.",
+    "image": ""
+  },
+  {
+    "question": "What is an Intersection?",
+    "answer": "The set containing all the elements common to two or more sets.",
+    "image": ""
+  },
+  {
+    "question": "What is a Complement?",
+    "answer": "The set of elements that belong to a universal set but do not belong to a specific set.",
+    "image": ""
+  },
+  {
+    "question": "What is an Empty set?",
+    "answer": "A set with no elements, also called the null set and denoted by {} or Ø.",
+    "image": ""
+  },
+  {
+    "question": "What is a Finite set?",
+    "answer": "A set with a definite number of elements.",
+    "image": ""
+  },
+  {
+    "question": "What is an Infinite set?",
+    "answer": "A set with an unlimited number of elements.",
+    "image": ""
+  },
+  {
+    "question": "What is a Cartesian product?",
+    "answer": "The set of all ordered pairs of elements from two sets, where each element in the first set is paired with each element in the second set.",
+    "image": ""
+  },
+  {
+    "question": "What is Algebra?",
+    "answer": "A branch of mathematics that deals with symbols and the rules for manipulating these symbols, used to represent and analyze relationships between quantities.",
+    "image": ""
+  },
+  {
+    "question": "What is an Algorithm?",
+    "answer": "A step-by-step procedure for solving a problem or performing a calculation, often involving repetition of a series of operations.",
+    "image": ""
+  },
+  {
+    "question": "What is the Associative property?",
+    "answer": "A property of certain operations (such as addition and multiplication) stating that the way in which numbers are grouped does not affect the result, e.g., (a + b) + c = a + (b + c).",
+    "image": ""
+  },
+  {
+    "question": "What is an Axiom?",
+    "answer": "A statement or proposition that is accepted as true without proof, used as a basis for further reasoning or argument.",
+    "image": ""
+  },
+  {
+    "question": "What is a Base-10 system?",
+    "answer": "A number system that uses 10 as its base, also known as the decimal system, in which each digit in a number represents a multiple of a power of 10.",
+    "image": ""
+  },
+  {
+    "question": "What is a Binary operation?",
+    "answer": "An operation that combines two elements to produce another element, such as addition, subtraction, multiplication, and division.",
+    "image": ""
+  },
+  {
+    "question": "What is Algebra?",
+    "answer": "A branch of mathematics that deals with symbols and the rules for manipulating these symbols, used to represent and analyze relationships between quantities.",
+    "image": ""
+  }
+]

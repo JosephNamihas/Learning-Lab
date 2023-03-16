@@ -1,0 +1,181 @@
+[
+  {
+    "question": "What is Absolute value?",
+    "answer": "The distance of a number from zero on the number line.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Actuarial notation?",
+    "answer": "A notation used to represent present and future values of contingent cash flows.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Acute angle?",
+    "answer": "An angle that measures between 0 and 90 degrees.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Addition?",
+    "answer": "The process of combining two or more numbers to get a total.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Adjacent angles?",
+    "answer": "Two angles that share a common vertex and side, but do not overlap.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Algebra?",
+    "answer": "A branch of mathematics that deals with mathematical symbols and the rules for manipulating these symbols.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Algebraic expression?",
+    "answer": "A mathematical phrase that combines numbers, variables, and operators.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Algorithm?",
+    "answer": "A step-by-step procedure for performing calculations or solving problems.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Alternating angles?",
+    "answer": "Angles that are on opposite sides of a transversal and inside the two parallel lines.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Amplitude?",
+    "answer": "The maximum value of the displacement of a periodic function from its mean value.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Angle?",
+    "answer": "The figure formed by two rays with a common endpoint, called the vertex.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Annulus?",
+    "answer": "The region between two concentric circles.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Antiderivative?",
+    "answer": "A function whose derivative is the given function.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Aperiodic tiling?",
+    "answer": "A tiling pattern that does not have translational symmetry.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Apothem?",
+    "answer": "A line segment from the center of a regular polygon to the midpoint of one of its sides.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Arc?",
+    "answer": "A portion of the circumference of a circle.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Area?",
+    "answer": "The amount of space inside a two-dimensional shape.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Area model?",
+    "answer": "A visual representation of a mathematical operation using rectangular regions to represent numbers.",
+    "image_url": ""
+  },
+  {
+    "question": "What is the Argument of a function?",
+    "answer": "The input value for which the function produces an output",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Arithmetic mean?",
+    "answer": "The sum of a set of numbers divided by the count of numbers in the set."
+  },
+  {
+    "question": "What is an Arithmetic progression?",
+    "answer": "A sequence of numbers such that the difference between any two consecutive terms is constant.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Arithmetic sequence?",
+    "answer": "A sequence of numbers such that the difference between any two consecutive terms is constant.",
+    "image_url": ""
+  },
+  {
+    "question": "What is the Associative law?",
+    "answer": "A property of some binary operations stating that the result of the operation is the same regardless of the grouping of operands.",
+    "image_url": ""
+  },
+  {
+    "question": "What is the Associative property?",
+    "answer": "A property of some binary operations stating that the result of the operation is the same regardless of the grouping of operands.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Asymptote?",
+    "answer": "A line that a curve approaches as it heads towards infinity.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Asymptotic behavior?",
+    "answer": "The behavior of a function as its input or output approaches infinity.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Axiom?",
+    "answer": "A statement or proposition that is accepted as true without proof.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Axiomatic system?",
+    "answer": "A set of axioms from which theorems can be derived through logical reasoning.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Bar graph?",
+    "answer": "A graphical representation of data using bars of different heights to represent the frequency or value of items in a category.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Barycentric coordinates?",
+    "answer": "A coordinate system in which the location of a point in a triangle is determined by the relative weights of its vertices.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Base?",
+    "answer": "The number that is raised to a power in exponentiation.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Base (exponentiation)?",
+    "answer": "The number that is raised to a power in exponentiation.",
+    "image_url": ""
+  },
+  {
+    "question": "What is the Base-10 system?",
+    "answer": "A number system that uses ten distinct symbols (0, 1, 2, 3, 4, 5, 6, 7, 8, 9) to represent numbers.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Bézier curve?",
+    "answer": "A type of curve defined by a set of control points, used in computer graphics and animation.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Biconditional?",
+    "answer": "A statement that is true if and only if both of its components are true.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Bifurcation?",
+    "answer": "A point at which a system undergoes a sudden qualitative change in behavior.",
+    "image_url": ""
+  }
+]

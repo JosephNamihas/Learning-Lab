@@ -1,0 +1,311 @@
+[ 
+ {
+      "question": "What is Mean?",
+      "answer": "The average of a set of numbers, calculated by adding the numbers together and dividing by the number of values in the set.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Median?",
+      "answer": "The middle value in a set of numbers when the numbers are arranged in order.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Mode?",
+      "answer": "The number that appears most frequently in a data set.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Range?",
+      "answer": "The difference between the highest and lowest values in a data set.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Data?",
+      "answer": "Facts and statistics collected for analysis or reference.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Graph?",
+      "answer": "A visual representation of data that shows the relationship between two or more variables.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Bar graph?",
+      "answer": "A graph that uses bars to represent data and show comparisons among categories.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Line graph?",
+      "answer": "A graph that uses lines to connect data points and show trends over time.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Pie chart?",
+      "answer": "A circular chart divided into sectors to represent proportions of a whole.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Histogram?",
+      "answer": "A graph that uses bars to represent the frequency of data within equal intervals.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Frequency table?",
+      "answer": "A table that shows the number of times each value or range of values occurs in a data set.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Scatter plot?",
+      "answer": "A graph that uses dots to represent values for two different numeric variables.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Stem-and-leaf plot?",
+      "answer": "A plot that shows data distribution by organizing data into stems and leaves.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Bivariate data?",
+      "answer": "Data that involves two variables and can be analyzed to determine relationships or correlations.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Box-and-whisker plot?",
+      "answer": "A graphical representation of data that shows the median, quartiles, and outliers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Conditional probability?",
+      "answer": "The probability of an event occurring given that another event has occurred.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Correlation?",
+      "answer": "A measure of the strength and direction of the relationship between two variables.",
+      "image_url": ""
+    },
+    {
+      "question": "What is an Outlier?",
+      "answer": "A value that lies outside the overall pattern of a data set.",
+      "image_url": ""
+    },
+    {
+    "question": "What is Regression?",
+        "answer": "A statistical method for estimating the relationships between variables, often used for predicting future values.",
+        "image_url": ""
+    },
+    {
+        "question": "What is Univariate data?",
+        "answer": "Data that involves a single variable and can be analyzed to describe its distribution, central tendency, and variability.",
+        "image_url": ""
+    },
+    {
+      "question": "What is Standard deviation?",
+      "answer": "A measure of the amount of variation or dispersion in a set of values.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Statistic?",
+      "answer": "A numerical value computed from a sample that is used to summarize or describe the data.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Weighted average?",
+      "answer": "An average in which each value in the dataset is multiplied by a weight before being summed and divided by the total weight.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Population?",
+      "answer": "The entire group of individuals or objects being studied in a statistical analysis.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Sample?",
+      "answer": "A subset of a population selected for analysis.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Sampling distribution?",
+      "answer": "The probability distribution of a statistic based on random samples drawn from a population.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Central tendency?",
+      "answer": "A measure that identifies the center or typical value of a dataset, such as mean, median, or mode.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Dispersion?",
+      "answer": "A measure of the spread or variability of a dataset, such as range, variance, or standard deviation.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Variance?",
+      "answer": "A measure of the dispersion of a set of values, calculated as the average of the squared differences from the mean.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Interquartile range (IQR)?",
+      "answer": "A measure of dispersion representing the difference between the first quartile (25th percentile) and the third quartile (75th percentile) of a dataset.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Percentiles?",
+      "answer": "Values that divide a dataset into 100 equal parts, each representing 1% of the data.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Quartiles?",
+      "answer": "Values that divide a dataset into four equal parts, representing the 25th, 50th, and 75th percentiles.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Cumulative frequency?",
+      "answer": "The running total of frequencies in a frequency distribution, showing the number of observations below a particular value.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Probability distribution?",
+      "answer": "A function that describes the likelihood of different possible outcomes in an experiment.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Discrete probability distribution?",
+      "answer": "A probability distribution for discrete random variables, where the probabilities are associated with distinct, countable values.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Continuous probability distribution?",
+      "answer": "A probability distribution for continuous random variables, where the probabilities are associated with ranges of values rather than distinct values.",
+      "image_url": ""
+    },
+
+    {
+      "question": "What is Normal distribution (Gaussian distribution)?",
+      "answer": "A continuous probability distribution characterized by a bell-shaped curve, symmetric about the mean, with the majority of data points concentrated around the mean.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Z-scores (Standard scores)?",
+      "answer": "A measure of how many standard deviations an observation or data point is from the mean of a distribution.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Confidence intervals?",
+      "answer": "A range of values within which the true population parameter is likely to fall, with a specified level of confidence.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Hypothesis testing?",
+      "answer": "A statistical method used to determine whether there is enough evidence in a sample to infer that a certain condition holds for the entire population.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Null hypothesis?",
+      "answer": "A hypothesis that states there is no significant difference or relationship between variables being tested.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Alternative hypothesis?",
+      "answer": "A hypothesis that states there is a significant difference or relationship between variables being tested.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Type I error (Alpha)?",
+      "answer": "The incorrect rejection of a true null hypothesis.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Type II error (Beta)?",
+      "answer": "The failure to reject a false null hypothesis.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Significance level?",
+      "answer": "The probability of rejecting the null hypothesis when it is true.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Power of a test?",
+      "answer": "The probability of correctly rejecting a false null hypothesis.",
+      "image_url": ""
+    },
+    {
+      "question": "What is T-distribution?",
+      "answer": "A probability distribution used in hypothesis testing and confidence intervals when the population standard deviation is unknown.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Chi-square distribution?",
+      "answer": "A probability distribution used in hypothesis testing for categorical data.",
+      "image_url": ""
+    },
+    {
+      "question": "What is F-distribution?",
+      "answer": "A probability distribution used in hypothesis testing for comparing variances or testing multiple regression models.",
+      "image_url": ""
+    },
+    {
+      "question": "What is ANOVA (Analysis of variance)?",
+      "answer": "A statistical technique used to compare the means of two or more groups.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Linear regression?",
+      "answer": "A statistical method for modeling the relationship between a dependent variable and one or more independent variables.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Multiple regression?",
+      "answer": "A statistical method for modeling the relationship between a dependent variable and multiple independent variables.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Logistic regression?",
+      "answer": "A statistical method for modeling the relationship between a binary dependent variable and one or more independent variables.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Coefficient of determination (R-squared)?",
+      "answer": "A measure of how well a regression model explains the variation in the dependent variable.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Spearman's rank correlation?",
+      "answer": "A non-parametric measure of the strength and direction of association between two ranked variables.",
+      "image_url": ""
+    },
+    {
+      "question": "What is a Contingency table?",
+      "answer": "A table used to summarize the relationship between two categorical variables.",
+      "image_url": ""
+    },
+    {
+      "question": "What is the Central Limit Theorem?",
+      "answer": "A theorem stating that the sampling distribution of the sample mean approaches a normal distribution as the sample size increases.",
+      "image_url": ""
+    },
+        {
+      "question": "What is Point estimation?",
+      "answer": "A single value used to estimate an unknown population parameter.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Interval estimation?",
+      "answer": "An estimate of an unknown population parameter in the form of an interval that is likely to contain the true value of the parameter.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Confidence intervals?",
+      "answer": "An interval estimate of a population parameter, accompanied by a confidence level that quantifies the level of confidence that the parameter lies in the interval.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Hypothesis testing?",
+      "answer": "A statistical procedure used to test whether a hypothesis about a population parameter is likely to be true or false, based on a sample of data.",
+      "image_url": ""
+    }
+
+]
+
+

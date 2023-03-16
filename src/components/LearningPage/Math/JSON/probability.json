@@ -1,0 +1,322 @@
+[
+  {
+    "question": "What is an Event?",
+    "answer": "A specific outcome or a collection of outcomes in a probability experiment.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Expected value?",
+    "answer": "The weighted average of all possible values of a random variable, with weights given by their respective probabilities.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Conditional probability?",
+    "answer": "The probability of an event occurring, given that another event has occurred.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Probability distribution?",
+    "answer": "A function or table that describes the probabilities of all possible outcomes for a random variable.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Complement?",
+    "answer": "The set of all outcomes not included in a given event.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Union?",
+    "answer": "The set of all elements that belong to at least one of two or more given sets.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Intersection?",
+    "answer": "The set of all elements that belong to all of the given sets.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Permutation?",
+    "answer": "An arrangement of objects in a specific order without repetition.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Combination?",
+    "answer": "A selection of objects without regard to the order in which they are arranged.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Set?",
+    "answer": "A collection of distinct objects, considered as an object in its own right.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Subset?",
+    "answer": "A set formed from the elements of a given set.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Empty set?",
+    "answer": "A set containing no elements.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Finite set?",
+    "answer": "A set with a countable number of elements.",
+    "image_url": ""
+  },
+  {
+    "question": "What is an Infinite set?",
+    "answer": "A set with an uncountable number of elements.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Cartesian product?",
+    "answer": "The set of all ordered pairs of elements from two given sets.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Venn diagram?",
+    "answer": "A diagram that shows the relationships among sets using circles.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Mean?",
+    "answer": "The average of a set of numbers, found by adding the numbers and dividing by the number of values.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Median?",
+    "answer": "The middle value of a set of numbers when the numbers are arranged in order.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Mode?",
+    "answer": "The number that appears most frequently in a set of numbers.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Range?",
+    "answer": "The difference between the highest and lowest values in a set of numbers.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Sample space?",
+    "answer": "The set of all possible outcomes of a random experiment or event.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Disjoint sets?",
+    "answer": "Sets that have no elements in common, also known as mutually exclusive sets.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Dependent events?",
+    "answer": "Events whose probability of occurrence is influenced by the occurrence of another event.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Independent events?",
+    "answer": "Events whose probability of occurrence is not influenced by the occurrence of another event.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Bayes' theorem?",
+    "answer": "A theorem in probability theory that describes the probability of an event based on prior knowledge of related conditions or events.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Markov chains?",
+    "answer": "A stochastic process with the Markov property, where future states depend only on the current state.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Poisson process?",
+    "answer": "A stochastic process representing the number of events occurring in a fixed interval of time or space.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Moment-generating functions?",
+    "answer": "A function used to find the moments of a probability distribution.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Cumulative distribution function (CDF)?",
+    "answer": "A function that represents the probability that a random variable takes on a value less than or equal to a given value.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Probability mass function (PMF)?",
+    "answer": "A function that gives the probability of a discrete random variable taking on specific values.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Probability density function (PDF)?",
+    "answer": "A function that describes the likelihood of a continuous random variable taking on a given value.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Central limit theorem?",
+    "answer": "A theorem stating that the sum of a large number of independent, identically distributed random variables approaches a normal distribution.",
+    "image_url": ""
+  },
+  {
+    "question": "What is the Law of large numbers?",
+    "answer": "A theorem stating that the sample mean approaches the population mean as the sample size increases.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Variance and standard deviation?",
+    "answer": "Measures of the dispersion of a set of data values around the mean.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Covariance and correlation coefficient?",
+    "answer": "Measures of the linear relationship between two random variables.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Conditional expectation?",
+    "answer": "The expected value of a random variable given some condition or event.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Joint probability distribution?",
+    "answer": "A function that gives the probability of two or more random variables taking on specific values.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Marginal probability distribution?",
+    "answer": "The probability distribution of a single random variable obtained from a joint distribution.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Stochastic processes?",
+    "answer": "Random processes involving the evolution of variables over time or space.",
+    "image_url": ""
+  },
+  {
+    "question": "What is a Random walk?",
+    "answer": "A stochastic process that models the path of an object moving randomly in discrete time steps.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Entropy and information theory?",
+    "answer": "Measures of the uncertainty and information content of a probability distribution or data source.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Counting principles?",
+    "answer": "Methods for determining the number of possible arrangements or outcomes in various scenarios.",
+    "image_url": ""
+  },
+  {
+    "question": "What is the Pigeonhole Principle?",
+    "answer": "A principle stating that if more objects are placed into a fixed number of containers than the number of containers, at least one container must contain more than one object.",
+    "image_url": ""
+  },
+  {
+    "question": "What is the Inclusion-Exclusion Principle?",
+    "answer": "A principle used to find the number of elements in the union of multiple sets by accounting for overlaps.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Bernoulli trials?",
+    "answer": "A sequence of independent and identically distributed binary random variables, each with the same probability of success.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Binomial distribution?",
+    "answer": "A probability distribution that describes the number of successes in a fixed number of independent Bernoulli trials with the same probability of success.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Geometric distribution?",
+    "answer": "A probability distribution that describes the number of Bernoulli trials required for a single success.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Negative binomial distribution?",
+    "answer": "A probability distribution that describes the number of Bernoulli trials needed to achieve a specified number of successes.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Poisson distribution?",
+    "answer": "A probability distribution that models the number of events occurring in a fixed interval of time or space, given a fixed average rate of occurrence.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Exponential distribution?",
+    "answer": "A continuous probability distribution that models the time between events in a Poisson process.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Gamma distribution?",
+    "answer": "A continuous probability distribution that models the time taken for a specified number of events to occur in a Poisson process.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Normal (Gaussian) distribution?",
+    "answer": "A continuous probability distribution that is symmetric about the mean and characterized by its bell-shaped curve.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Chi-square distribution?",
+    "answer": "A continuous probability distribution that represents the distribution of the sum of squares of independent standard normal random variables.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Student's t-distribution?",
+    "answer": "A continuous probability distribution that is used when the sample size is small and the population variance is unknown.",
+    "image_url": ""
+  },
+  {
+    "question": "What is F-distribution?",
+    "answer": "A continuous probability distribution that is used to test the ratio of two variances or compare the fits of different models.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Confidence intervals?",
+    "answer": "An interval estimate of a population parameter that provides a range within which the true value of the parameter is likely to fall.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Hypothesis testing?",
+    "answer": "A statistical method for testing the validity of a claim or hypothesis about a population parameter.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Maximum likelihood estimation?",
+    "answer": "A method for estimating population parameters by finding the value that maximizes the likelihood of observing the given sample data.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Bayesian inference?",
+    "answer": "A statistical method that updates the probability of a hypothesis as more evidence or information becomes available.",
+    "image_url": ""
+  },
+  {
+    "question": "What are Monte Carlo methods?",
+    "answer": "A class of computational algorithms that rely on random sampling to obtain numerical results.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Game theory?",
+    "answer": "A mathematical framework for analyzing situations involving conflict and cooperation among multiple decision-makers, or players.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Queueing theory?",
+    "answer": "A mathematical study of waiting lines, or queues, focusing on predicting queue lengths, waiting times, and other performance measures.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Renewal theory?",
+    "answer": "A branch of probability theory that deals with the study of renewal processes, which are sequences of random events occurring at random intervals.",
+    "image_url": ""
+  },
+  {
+    "question": "What is Time series analysis?",
+    "answer": "A set of statistical methods for analyzing and forecasting data collected over time.",
+    "image_url": ""
+  }
+]

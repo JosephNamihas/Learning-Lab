@@ -1,0 +1,278 @@
+ [
+    {
+      "question": "What is an Angle?",
+      "answer": "The figure formed by two rays with a common endpoint, called the vertex.",
+      "image": ""
+    },
+    {
+      "question": "What is a Right angle?",
+      "answer": "An angle that measures exactly 90 degrees.",
+      "image": ""
+    },
+    {
+      "question": "What is an Acute angle?",
+      "answer": "An angle that measures between 0 and 90 degrees.",
+      "image": ""
+    },
+    {
+      "question": "What is an Obtuse angle?",
+      "answer": "An angle that measures between 90 and 180 degrees.",
+      "image": ""
+    },
+    {
+      "question": "What is Sine?",
+      "answer": "In a right triangle, the ratio of the length of the side opposite an angle to the length of the hypotenuse.",
+      "image": ""
+    },
+    {
+      "question": "What is Cosine?",
+      "answer": "In a right triangle, the ratio of the length of the adjacent side to an angle to the length of the hypotenuse.",
+      "image": ""
+    },
+    {
+      "question": "What is Tangent?",
+      "answer": "In a right triangle, the ratio of the length of the side opposite an angle to the length of the adjacent side.",
+      "image": ""
+    },
+    {
+      "question": "What is Cotangent?",
+      "answer": "The reciprocal of the tangent function (cot(x) = 1/tan(x)).",
+      "image": ""
+    },
+    {
+      "question": "What is Cosecant?",
+      "answer": "The reciprocal of the sine function (csc(x) = 1/sin(x)).",
+      "image": ""
+    },
+    {
+      "question": "What is Secant?",
+      "answer": "The reciprocal of the cosine function (sec(x) = 1/cos(x)).",
+      "image": ""
+    },
+    {
+      "question": "What is Trigonometry?",
+      "answer": "The branch of mathematics that deals with the relationships between the angles and sides of triangles, particularly right triangles.",
+      "image": ""
+    },
+    {
+      "question": "What is a Unit circle?",
+      "answer": "A circle with a radius of 1, centered at the origin of the coordinate plane.",
+      "image": ""
+    },
+    {
+      "question": "What is the Pythagorean theorem?",
+      "answer": "In a right triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides.",
+      "image": ""
+    },
+    {
+      "question": "What are Inverse trigonometric functions?",
+      "answer": "Functions that undo the trigonometric functions, such as arcsine, arccosine, and arctangent.",
+      "image": ""
+    },
+    {
+      "question": "What are Polar coordinates?",
+      "answer": "A coordinate system in which points are represented by their distance from the origin and the angle they make with the positive x-axis.",
+      "image": ""
+    },
+    {
+      "question": "What is an Arc?",
+      "answer": "A portion of the circumference of a circle.",
+      "image": ""
+    },
+    {
+      "question": "What is a Central angle?",
+      "answer": "An angle whose vertex is at the center of a circle and whose sides are radii of the circle.",
+    "image": ""
+    },
+    {
+    "question": "What is a Radian?",
+    "answer": "A unit of angle measure, defined as the angle subtended at the center of a circle by an arc equal in length to the radius of the circle.",
+    "image": ""
+    },
+    {
+    "question": "What is Amplitude?",
+    "answer": "The maximum value of the displacement of a periodic function from its mean value.",
+    "image": ""
+    },
+    {
+    "question": "What is De Moivre's theorem?",
+    "answer": "A theorem that relates the powers and roots of complex numbers in trigonometric form to their trigonometric functions and angles.",
+    "image": ""
+    },
+    {
+    "question": "What is Euler's formula?",
+    "answer": "A formula that relates complex exponentials to trigonometric functions: e^(ix) = cos(x) + isin(x), where i is the imaginary unit.",
+    "image": ""
+    },
+    {
+    "question": "What is a Complex number?",
+    "answer": "A number that can be expressed in the form a + bi, where a and b are real numbers, and i is the imaginary unit (i^2 = -1).",
+    "image": ""
+    },
+    {
+    "question": "What is the Argument of a function?",
+    "answer": "The input value for a function, usually represented by x or θ. In complex numbers, it refers to the angle between the positive x-axis and the line connecting the origin and the complex number in the complex plane.",
+    "image": ""
+    },
+    {
+    "question": "What is Polar form (complex number)?",
+    "answer": "A representation of a complex number using its magnitude and argument: r(cos(θ) + isin(θ)), where r is the magnitude and θ is the argument.",
+    "image": ""
+    },
+    {
+    "question": "What is the Law of Sines?",
+    "answer": "A formula in trigonometry that relates the ratios of the sides of a triangle to the sines of its angles: a/sin(A) = b/sin(B) = c/sin(C).",
+    "image": ""
+    },
+    {
+    "question": "What is the Law of Cosines?",
+    "answer": "A formula in trigonometry that relates the lengths of the sides of a triangle to the cosine of one of its angles: c^2 = a^2 + b^2 - 2ab*cos(C).",
+    "image": ""
+    },
+    {
+    "question": "What is Right triangle trigonometry?",
+    "answer": "The study of the relationships between the angles and sides of right triangles, which involves the use of trigonometric ratios (sine, cosine, and tangent).",
+    "image": ""
+    },
+    {
+    "question": "What are Trigonometric identities?",
+    "answer": "Equalities involving trigonometric functions that are true for all values of the variables for which both sides of the equality are defined.",
+    "image": ""
+    },
+    {
+    "question": "What are Reciprocal identities?",
+    "answer": "Identities that express the reciprocal relationships between trigonometric functions: csc(θ) = 1/sin(θ), sec(θ) = 1/cos(θ), and cot(θ) = 1/tan(θ).",
+    "image": ""
+    },
+    {
+    "question": "What are Quotient identities?",
+    "answer": "Identities that express the relationships between the quotients of trigonometric functions: tan(θ) = sin(θ)/cos(θ) and cot(θ) = cos(θ)/sin(θ).",
+    "image": ""
+    },
+    {
+    "question": "What are Pythagorean identities?",
+    "answer": "Identities that relate the squares of trigonometric functions to 1: sin^2(θ) + cos^2(θ) = 1, 1 + tan^2(θ) = sec^2(θ), and 1 + cot^2(θ) = csc^2(θ).",
+    "image": ""
+    },
+    {
+    "question": "What are Co-function identities?",
+    "answer": "Identities that relate the trigonometric functions of complementary angles: sin(90° - θ) = cos(θ), cos(90° - θ) = sin(θ), tan(90° - θ) = cot(θ), cot(90° - θ) = tan(θ), sec(90° - θ) = csc(θ), and csc(90° - θ) = sec(θ).",
+    "image": ""
+    },
+    {
+    "question": "What are Angle sum and difference identities?",
+    "answer": "Identities that express the trigonometric functions of the sum or difference of two angles in terms of the trigonometric functions of the individual angles.",
+    "image": ""
+    },
+    {
+    "question": "What are Double-angle identities?",
+    "answer": "Identities that express trigonometric functions of double angles in terms of the trigonometric functions of the original angle: sin(2θ), cos(2θ), and tan(2θ).",
+    "image": ""
+    },
+    {
+    "question": "What are Half-angle identities?",
+    "answer": "Identities that express trigonometric functions of half angles in terms of the trigonometric functions of the original angle: sin(θ/2), cos(θ/2), and tan(θ/2).",
+    "image": ""
+    },
+    {
+    "question": "What are Trigonometric functions of any angle?",
+    "answer": "The extension of the trigonometric functions sine, cosine, and tangent to all angles, not just acute angles, by considering angles in standard position and using the unit circle.",
+    "image": ""
+    },
+    {
+    "question": "What are Trigonometric equations?",
+    "answer": "Equations that involve trigonometric functions and require the use of trigonometric identities, properties, and techniques to solve for the variable.",
+    "image": ""
+    },
+    {
+    "question": "What are Trigonometric graphs?",
+    "answer": "Graphs of the trigonometric functions (sine, cosine, tangent, cotangent, secant, and cosecant) that display their periodic behavior, amplitude, and other properties.",
+    "image": ""
+    },
+    {
+    "question": "What are Graphs of sine?",
+    "answer": "Graphs that display the sine function, which is a periodic wave-like curve with amplitude 1 and period 2π.",
+    "image": ""
+    },
+    {
+    "question": "What are Graphs of cosine?",
+    "answer": "Graphs that display the cosine function, which is a periodic wave-like curve with amplitude 1 and period 2π, starting at its maximum value.",
+    "image": ""
+    },
+    {
+    "question": "What are Graphs of tangent functions?",
+    "answer": "Graphs that display the tangent function, which is periodic with period π and has asymptotes at odd multiples of π/2.",
+    "image": ""
+    },
+    {
+    "question": "What is Amplitude?",
+    "answer": "The maximum absolute value of the displacement of a periodic wave or function from its mean or equilibrium position.",
+    "image": ""
+    },
+    {
+    "question": "What is period?",
+    "answer": "The length of one complete cycle of a periodic function, after which the function repeats its values.",
+    "image": ""
+    },
+    {
+    "question": "What is phase shift?",
+    "answer": "A horizontal shift of a periodic function that changes the starting point of the function's cycle.",
+    "image": ""
+    },
+    {
+    "question": "What is vertical shift?",
+    "answer": "A vertical shift of a function that raises or lowers the graph without affecting its shape or orientation.",
+    "image": ""
+    },
+    {
+    "question": "What is an Angle of elevation?",
+    "answer": "The angle formed by the line of sight from an observer to an object above the observer's horizontal level.",
+    "image": ""
+    },
+    {
+    "question": "What is an angle of depression?",
+    "answer": "The angle formed by the line of sight from an observer to an object below the observer's horizontal level.",
+    "image": ""
+    },
+    {
+    "question": "What is a Trigonometric word problem?",
+    "answer": "A problem that involves the application of trigonometry to real-world situations, such as finding heights, distances, or angles using trigonometric ratios and functions.",
+    "image": ""
+    },
+    {
+    "question": "What are Trigonometric ratios?",
+    "answer": "The ratios of the sides of a right triangle with respect to one of its acute angles, including sine, cosine, and tangent.",
+    "image": ""
+    },
+    {
+    "question": "What are Reference angles?",
+    "answer": "The acute angle formed by the terminal side of an angle in standard position and the x-axis. It is used to find the trigonometric functions of angles in any quadrant.",
+    "image": ""
+    },
+    {
+    "question": "What are Cofunctions?",
+    "answer": "Trigonometric functions related by the cofunction identities, such as sine and cosine or tangent and cotangent.",
+    "image": ""
+    },
+    {
+    "question": "What are Equations?",
+    "answer": "Mathematical statements that express the equality of two expressions.",
+    "image": ""
+    },
+    {
+    "question": "What are Identities?",
+    "answer": "Mathematical statements that express the equality of two expressions for all values of the variables for which both sides of the equality are defined.",
+    "image": ""
+    },
+    {
+    "question": "What are Functions?",
+    "answer": "Mathematical relationships that assign a unique output value to each input value in their domain.",
+    "image": ""
+    },
+    {
+    "question": "What is Trigonometry?",
+    "answer": "A branch of mathematics that deals with the relationships between the angles and sides of triangles, particularly right triangles, and the study of trigonometric functions.",
+    "image": ""
+    }
+
+]
