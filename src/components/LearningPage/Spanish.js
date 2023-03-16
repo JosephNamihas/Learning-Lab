@@ -2,23 +2,23 @@ import React, { useState } from 'react';
 
 const questions = [
   {
-    question: 'What is the capital of France?',
-    options: ['London', 'Paris', 'Berlin', 'Madrid'],
-    answer: 'Paris'
+    question: 'What is the Spanish word for "house"?',
+    options: ['Casa', 'Perro', 'Coche', 'Comida'],
+    answer: 'Casa'
   },
   {
-    question: 'What is the longest river in the world?',
-    options: ['Nile', 'Amazon', 'Yangtze', 'Mississippi'],
-    answer: 'Nile'
+    question: 'What is the Spanish word for "red"?',
+    options: ['Azul', 'Rojo', 'Verde', 'Amarillo'],
+    answer: 'Rojo'
   },
   {
-    question: 'What is the largest desert in the world?',
-    options: ['Sahara', 'Arabian', 'Gobi', 'Kalahari'],
-    answer: 'Sahara'
+    question: 'What is the Spanish word for "thank you"?',
+    options: ['Gracias', 'Hola', 'Adiós', 'Por favor'],
+    answer: 'Gracias'
   }
 ];
 
-function GeographyQuiz() {
+function SpanishQuiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [answerStatus, setAnswerStatus] = useState(null);
@@ -37,13 +37,13 @@ function GeographyQuiz() {
     <>
       {currentQuestion < questions.length ? (
         <>
-          <h1>Geography Quiz</h1>
+          <h1>Spanish Quiz</h1>
           <p>{questions[currentQuestion].question}</p>
           <div>
             {questions[currentQuestion].options.map(option => (
               <button key={option} onClick={() => handleAnswer(option)}>{option}</button>
             ))}
-          </div>
+            </div>
           {answerStatus && <p>{answerStatus}</p>}
         </>
       ) : (
@@ -56,4 +56,4 @@ function GeographyQuiz() {
   );
 }
 
-export default GeographyQuiz;
+export default SpanishQuiz;
