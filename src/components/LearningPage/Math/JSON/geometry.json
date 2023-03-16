@@ -1,0 +1,898 @@
+[
+  {
+    "question": "What is an Angle?",
+    "answer": "An angle is a measure of the space between two intersecting lines or rays that share a common endpoint called the vertex.",
+    "image": ""
+  },
+  {
+    "question": "What is a Right angle?",
+    "answer": "A right angle is an angle that measures exactly 90 degrees.",
+    "image": ""
+  },
+  {
+    "question": "What is an Acute angle?",
+    "answer": "An acute angle is an angle that measures less than 90 degrees.",
+    "image": ""
+  },
+  {
+    "question": "What is an Obtuse angle?",
+    "answer": "An obtuse angle is an angle that measures more than 90 degrees but less than 180 degrees.",
+    "image": ""
+  },
+  {
+    "question": "What is a Vertex?",
+    "answer": "A vertex is a point where two or more lines, rays, or line segments meet.",
+    "image": ""
+  },
+  {
+    "question": "What is a Triangle?",
+    "answer": "A triangle is a polygon with three sides and three angles.",
+    "image": ""
+  },
+  {
+    "question": "What is a Quadrilateral?",
+    "answer": "A quadrilateral is a polygon with four sides and four angles.",
+    "image": ""
+  },
+  {
+    "question": "What is a Pentagon?",
+    "answer": "A pentagon is a polygon with five sides and five angles.",
+    "image": ""
+  },
+  {
+    "question": "What is a Hexagon?",
+    "answer": "A hexagon is a polygon with six sides and six angles.",
+    "image": ""
+  },
+  {
+    "question": "What is a Circle?",
+    "answer": "A circle is a closed, curved shape in which all points are equidistant from a central point called the center.",
+    "image": ""
+  },
+  {
+    "question": "What is a Radius?",
+    "answer": "A radius is a line segment that connects the center of a circle to any point on its circumference.",
+    "image": ""
+  },
+  {
+    "question": "What is a Diameter?",
+    "answer": "A diameter is a line segment that passes through the center of a circle and connects two points on its circumference.",
+    "image": ""
+  },
+  {
+    "question": "What is a Circumference?",
+    "answer": "The circumference is the distance around the edge of a circle.",
+    "image": ""
+  },
+  {
+    "question": "What is a Perimeter?",
+    "answer": "The perimeter is the total length of the sides of a polygon.",
+    "image": ""
+  },
+  {
+    "question": "What is an Area?",
+    "answer": "Area is the measure of the amount of space enclosed within the boundary of a two-dimensional shape.",
+    "image": ""
+  },
+  {
+    "question": "What is a Volume?",
+    "answer": "Volume is the measure of the amount of space enclosed within the boundary of a three-dimensional object.",
+    "image": ""
+  },
+  {
+    "question": "What is Surface Area?",
+    "answer": "Surface area is the total area of the faces that make up a three-dimensional object.",
+    "image": ""
+  },
+  {
+    "question": "What is a Coordinate Plane?",
+    "answer": "A coordinate plane is a two-dimensional plane formed by the intersection of a horizontal number line, called the x-axis, and a vertical number line, called the y-axis.",
+    "image": ""
+  },
+  {
+    "question": "What is an Origin?",
+    "answer": "The origin is the point of intersection of the x-axis and y-axis in a coordinate plane. It is represented as the point (0, 0).",
+    "image": ""
+  },
+  {
+    "question": "What is an X-axis?",
+    "answer": "The x-axis is the horizontal number line in a coordinate plane.",
+    "image": ""
+  },
+  {
+    "question": "What is a Y-axis?",
+    "answer": "The y-axis is the vertical number line in a coordinate plane.",
+    "image": ""
+  },
+  {
+    "question": "What is Slope?",
+    "answer": "Slope is a measure of the steepness of a line, calculated as the ratio of the vertical change (rise) to the horizontal change (run) between any two points on the line.",
+    "image": ""
+  },
+  {
+    "question": "What is Intercept?",
+    "answer": "An intercept is the point at which a line crosses the x-axis or y-axis. The x-intercept is the point at which the line crosses the x-axis, and the y-intercept is the point at which the line crosses the y-axis.",
+    "image": ""
+  },
+  {
+    "question": "What are Parallel lines?",
+    "answer": "Parallel lines are lines that never intersect and always maintain the same distance apart.",
+    "image": ""
+  },
+  {
+    "question": "What are Perpendicular lines?",
+    "answer": "Perpendicular lines are lines that intersect at a right angle (90 degrees).",
+    "image": ""
+  },
+  {
+    "question": "What is Congruent?",
+    "answer": "Congruent refers to two or more geometric figures that have the same size and shape.",
+    "image": ""
+  },
+  {
+    "question": "What is Similar?",
+    "answer": "Similar refers to two or more geometric figures that have the same shape but may have different sizes.",
+    "image": ""
+  },
+  {
+    "question": "What is an Isosceles triangle?",
+    "answer": "An isosceles triangle is a triangle that has two sides of equal length.",
+    "image": ""
+  },
+  {
+    "question": "What is a Scalene triangle?",
+    "answer": "A scalene triangle is a triangle in which all three sides have different lengths.",
+    "image": ""
+  },
+  {
+    "question": "What is an Equilateral triangle?",
+    "answer": "An equilateral triangle is a triangle in which all three sides have the same length.",
+    "image": ""
+  },
+  {
+    "question": "What is a Right triangle?",
+    "answer": "A right triangle is a triangle that has one angle measuring exactly 90 degrees.",
+    "image": ""
+  },
+  {
+    "question": "What is Congruence?",
+    "answer": "Congruence is a term used to describe the relationship between two geometric figures that are the same size and shape.",
+    "image": ""
+  },
+  {
+    "question": "What is Symmetry?",
+    "answer": "Symmetry is a property of a geometric figure that can be divided into two or more congruent parts along a line or plane.",
+    "image": ""
+  },
+  {
+    "question": "What is Reflection?",
+    "answer": "Reflection is a transformation that creates a mirror image of a geometric figure by flipping it over a line or plane.",
+    "image": ""
+  },
+  {
+    "question": "What is Rotation?",
+    "answer": "Rotation is a transformation that turns a geometric figure around a fixed point, called the center of rotation.",
+    "image": ""
+  },
+  {
+    "question": "What is Translation?",
+    "answer": "Translation is a transformation that moves a geometric figure in a straight line without changing its size or shape.",
+    "image": ""
+  },
+  {
+    "question": "What is Dilation?",
+    "answer": "Dilation is a transformation that enlarges or reduces a geometric figure by a scale factor, while maintaining the same shape.",
+    "image": ""
+  },
+  {
+    "question": "What is Tessellation?",
+    "answer": "Tessellation is the process of creating a pattern by repeating a geometric shape, with no gaps or overlaps.",
+    "image": ""
+  },
+  {
+    "question": "What is Transversal?",
+    "answer": "A transversal is a line that intersects two or more other lines, usually parallel lines, at distinct points.",
+    "image": ""
+  },
+  {
+    "question": "What are Complementary angles?",
+    "answer": "Complementary angles are two angles whose sum is equal to 90 degrees.",
+    "image": ""
+  },
+  {
+    "question": "What are Supplementary angles?",
+    "answer": "Supplementary angles are two angles whose sum is equal to 180 degrees.",
+    "image": ""
+  },
+  {
+    "question": "What are Vertical angles?",
+    "answer": "Vertical angles are a pair of non-adjacent angles formed by the intersection of two straight lines.",
+    "image": ""
+  },
+  {
+    "question": "What are Adjacent angles?",
+    "answer": "Adjacent angles are two angles that share a common vertex and a common side, but have no common interior points.",
+    "image": ""
+  },
+  {
+    "question": "What are Exterior angles?",
+    "answer": "Exterior angles are angles formed outside a polygon by extending one of its sides.",
+    "image": ""
+  },
+  {
+    "question": "What are Interior angles?",
+    "answer": "Interior angles are angles formed inside a polygon by the intersection of its sides.",
+    "image": ""
+  },
+  {
+    "question": "What are Alternating angles?",
+    "answer": "Alternating angles, also known as alternate angles, are angles that are opposite each other when two lines are crossed by a transversal.",
+    "image": ""
+  },
+  {
+    "question": "What are Corresponding angles?",
+    "answer": "Corresponding angles are angles that are in the same relative position at the intersection of two lines and a transversal.",
+    "image": ""
+  },
+  {
+    "question": "What is a Chord?",
+    "answer": "A chord is a line segment connecting two points on the circumference of a circle.",
+    "image": ""
+  },
+  {
+    "question": "What is a Conic section?",
+    "answer": "A conic section is a curve formed by the intersection of a plane and a double cone.",
+    "image": ""
+  },
+  {
+    "question": "What is an Ellipse?",
+    "answer": "An ellipse is an oval-shaped curve that is the locus of all points in the plane, the sum of whose distances from two fixed points (foci) is constant.",
+    "image": ""
+  },
+  {
+    "question": "What is an Endpoint?",
+    "answer": "An endpoint is a point that marks the end of a line segment or ray.",
+    "image": ""
+  },
+  {
+    "question": "What is a Hyperbola?",
+    "answer": "A hyperbola is a curve formed by the set of all points in a plane, the difference of whose distances from two fixed points (foci) is constant.",
+    "image": ""
+  },
+  {
+    "question": "What is a Line segment?",
+    "answer": "A line segment is a part of a line that is bounded by two distinct end points.",
+    "image": ""
+  },
+  {
+    "question": "What is a Midpoint?",
+    "answer": "A midpoint is a point that divides a line segment into two equal segments.",
+    "image": ""
+  },
+  {
+    "question": "What is a Parabola?",
+    "answer": "A parabola is a curve that is the locus of all points equidistant from a fixed point (focus) and a fixed line (directrix).",
+    "image": ""
+  },
+  {
+    "question": "What is Pi (π)?",
+    "answer": "Pi (π) is a mathematical constant representing the ratio of a circle's circumference to its diameter. It is approximately equal to 3.14159.",
+    "image": ""
+  },
+  {
+    "question": "What is a Platonic solid?",
+    "answer": "A Platonic solid is a convex polyhedron with congruent faces of regular polygons and the same number of faces meeting at each vertex. There are five Platonic solids: tetrahedron, cube, octahedron, dodecahedron, and icosahedron.",
+    "image": ""
+  },
+  {
+    "question": "What is Point-slope form?",
+    "answer": "Point-slope form is an equation of a straight line in the form y - y1 = m(x - x1), where m is the slope and (x1, y1) is a point on the line.",
+    "image": ""
+  },
+  {
+    "question": "What are Polar coordinates?",
+    "answer": "Polar coordinates are a two-dimensional coordinate system in which each point is determined by its distance from a fixed point (the pole) and its angle from a fixed direction (the polar axis).",
+    "image": ""
+  },
+  {
+    "question": "What is a Ray?",
+    "answer": "A ray is a part of a line that has a single starting point, called the endpoint, and extends infinitely in one direction.",
+    "image": ""
+  },
+  {
+    "question": "What is the Real line?",
+    "answer": "The real line is a geometric representation of the set of real numbers as points on a straight line, usually oriented horizontally.",
+    "image": ""
+  },
+  {
+    "question": "What is a Sector?",
+    "answer": "A sector is a region enclosed by two radii of a circle and the arc between them.",
+    "image": ""
+  },
+  {
+    "question": "What is a Segment?",
+    "answer": "In geometry, a segment can refer to a line segment or a circular segment. A line segment is a part of a line with two endpoints. A circular segment is a region of a circle enclosed by an arc and its chord.",
+    "image": ""
+  },
+  {
+    "question": "What is Sine?",
+    "answer": "Sine is a trigonometric function that represents the ratio of the length of the side opposite a given angle to the length of the hypotenuse in a right triangle.",
+    "image": ""
+  },
+  {
+    "question": "What is Cosine?",
+    "answer": "Cosine is a trigonometric function that represents the ratio of the length of the adjacent side to the length of the hypotenuse in a right triangle.",
+    "image": ""
+  },
+  {
+    "question": "What is Tangent?",
+    "answer": "Tangent is a trigonometric function that represents the ratio of the length of the opposite side to the length of the adjacent side in a right triangle.",
+    "image": ""
+  },
+  {
+    "question": "What is Amplitude?",
+    "answer": "In the context of trigonometry, the amplitude is the maximum displacement of a periodic wave or curve from its mean position.",
+    "image": ""
+  },
+  {
+    "question": "What is a period?",
+    "answer": "In the context of trigonometry, the period is the length of one complete cycle of a periodic wave or curve.",
+    "image": ""
+  },
+  {
+    "question": "What is a phase shift?",
+    "answer": "In the context of trigonometry, a phase shift is a horizontal displacement of a periodic wave or curve.",
+    "image": ""
+  },
+  {
+    "question": "What is a vertical shift?",
+    "answer": "In the context of trigonometry, a vertical shift is a vertical displacement of a periodic wave or curve.",
+    "image": ""
+  },
+  {
+    "question": "What is an Angle of elevation?",
+    "answer": "The angle of elevation is the angle formed by a horizontal line and an observer's line of sight to an object above the horizontal line.",
+    "image": ""
+  },
+  {
+    "question": "What is an Angle of depression?",
+    "answer": "The angle of depression is the angle formed by a horizontal line and an observer's line of sight to an object below the horizontal line.",
+    "image": ""
+  },
+  {
+    "question": "What are Trigonometric ratios?",
+    "answer": "Trigonometric ratios are the ratios of the sides of a right triangle, including sine, cosine, and tangent.",
+    "image": ""
+  },
+  {
+    "question": "What are Reference angles?",
+    "answer": "Reference angles are the acute angles formed by a terminal side of an angle in standard position and the x-axis.",
+    "image": ""
+  },
+  {
+    "question": "What are Cofunctions?",
+    "answer": "Cofunctions are pairs of trigonometric functions related by the property that the value of one function at an angle is equal to the value of the other function at its complementary angle.",
+    "image": ""
+  },
+  {
+    "question": "What are Equations?",
+    "answer": "Equations are mathematical statements that show the equality between two expressions.",
+    "image": ""
+  },
+  {
+    "question": "What are Identities?",
+    "answer": "In mathematics, identities are equations that are true for all values of the variables involved.",
+    "image": ""
+  },
+  {
+    "question": "What are Functions?",
+    "answer": "Functions are mathematical relations between sets that assign exactly one output to each input.",
+    "image": ""
+  },
+  {
+    "question": "What is Trigonometry?",
+    "answer": "Trigonometry is a branch of mathematics that deals with the relationships between the angles and sides of triangles, particularly right triangles, as well as the study of trigonometric functions.",
+    "image": ""
+  },
+  {
+    "question": "What is a Sphere?",
+    "answer": "A sphere is a three-dimensional geometric shape defined as the set of all points equidistant from a common center point.",
+    "image": ""
+  },
+  {
+    "question": "What is an Arc?",
+    "answer": "An arc is a portion of the circumference of a circle, defined by two endpoints and the continuous curve between them.",
+    "image": ""
+  },
+  {
+    "question": "What is a Central angle?",
+    "answer": "A central angle is an angle whose vertex is at the center of a circle, and its sides are defined by the radii that connect the center to the endpoints of an arc.",
+    "image": ""
+  },
+  {
+    "question": "What is a Cofactor?",
+    "answer": "In the context of matrices, a cofactor is a scalar value used to calculate the determinant of a square matrix. It is determined by removing a specified row and column of the matrix and taking the determinant of the remaining submatrix, multiplied by (-1) raised to the power of the sum of the row and column indices.",
+    "image": ""
+  },
+  {
+    "question": "What is a Column vector?",
+    "answer": "A column vector is a matrix that has only one column and any number of rows. It represents an ordered list of elements arranged vertically.",
+    "image": ""
+  },
+  {
+    "question": "What is a Complex plane?",
+    "answer": "The complex plane, also known as the Argand plane, is a two-dimensional coordinate system used to represent complex numbers. It has a horizontal real axis and a vertical imaginary axis.",
+    "image": ""
+  },
+  {
+    "question": "What is Conditional probability?",
+    "answer": "Conditional probability is the probability of an event occurring, given that another event has already occurred. It is denoted as P(A|B), which reads as 'the probability of event A occurring, given that event B has occurred'.",
+    "image": ""
+  },
+  {
+    "question": "What is Convergence?",
+    "answer": "In mathematics, convergence refers to the property of a sequence or a series approaching a limit as the number of terms or elements increases. In calculus, it can also refer to the behavior of a function as its input approaches a certain value.",
+    "image": ""
+  },
+  {
+    "question": "What does Convex mean?",
+    "answer": "In geometry, a convex shape is one in which no line segment connecting two points within the shape passes outside the shape. In other words, all the interior angles of a convex polygon are less than 180 degrees.",
+    "image": ""
+  },
+  {
+    "question": "What is Cotangent?",
+    "answer": "Cotangent is a trigonometric function defined as the ratio of the adjacent side to the opposite side in a right triangle, or equivalently, the reciprocal of the tangent function: cot(θ) = 1/tan(θ).",
+    "image": ""
+  },
+  {
+    "question": "What is Cosecant?",
+    "answer": "Cosecant is a trigonometric function defined as the ratio of the hypotenuse to the opposite side in a right triangle, or equivalently, the reciprocal of the sine function: csc(θ) = 1/sin(θ).",
+    "image": ""
+  },
+
+  {
+    "question": "What is a Cyclic quadrilateral?",
+    "answer": "A cyclic quadrilateral is a quadrilateral whose vertices all lie on a single circle. In a cyclic quadrilateral, the sum of a pair of opposite angles is always 180 degrees.",
+    "image": ""
+  },
+  {
+    "question": "What is a Degree (angle)?",
+    "answer": "A degree is a unit of measurement for angles. One degree is equal to 1/360th of a complete revolution or circle. There are 360 degrees in a full circle.",
+    "image": ""
+  },
+  {
+    "question": "What is De Moivre's theorem?",
+    "answer": "De Moivre's theorem states that for any complex number z in polar form (r(cos(θ) + i sin(θ))) and any integer n, the nth power of z can be found as: (r^n) * (cos(nθ) + i sin(nθ)). The theorem is useful for finding the roots of complex numbers and simplifying expressions involving powers of complex numbers.",
+    "image": ""
+  },
+  {
+    "question": "What is Divergence?",
+    "answer": "In vector calculus, divergence is a measure of the rate at which a vector field spreads out or diverges from a point. Mathematically, it is the scalar-valued function obtained by taking the dot product of the del operator (∇) and a vector field.",
+    "image": ""
+  },
+  {
+    "question": "What is the Domain of a function?",
+    "answer": "The domain of a function is the set of all possible input values (independent variable) for which the function is defined.",
+    "image": ""
+  },
+  {
+    "question": "What are Eigenvector and Eigenvalue?",
+    "answer": "In linear algebra, an eigenvector is a non-zero vector that, when multiplied by a given square matrix, results in a scalar multiple of itself. The scalar multiple is called the eigenvalue associated with that eigenvector. Eigenvalues and eigenvectors have applications in various fields, including engineering, physics, and computer science.",
+    "image": ""
+  },
+  {
+    "question": "What is an Element?",
+    "answer": "In the context of sets, an element is a member or an object that belongs to the set. In the context of matrices, an element is an individual entry or value within the matrix.",
+    "image": ""
+  },
+  {
+    "question": "What does Equidistant mean?",
+    "answer": "Equidistant refers to the property of being at an equal distance from two or more points or objects.",
+    "image": ""
+  },
+  {
+    "question": "What is Euclidean geometry?",
+    "answer": "Euclidean geometry is the study of shapes, angles, and distances based on the principles and axioms established by the ancient Greek mathematician Euclid. It is the most familiar type of geometry, dealing primarily with points, lines, planes, and shapes in two or three dimensions.",
+    "image": ""
+  },
+  {
+    "question": "What are Euler's path and Euler's circuit?",
+    "answer": "In graph theory, an Euler's path is a trail in a graph that visits every edge exactly once. An Euler's circuit is a special type of Euler's path that starts and ends at the same vertex. These concepts were introduced by the mathematician Leonhard Euler while solving the famous Seven Bridges of Königsberg problem.",
+    "image": ""
+  },
+  {
+    "question": "What is an Even function?",
+    "answer": "An even function is a function f(x) that satisfies the property f(-x) = f(x) for all x in its domain. Even functions are symmetric about the y-axis.",
+    "image": ""
+  },
+  {
+    "question": "What is an Even number?",
+    "answer": "An even number is an integer that is exactly divisible by 2 without leaving a remainder.",
+    "image": ""
+  },
+  {
+    "question": "What is Gaussian elimination?",
+    "answer": "Gaussian elimination is a method used in linear algebra for solving systems of linear equations by transforming the augmented matrix into a reduced row echelon form. This allows for the determination of unique solutions, no solutions, or infinitely many solutions.",
+    "image": ""
+  },
+  {
+    "question": "What is a Geometric progression?",
+    "answer": "A geometric progression (or geometric sequence) is a sequence of numbers in which each term after the first is found by multiplying the previous term by a fixed, non-zero number called the common ratio.",
+    "image": ""
+  },
+  {
+    "question": "What is Graph theory?",
+    "answer": "Graph theory is a branch of mathematics that studies the properties and relationships of graphs, which are mathematical structures used to model pairwise relations between objects. A graph consists of vertices (nodes) and edges (links) that connect the vertices.",
+    "image": ""
+  },
+  {
+    "question": "What is Group theory?",
+    "answer": "Group theory is a branch of abstract algebra that studies the algebraic structures known as groups. A group is a set of elements and an operation that combines any two elements to form a third element, satisfying certain properties (closure, associativity, identity, and invertibility). Group theory has applications in various areas of mathematics, physics, and chemistry.",
+    "image": ""
+  },
+  {
+    "question": "What are Homogeneous coordinates?",
+    "answer": "Homogeneous coordinates are a system of coordinates used in projective geometry, computer graphics, and computer vision to represent points in n-dimensional space using n+1 coordinates. They introduce an additional coordinate (usually denoted as 'w') to represent points in the Euclidean space, allowing the representation of points at infinity and simplifying transformations.",
+    "image": ""
+  },
+  {
+    "question": "What is Identity matrix?",
+    "answer": "An identity matrix is a square matrix with ones on its main diagonal (from the top left to the bottom right) and zeros elsewhere. It is the multiplicative identity for matrices, as multiplying any matrix by the identity matrix leaves the original matrix unchanged.",
+    "image": ""
+  },
+  {
+    "question": "What is Implicit differentiation?",
+    "answer": "Implicit differentiation is a technique used in calculus to find the derivative of a function that is defined implicitly, i.e., as a relation between the dependent and independent variables rather than an explicit function. It involves differentiating both sides of the equation with respect to the independent variable, then solving for the derivative of the dependent variable.",
+    "image": ""
+  },
+  {
+    "question": "What is an Indeterminate form?",
+    "answer": "In calculus, an indeterminate form is an expression involving limits that does not have a unique, well-defined limit. Some common indeterminate forms include 0/0, ∞/∞, 0×∞, 1^∞, ∞^0, and ∞-∞. Techniques such as L'Hôpital's rule can be used to evaluate these forms.",
+    "image": ""
+  },
+  {
+    "question": "What does Inscribe mean?",
+    "answer": "In geometry, to inscribe a shape means to draw it inside another shape so that the vertices of the inscribed shape touch the sides or vertices of the outer shape. For example, an inscribed circle is a circle drawn inside a polygon, with the circle's circumference touching all the vertices of the polygon.",
+    "image": ""
+  },
+  {
+    "question": "What is Integer programming?",
+    "answer": "Integer programming is a type of optimization problem in which some or all of the variables are required to be integers. It is a special case of linear programming, where the objective function and constraints are linear, but the solution space is discrete.",
+    "image": ""
+  },
+  {
+    "question": "What is Interpolation?",
+    "answer": "Interpolation is a method used in mathematics, statistics, and computer science to estimate unknown values within a given range based on known data points. It involves fitting a function (such as a polynomial, spline, or other smooth curve) to the known data points, and then using that function to estimate the unknown values.",
+    "image": ""
+  },
+  {
+    "question": "What is an Invariant?",
+    "answer": "In mathematics, an invariant is a property or quantity that remains unchanged under certain transformations or operations. For example, the length of a line segment is invariant under rotation and translation.",
+    "image": ""
+  },
+  {
+    "question": "What is a Kernel (linear algebra)?",
+    "answer": "In linear algebra, the kernel (also called the null space) of a matrix A is the set of all vectors x for which Ax = 0. The kernel is a subspace of the domain of the linear transformation represented by the matrix A, and it provides insight into the properties of the transformation, such as its rank and nullity.",
+    "image": ""
+  },
+  {
+    "question": "What is Knot theory?",
+    "answer": "Knot theory is a branch of mathematics that studies mathematical knots, which are closed, non-self-intersecting curves embedded in three-dimensional space. It investigates the properties and relationships of different types of knots, as well as their applications in physics, biology, and other fields.",
+    "image": ""
+  },
+  {
+    "question": "What is a Lattice?",
+    "answer": "In mathematics, a lattice is a regularly structured arrangement of points in space, where each point has the same arrangement of neighbors. Lattices are commonly found in crystal structures and digital sampling, and they are studied in various branches of mathematics, including geometry, number theory, and group theory.",
+    "image": ""
+  },
+  {
+    "question": "What is Linear programming?",
+    "answer": "Linear programming is an optimization technique used to find the best solution to a problem by maximizing or minimizing a linear objective function subject to linear equality and inequality constraints. The feasible solutions form a convex region in the space of decision variables, and the optimal solution, if it exists, can be found at one of the vertices of this region.",
+    "image": ""
+  },
+  {
+    "question": "What is a Linear transformation?",
+    "answer": "A linear transformation is a function between two vector spaces that preserves the operations of vector addition and scalar multiplication. In other words, a transformation T is linear if, for any vectors u and v and any scalar c, T(u+v) = T(u) + T(v) and T(cu) = cT(u). Linear transformations can be represented by matrices.",
+    "image": ""
+  },
+  {
+    "question": "What is Matrix multiplication?",
+    "answer": "Matrix multiplication is an operation that combines two matrices to produce a third matrix. It is performed by multiplying the elements of each row of the first matrix by the corresponding elements of each column of the second matrix and then summing the products. The number of columns in the first matrix must equal the number of rows in the second matrix for the multiplication to be defined.",
+    "image": ""
+  },
+  {
+    "question": "What is Matrix inverse?",
+    "answer": "The matrix inverse of a square matrix A is a matrix, denoted as A^(-1), that, when multiplied by A, results in the identity matrix. A matrix inverse exists only for non-singular matrices (matrices with a non-zero determinant). Inverting a matrix can be used to solve systems of linear equations and find the inverse of linear transformations.",
+    "image": ""
+  },
+  {
+    "question": "What is a Metric space?",
+    "answer": "A metric space is a set equipped with a distance function (or metric) that measures the distance between any two elements of the set, satisfying the following properties: non-negativity, identity of indiscernibles, symmetry, and the triangle inequality. Metric spaces are used to study concepts such as continuity, convergence, and compactness in a general setting.",
+    "image": ""
+  },
+  {
+    "question": "What is a Modulus (complex number)?",
+    "answer": "The modulus (or absolute value) of a complex number is a non-negative real number that represents the distance of the complex number from the origin in the complex plane. The modulus of a complex number z = a + bi is given by |z| = sqrt(a^2 + b^2).",
+    "image": ""
+  },
+  {
+    "question": "What is a Moment?",
+    "answer": "In mathematics and statistics, a moment is a quantitative measure that describes the shape of a set of data points or a probability distribution. Moments include the mean (first moment), variance (second moment), skewness (third moment), and kurtosis (fourth moment).",
+    "image": ""
+  },
+  {
+    "question": "What is a Monotonic function?",
+    "answer": "A monotonic function is a function that either always increases or always decreases as the independent variable moves in a given direction. An increasing monotonic function satisfies f(x1) ≤ f(x2) whenever x1 ≤ x2, while a decreasing monotonic function satisfies f(x1) ≥ f(x2) whenever x1 ≤ x2.",
+    "image": ""
+  },
+  {
+    "question": "What is a Normal (geometry)?",
+    "answer": "In geometry, a normal is a vector that is perpendicular (orthogonal) to a surface, curve, or plane at a given point. Normals are used to define the orientation of a surface and are important in various applications, such as computer graphics and physics.",
+    "image": ""
+  },
+  {
+    "question": "What is Number theory?",
+    "answer": "Number theory is a branch of pure mathematics that deals with the properties and relationships of integers, especially prime numbers. It includes the study of divisibility, congruences, Diophantine equations, and number-theoretic functions, among other topics.",
+    "image": ""
+  },
+  {
+    "question": "What is an Odd function?",
+    "answer": "An odd function is a function f(x) that satisfies the property f(-x) = -f(x) for all x in its domain. Odd functions are symmetric about the origin.",
+    "image": ""
+  },
+  {
+    "question": "What is an Odd number?",
+    "answer": "An odd number is an integer that is not divisible by 2 without leaving a remainder.",
+    "image": ""
+  },
+  {
+    "question": "What is the Order of operations (PEMDAS/BODMAS)?",
+    "answer": "The order of operations is a set of rules used to determine the sequence in which operations (addition, subtraction, multiplication, division, exponentiation, and parentheses) should be performed in a mathematical expression. PEMDAS (Parentheses, Exponents, Multiplication and Division, and Addition and Subtraction) is a common mnemonic in the United States, while BODMAS (Brackets, Orders, Division and Multiplication, and Addition and Subtraction) is used in the United Kingdom and other countries.",
+    "image": ""
+  },
+  {
+    "question": "What does Orthogonal mean?",
+    "answer": "In geometry and linear algebra, orthogonal means perpendicular. Two vectors are orthogonal if their dot product is zero, indicating that they are perpendicular to each other. Similarly, two subspaces are orthogonal if every vector in one subspace is orthogonal to every vector in the other subspace.",
+    "image": ""
+  },
+  {
+    "question": "What is an Orthocenter?",
+    "answer": "The orthocenter of a triangle is the point where the three altitudes of the triangle (lines perpendicular to the sides and passing through the opposite vertices) intersect. The orthocenter may lie inside, outside, or on the triangle, depending on the type of triangle.",
+    "image": ""
+  },
+  {
+    "question": "What is an Outlier?",
+    "answer": "In statistics, an outlier is a data point that is significantly different from the other data points in a dataset. Outliers can result from errors in data collection, natural variability, or indicate unusual or exceptional cases. They can have a significant impact on statistical measures such as the mean and standard deviation.",
+    "image": ""
+  },
+  {
+    "question": "What is Parity?",
+    "answer": "In mathematics, parity refers to the property of an integer being either even or odd. An even integer is divisible by 2, while an odd integer is not. Parity is used in various areas of mathematics, such as number theory, combinatorics, and algebra.",
+    "image": ""
+  },
+  {
+    "question": "What is a Partial derivative?",
+    "answer": "A partial derivative is the derivative of a multivariable function with respect to one of its variables, treating the other variables as constants. It measures the rate of change of the function with respect to the specified variable, holding the other variables constant.",
+    "image": ""
+  },
+  {
+    "question": "What is Partial fraction decomposition?",
+    "answer": "Partial fraction decomposition is a technique used in calculus and algebra to break down a complex rational function (a fraction with polynomials in the numerator and denominator) into a sum of simpler rational functions. This simplification can make it easier to integrate, differentiate, or evaluate the function.",
+    "image": ""
+  },
+  {
+    "question": "What is a Permutation group?",
+    "answer": "A permutation group is a group whose elements are permutations of a given set and whose group operation is the composition of permutations. Permutation groups are used in various areas of mathematics, including group theory, combinatorics, and algebra.",
+    "image": ""
+  },
+  {
+    "question": "What is a Point of tangency?",
+    "answer": "A point of tangency is the point at which a tangent line or curve touches another curve or surface. At the point of tangency, the tangent and the curve or surface have the same slope or direction.",
+    "image": ""
+  },
+  {
+    "question": "What is Polar form (complex number)?",
+    "answer": "The polar form of a complex number is an alternative way of representing a complex number using its magnitude (modulus) and angle (argument) instead of its rectangular (Cartesian) form, which uses real and imaginary parts. A complex number z = a + bi can be written in polar form as z = r(cosθ + i sinθ), where r = |z| is the modulus and θ is the argument.",
+    "image": ""
+  },
+  {
+    "question": "What is a Power set?",
+    "answer": "The power set of a set A is the set of all possible subsets of A, including the empty set and A itself. If A has n elements, then the power set of A has 2^n elements.",
+    "image": ""
+  },
+  {
+    "question": "What is Principal value?",
+    "answer": "In mathematics, the principal value of a multi-valued function is a specific value or branch of the function chosen as the 'main' or 'default' value. For example, the principal value of the inverse trigonometric functions (arcsin, arccos, and arctan) is usually taken to be the value within a specific range, such as -π/2 to π/2 for arcsin.",
+    "image": ""
+  },
+  {
+    "question": "What is a Projection?",
+    "answer": "In geometry and linear algebra, a projection is a linear transformation that maps a vector or point onto a subspace or lower-dimensional space, such that the distance between the original vector and its projection is minimized. A projection can be thought of as 'casting a shadow' of the original vector onto the subspace.",
+    "image": ""
+  },
+  {
+    "question": "What is a Quadrant?",
+    "answer": "In a Cartesian coordinate system, a quadrant is one of the four regions created by the intersection of the x-axis and y-axis. Quadrants are numbered counterclockwise starting from the top-right region, which is Quadrant I.",
+    "image": ""
+  },
+  {
+    "question": "What is a Radian?",
+    "answer": "A radian is a unit of angular measure used in mathematics and physics. One radian is the angle subtended at the center of a circle by an arc with a length equal to the circle's radius. There are 2π radians in a full circle, which is approximately 6.283 radians.",
+    "image": ""
+  },
+  {
+    "question": "What is Rank (linear algebra)?",
+    "answer": "In linear algebra, the rank of a matrix is the dimension of the column space (or row space) of the matrix, which is the number of linearly independent columns (or rows). The rank gives information about the solvability of linear systems involving the matrix and the properties of the associated linear transformations.",
+    "image": ""
+  },
+  {
+    "question": "What is a Rational function?",
+    "answer": "A rational function is a function that can be represented as the quotient of two polynomial functions, with the denominator polynomial not being identically zero. Rational functions have various properties, such as asymptotic behavior, that make them useful in mathematical analysis and modeling.",
+    "image": ""
+  },
+  {
+    "question": "What is a Secant?",
+    "answer": "In trigonometry, the secant (sec) is a trigonometric function that is the reciprocal of the cosine function, sec(x) = 1/cos(x). In geometry, a secant is a line that intersects a circle or other curve at two distinct points.",
+    "image": ""
+  },
+  {
+    "question": "What is a Shear transformation?",
+    "answer": "A shear transformation (or shearing) is a linear transformation that displaces each point in a coordinate system parallel to a fixed direction while keeping the points on a reference line fixed. Shear transformations can be used to change the shape of an object without altering its area or volume.",
+    "image": ""
+  },
+  {
+    "question": "What is the Simplex method?",
+    "answer": "The simplex method is an algorithm for solving linear programming problems by iteratively improving a feasible solution along the edges of the polytope formed by the constraints. The method, developed by George Dantzig in 1947, finds the optimal solution by moving from one vertex of the polytope to another until no further improvement is possible.",
+    "image": ""
+  },
+  {
+    "question": "What is a Singularity?",
+    "answer": "In mathematics, a singularity is a point or region where a function or object exhibits undefined, infinite, or unusual behavior. Singularities can occur in various mathematical contexts, such as when a function has a point of discontinuity, a derivative that does not exist, or an infinite value.",
+    "image": ""
+  },
+  {
+    "question": "What are Skew lines?",
+    "answer": "Skew lines are lines that do not intersect and are not parallel. In three-dimensional space, skew lines can be non-coplanar (not lying in the same plane) and maintain a constant distance from each other.",
+    "image": ""
+  },
+  {
+    "question": "What is Span?",
+    "answer": "In linear algebra, the span of a set of vectors is the set of all linear combinations of the vectors. The span of a set of vectors forms a subspace of the vector space in which the vectors are defined. The span can be used to determine if a set of vectors is linearly independent or dependent.",
+    "image": ""
+  },
+  {
+    "question": "What is Standard form?",
+    "answer": "In mathematics, standard form can refer to different representations depending on the context. For example, in algebra, the standard form of a linear equation is Ax + By = C, where A, B, and C are constants. In complex numbers, standard form is a + bi, where a and b are real numbers and i is the imaginary unit.",
+    "image": ""
+  },
+  {
+    "question": "What is a Subspace?",
+    "answer": "In linear algebra, a subspace is a subset of a vector space that is itself a vector space, meaning it is closed under the operations of vector addition and scalar multiplication. Subspaces include the null space, column space, and row space of a matrix.",
+    "image": ""
+  },
+  {
+    "question": "What is the Taylor series?",
+    "answer": "The Taylor series is a representation of a function as an infinite sum of terms calculated from the function's derivatives at a single point. The Taylor series can be used to approximate functions, solve differential equations, and study the properties of functions in calculus and mathematical analysis.",
+    "image": ""
+  },
+  {
+    "question": "What is Tchebysheff's inequality?",
+    "answer": "Tchebysheff's inequality (also spelled Chebyshev's inequality) is a result in probability theory that provides a bound on the probability that a random variable deviates from its mean by a given number of standard deviations. Specifically, Tchebysheff's inequality states that the probability that the absolute difference between a random variable X and its mean μ is at least k times its standard deviation σ is at most 1/k^2.",
+    "image": ""
+  },
+  {
+    "question": "What is Topology?",
+    "answer": "Topology is a branch of mathematics that deals with the study of properties of geometric objects that are preserved under continuous transformations, such as stretching, bending, or twisting, without tearing or gluing. Topological properties include connectedness, compactness, and continuity. Topology has applications in various fields, such as physics, computer science, and engineering.",
+    "image": ""
+  },
+  {
+    "question": "What is a Torus?",
+    "answer": "A torus is a geometric shape that resembles the surface of a doughnut or an inner tube. It can be formed by revolving a circle in three-dimensional space about an axis coplanar with the circle. The torus has interesting topological properties and is used in various areas of mathematics, including knot theory and algebraic geometry.",
+    "image": ""
+  },
+  {
+    "question": "What is a Transcendental number?",
+    "answer": "A transcendental number is a real or complex number that is not algebraic, meaning it is not the root of any non-zero polynomial equation with integer coefficients. Examples of transcendental numbers include π (pi) and e (Euler's number). Transcendental numbers are a subset of irrational numbers.",
+    "image": ""
+  },
+  {
+    "question": "What is a Transformation matrix?",
+    "answer": "A transformation matrix is a matrix that represents a linear transformation in a coordinate space. It can be used to perform various geometric transformations, such as scaling, rotation, reflection, and shearing, by multiplying the matrix with the coordinates of the points to be transformed.",
+    "image": ""
+  },
+  {
+    "question": "What is a Translation vector?",
+    "answer": "A translation vector is a vector that represents a translation, a geometric transformation that moves every point of an object or coordinate system by a fixed distance in a specified direction. The translation vector specifies the distance and direction of the translation.",
+    "image": ""
+  },
+  {
+    "question": "What is a Transpose?",
+    "answer": "In linear algebra, the transpose of a matrix is a new matrix obtained by flipping the rows and columns of the original matrix. If A is an m x n matrix, then its transpose, denoted as A^T, is an n x m matrix. The transpose has various properties and is used in many operations, such as matrix multiplication and the computation of determinants.",
+    "image": ""
+  },
+  {
+    "question": "What is a Tree (graph theory)?",
+    "answer": "In graph theory, a tree is a connected, undirected graph with no cycles. A tree has a hierarchical structure consisting of nodes (vertices) connected by edges, with one node designated as the root. Trees are used in various areas of computer science and mathematics, such as data structures, algorithms, and network analysis.",
+    "image": ""
+  },
+  {
+    "question": "What is a Trivial solution?",
+    "answer": "A trivial solution is a simple or obvious solution to a problem, often involving a zero or identity element. In linear algebra, the trivial solution to a homogeneous system of linear equations is the solution where all variables are equal to zero. In other contexts, a trivial solution might refer to a solution that does not provide meaningful or useful information about the problem being solved.",
+    "image": ""
+  },
+  {
+    "question": "What is a Turning point?",
+    "answer": "A turning point is a point on the graph of a function where the function changes its direction of monotonicity, i.e., from increasing to decreasing or vice versa. Turning points can be classified as local maxima, local minima, or saddle points, depending on the behavior of the function around the point. Turning points are important in calculus for analyzing and optimizing functions.",
+    "image": ""
+  },
+  {
+    "question": "What is Univariate data?",
+    "answer": "Univariate data is a set of observations that involve a single variable or attribute. Univariate data analysis focuses on describing and summarizing the distribution and characteristics of a single variable, such as its central tendency, dispersion, and shape, using measures like mean, median, mode, range, variance, and standard deviation.",
+    "image": ""
+  },
+  {
+    "question": "What is Vertex form (quadratic)?",
+    "answer": "The vertex form of a quadratic function is a representation of the function in the form f(x) = a(x - h)^2 + k, where (h, k) is the vertex of the parabola representing the function, and a is a non-zero constant that determines the direction and stretch of the parabola. The vertex form is useful for finding the vertex, axis of symmetry, and direction of a quadratic function quickly.",
+    "image": ""
+  },
+  {
+    "question": "What is a Zero matrix?",
+    "answer": "A zero matrix (or null matrix) is a matrix in which all elements are equal to zero. Zero matrices have various properties, such as being the additive identity for matrix addition and having a zero determinant. The dimensions of a zero matrix can be any size (m x n).",
+    "image": ""
+  },
+  {
+    "question": "What is Actuarial notation?",
+    "answer": "Actuarial notation is a collection of symbols and notations used by actuaries to represent various concepts in actuarial science, such as probabilities, annuities, life contingencies, and insurance premiums. Actuarial notation is used to simplify complex mathematical expressions and provide a consistent language for describing actuarial models and calculations.",
+    "image": ""
+  },
+  {
+    "question": "What is an Algebraic expression?",
+    "answer": "An algebraic expression is a mathematical expression that consists of variables, constants, and operations, such as addition, subtraction, multiplication, division, and exponentiation. Algebraic expressions are used to represent relationships between quantities and solve equations involving unknown variables.",
+    "image": ""
+  },
+  {
+    "question": "What is Amplitude?",
+    "answer": "In mathematics, amplitude refers to the peak value or magnitude of a periodic function or wave. For trigonometric functions, such as sine and cosine, the amplitude is the maximum absolute value of the function. In the context of oscillatory motion, amplitude is the maximum displacement from the equilibrium position.",
+    "image": ""
+  },
+  {
+    "question": "What is an Annulus?",
+    "answer": "In geometry, an annulus is a flat, ring-shaped region bounded by two concentric circles of different radii. The area of an annulus can be calculated as the difference between the areas of the two circles.",
+    "image": ""
+  },
+  {
+    "question": "What is an Antiderivative?",
+    "answer": "An antiderivative (also known as an indefinite integral or primitive) of a function is a function whose derivative is equal to the given function. In other words, if F'(x) = f(x), then F(x) is an antiderivative of f(x). The process of finding an antiderivative is called integration, and it plays a fundamental role in calculus.",
+    "image": ""
+  },
+  {
+    "question": "What is Aperiodic tiling?",
+    "answer": "Aperiodic tiling is a non-periodic arrangement of geometric shapes that can cover a plane without gaps or overlaps. Unlike periodic tilings, which repeat a pattern of shapes at regular intervals, aperiodic tilings have no translational symmetry. Examples of aperiodic tilings include Penrose tilings and the Wang tiles.",
+    "image": ""
+  },
+  {
+    "question": "What is an Apothem?",
+    "answer": "In geometry, the apothem is the distance from the center of a regular polygon to the midpoint of one of its sides. The apothem is also the radius of the inscribed circle (incircle) that is tangent to each side of the polygon. The apothem can be used to calculate the area of a regular polygon using the formula: area = (perimeter × apothem) / 2.",
+    "image": ""
+  },
+  {
+    "question": "What is an Area model?",
+    "answer": "An area model is a visual representation used in mathematics to demonstrate the concept of multiplication, division, or other operations by relating them to the areas of geometric shapes, such as rectangles or squares. Area models can be used to explain various mathematical concepts, including multiplication of whole numbers, fractions, or polynomials, and to solve problems involving ratios, proportions, and percents.",
+    "image": ""
+  },
+  {
+    "question": "What is the Argument of a function?",
+    "answer": "In mathematics, the argument of a function is the input value for which the function produces an output. For a function f(x), x is the argument. In complex analysis, the argument of a complex number is the angle formed by the line connecting the complex number to the origin and the positive real axis in the complex plane. It is also known as the phase or angle of the complex number.",
+    "image": ""
+  },
+  {
+    "question": "What is the Associative law?",
+    "answer": "The associative law is a property of some mathematical operations that states that the grouping of the operands does not affect the result. The associative law holds for addition and multiplication of real numbers, matrices, and other mathematical objects, but not for subtraction or division. The associative law can be expressed as (a + b) + c = a + (b + c) or (a × b) × c = a × (b × c) for all a, b, and c.",
+    "image": ""
+  },
+  {
+    "question": "What is Asymptotic behavior?",
+    "answer": "Asymptotic behavior refers to the behavior of a function, sequence, or series as its input or index approaches a particular value, such as infinity or a specific limit. In calculus and mathematical analysis, asymptotic behavior is used to describe the limiting behavior of functions, compare the growth rates of functions, and approximate functions using simpler expressions.",
+    "image": ""
+  }
+]

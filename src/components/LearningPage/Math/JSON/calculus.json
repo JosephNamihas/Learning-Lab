@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What are Functions?",
+    "answer": "Mathematical relationships that assign a unique output value to each input value in their domain.",
+    "image": ""
+  },
+  {
+    "question": "What are Domain and range?",
+    "answer": "The domain is the set of all possible input values for a function, while the range is the set of all possible output values.",
+    "image": ""
+  },
+  {
+    "question": "What are Limits?",
+    "answer": "A limit represents the value that a function approaches as the input approaches a certain value.",
+    "image": ""
+  },
+  {
+    "question": "What is Continuity?",
+    "answer": "A function is continuous if it has no breaks, holes, or jumps in its graph.",
+    "image": ""
+  },
+  {
+    "question": "What are Asymptotes?",
+    "answer": "Lines or curves that a function's graph approaches but never intersects.",
+    "image": ""
+  },
+  {
+    "question": "What are Derivatives?",
+    "answer": "A measure of how a function changes as its input changes, representing the slope of the tangent line to the function's graph at a given point.",
+    "image": ""
+  },
+  {
+    "question": "What are the Rules of differentiation?",
+    "answer": "Rules and techniques used to find the derivative of a function, including the power rule, product rule, quotient rule, and chain rule.",
+    "image": ""
+  },
+  {
+    "question": "What is the Product rule?",
+    "answer": "A rule used to find the derivative of a product of two functions.",
+    "image": ""
+  },
+  {
+    "question": "What is the Quotient rule?",
+    "answer": "A rule used to find the derivative of a quotient of two functions.",
+    "image": ""
+  },
+  {
+    "question": "What is the Chain rule?",
+    "answer": "A rule used to find the derivative of a composition of two functions.",
+    "image": ""
+  },
+  {
+    "question": "What is Implicit differentiation?",
+    "answer": "A technique used to find the derivative of a function that is defined implicitly.",
+    "image": ""
+  },
+  {
+    "question": "What are Higher-order derivatives?",
+    "answer": "Derivatives of a function taken multiple times with respect to its input.",
+    "image": ""
+  },
+  {
+    "question": "What are Maxima and minima?",
+    "answer": "The highest and lowest points on the graph of a function, where the derivative is zero or undefined.",
+    "image": ""
+  },
+  {
+    "question": "What are Critical points?",
+    "answer": "Points on the graph of a function where the derivative is zero or undefined, which can indicate maxima, minima, or points of inflection.",
+    "image": ""
+  },
+  {
+    "question": "What are Inflection points?",
+    "answer": "Points on the graph of a function where the concavity changes.",
+    "image": ""
+  },
+  {
+    "question": "What is Concavity?",
+    "answer": "A property of a function's graph that indicates whether it curves upwards (concave up) or downwards (concave down).",
+    "image": ""
+  },
+  {
+    "question": "What is Curve sketching?",
+    "answer": "The process of drawing the graph of a function using information such as its domain, range, continuity, critical points, and concavity.",
+    "image": ""
+  },
+  {
+    "question": "What is Optimization?",
+    "answer": "The process of finding the maximum or minimum values of a function, often used to solve real-world problems.",
+    "image": ""
+  },
+  {
+    "question": "What are Related rates?",
+    "answer": "Problems that involve finding the rate of change of one quantity with respect to another using derivatives.",
+    "image": ""
+  },
+  {
+    "question": "What are Antiderivatives?",
+    "answer": "Functions whose derivatives are equal to a given function.",
+    "image": ""
+  },
+  {
+    "question": "What are Indefinite integrals?",
+    "answer": "Antiderivatives represented as a family of functions plus a constant, denoted by the integral symbol.",
+    "image": ""
+  },
+  {
+    "question": "What are Integration rules?",
+    "answer": "Rules and techniques used to find antiderivatives and definite integrals, including substitution and integration by parts.",
+    "image": ""
+  },
+  {
+    "question": "What is the Substitution method?",
+    "answer": "A technique used to evaluate integrals by changing the variable of integration.",
+    "image": ""
+  },
+  {
+    "question": "What is Integration by parts?",
+    "answer": "A technique used to evaluate integrals involving the product of two functions.",
+    "image": ""
+  },
+  {
+    "question": "What are Definite integrals?",
+    "answer": "Integrals that represent the accumulated change or area under a curve over a specified interval.",
+    "image": ""
+  },
+  {
+    "question": "What is the Fundamental Theorem of Calculus?",
+    "answer": "A theorem that connects differentiation and integration, allowing the evaluation of definite integrals using antiderivatives.",
+    "image": ""
+  },
+  {
+    "question": "What is the Area under a curve?",
+    "answer": "The region between the curve of a function and the x-axis, calculated using definite integrals.",
+    "image": ""
+  },
+  {
+    "question": "What are Accumulation functions?",
+    "answer": "Functions that represent the accumulated area under a curve from a fixed point to a variable point.",
+    "image": ""
+  },
+  {
+    "question": "What is the Average value of a function?",
+    "answer": "The value of a function that represents its average output over a specified interval.",
+    "image": ""
+  },
+  {
+    "question": "What are Volumes of revolution?",
+    "answer": "The volume of a solid formed by revolving a region around an axis, calculated using definite integrals.",
+    "image": ""
+  },
+  {
+    "question": "What is Arc length?",
+    "answer": "The length of a curve between two points, calculated using definite integrals.",
+    "image": ""
+  },
+  {
+    "question": "What is Surface area?",
+    "answer": "The area of the outer surface of a solid, calculated using definite integrals.",
+    "image": ""
+  },
+  {
+    "question": "What are Improper integrals?",
+    "answer": "Integrals that involve infinite intervals or integrands with infinite discontinuities.",
+    "image": ""
+  },
+  {
+    "question": "What are Infinite series?",
+    "answer": "The sum of an infinite number of terms in a sequence.",
+    "image": ""
+  },
+  {
+    "question": "What are Convergence and divergence?",
+    "answer": "The behavior of an infinite series or sequence, where it either approaches a finite value",
+    "image": ""
+  },
+  {
+    "question": "What are Power series?",
+    "answer": "An infinite series that represents a function as a sum of terms involving powers of the input variable.",
+    "image": ""
+  },
+  {
+    "question": "What are Taylor series?",
+    "answer": "A power series that represents a function as an infinite sum of terms based on the function's derivatives at a single point.",
+    "image": ""
+  },
+  {
+    "question": "What are Maclaurin series?",
+    "answer": "A special case of the Taylor series, centered at zero.",
+    "image": ""
+  },
+  {
+    "question": "What are Parametric equations?",
+    "answer": "Equations that define the coordinates of a point in terms of a third parameter, often used to describe curves in the plane.",
+    "image": ""
+  },
+  {
+    "question": "What are Polar coordinates?",
+    "answer": "A coordinate system that represents points in the plane using a distance from the origin and an angle measured from a reference direction.",
+    "image": ""
+  },
+  {
+    "question": "What are Multivariable functions?",
+    "answer": "Functions with more than one input variable.",
+    "image": ""
+  },
+  {
+    "question": "What are Partial derivatives?",
+    "answer": "Derivatives of a multivariable function with respect to one variable, treating the other variables as constants.",
+    "image": ""
+  },
+  {
+    "question": "What are Multiple integrals?",
+    "answer": "Integrals involving multiple variables and used to calculate quantities such as area, volume, and mass in higher dimensions.",
+    "image": ""
+  },
+  {
+    "question": "What is an Asymptote?",
+    "answer": "A line that a graph approaches but never intersects as the input value approaches infinity or negative infinity.",
+    "image": ""
+  },
+  {
+    "question": "What is Asymptotic behavior?",
+    "answer": "The behavior of a function or graph as the input approaches infinity or negative infinity.",
+    "image": ""
+  },
+  {
+    "question": "What is a Derivative?",
+    "answer": "A measure of how a function changes as its input changes, representing the slope of the tangent line at a given point.",
+    "image": ""
+  },
+  {
+    "question": "What is a Differential equation?",
+    "answer": "An equation involving an unknown function and its derivatives.",
+    "image": ""
+  },
+  {
+    "question": "What is an Integral?",
+    "answer": "A mathematical operation that represents the area under a curve, or the accumulation of a quantity over an interval.",
+    "image": ""
+  },
+  {
+    "question": "What is a Limit?",
+    "answer": "The value that a function approaches as the input approaches a certain value or infinity.",
+    "image": ""
+  },
+  {
+    "question": "What is Newton's method?",
+    "answer": "An iterative numerical method for finding the roots of a function by approximating the function with tangent lines.",
+    "image": ""
+  },
+  {
+    "question": "What is a Partial derivative?",
+    "answer": "The derivative of a multivariable function with respect to one variable, while treating the other variables as constants.",
+    "image": ""
+  },
+  {
+    "question": "What is an Antiderivative?",
+    "answer": "A function whose derivative is equal to the given function.",
+    "image": ""
+  },
+  {
+    "question": "What is a Bifurcation?",
+    "answer": "A point at which a small change in a parameter causes a significant change in the behavior of a system or function.",
+    "image": ""
+  },
+  {
+    "question": "What is a Boundary value problem?",
+    "answer": "A differential equation in which the solutions must satisfy specified conditions at the boundary points of the domain.",
+    "image": ""
+  },
+  {
+    "question": "What is a Critical point?",
+    "answer": "A point on the graph of a function where the derivative is zero or undefined, indicating a possible maximum, minimum, or point of inflection.",
+    "image": ""
+  },
+  {
+    "question": "What is Curl (vector calculus)?",
+    "answer": "A measure of the rotation or circulation of a vector field, represented as a vector.",
+    "image": ""
+  },
+  {
+    "question": "What is Gradient descent?",
+    "answer": "An optimization algorithm that minimizes a function by iteratively moving in the direction of the negative gradient.",
+    "image": ""
+  },
+  {
+    "question": "What is an Inflection point?",
+    "answer": "A point on the graph of a function where the curvature changes sign, indicating a change in concavity.",
+    "image": ""
+  },
+  {
+    "question": "What is a Taylor series?",
+    "answer": "An infinite series representation of a function as a sum of its derivatives evaluated at a specific point, providing an approximation of the function near that point.",
+    "image": ""
+  },
+  {
+    "question": "What is Calculus?",
+    "answer": "A branch of mathematics that deals with the study of rates of change and accumulation, including the concepts of limits, derivatives, integrals, and infinite series. It is divided into two main branches: differential calculus and integral calculus.",
+    "image": ""
+  }
+]

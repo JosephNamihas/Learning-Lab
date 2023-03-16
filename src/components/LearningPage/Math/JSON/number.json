@@ -1,0 +1,323 @@
+ [
+    {
+      "question": "What is Algebraic number theory?",
+      "answer": "A branch of number theory that studies algebraic structures related to algebraic integers and their properties.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Analytic number theory?",
+      "answer": "A branch of number theory that uses methods from mathematical analysis to study properties of integers.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Arithmetic progressions?",
+      "answer": "A sequence of numbers such that the difference between consecutive terms is constant.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Bernoulli numbers?",
+      "answer": "A sequence of rational numbers that have deep connections to number theory and various mathematical applications.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Bezout's identity?",
+      "answer": "A statement that states there exist integers x and y such that ax + by = gcd(a, b) for any integers a and b.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Cardinal numbers?",
+      "answer": "Numbers that indicate the size of a set or the quantity of elements in a set.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Carmichael numbers?",
+      "answer": "Composite numbers that satisfy Fermat's Little Theorem as if they were prime numbers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is the Chinese remainder theorem?",
+      "answer": "A theorem that provides a unique solution for a system of linear congruences with coprime moduli.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Congruences?",
+      "answer": "An equivalence relation between two numbers that have the same remainder when divided by a given modulus.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Continued fractions?",
+      "answer": "A representation of a number as a finite or infinite sum of fractions where the denominator is the sum of the numerator and the next fraction's denominator.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Coprime (relatively prime) numbers?",
+      "answer": "Two numbers that have no common divisors other than 1.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Diophantine equations?",
+      "answer": "Equations that seek integer solutions.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Divisibility rules?",
+      "answer": "Rules or shortcuts that help determine if a number is divisible by another number without performing the division.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Euclid's algorithm?",
+      "answer": "An efficient algorithm for finding the greatest common divisor of two numbers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is the Euclidean algorithm (extended)?",
+      "answer": "An extension of Euclid's algorithm that also finds the Bézout coefficients of the greatest common divisor.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Euclidean division (division with remainder)?",
+      "answer": "A division process that produces a quotient and a remainder.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Euler's number (e)?",
+      "answer": "A mathematical constant approximately equal to 2.71828, which is the base of the natural logarithm and appears in many mathematical contexts.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Euler's phi function?",
+      "answer": "A function that counts the number of positive integers up to a given integer n that are coprime to n.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Euler's totient function?",
+      "answer": "Another name for Euler's phi function.",
+      "image_url": ""
+    },
+    {
+      "question": "What is an Even number?",
+      "answer": "An integer that is exactly divisible by 2.",
+      "image_url": ""
+    },
+    {
+      "question": "What is a Factor?",
+      "answer": "A number that divides exactly into another number without leaving a remainder.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Fermat primes?",
+      "answer": "Prime numbers that can be written in the form 2^(2^n) + 1, where n is a non-negative integer.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Fermat's Last Theorem?",
+      "answer": "The statement that there are no whole number solutions to the equation x^n + y^n = z^n for n greater than 2.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Fermat's little theorem?",
+      "answer": "If p is a prime number, then for any integer a not divisible by p, a^(p-1) is congruent to 1 modulo p.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Fibonacci numbers?",
+      "answer": "A sequence of numbers in which each number is the sum of the two preceding ones, usually starting with 0 and 1.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Gaussian integers?",
+      "answer": "Complex numbers where both the real and imaginary parts are integers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Goldbach's conjecture?",
+      "answer": "The conjecture that every even integer greater than 2 can be expressed as the sum of two prime numbers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is the Greatest common divisor (GCD)?",
+      "answer": "The largest positive integer that divides each of the numbers without a remainder.",
+      "image_url": ""
+    },
+    {
+      "question": "What is an Integer?",
+      "answer": "A whole number, including negative whole numbers, zero, and positive whole numbers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is an Irrational number?",
+      "answer": "A real number that cannot be expressed as a fraction of two integers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is the Least common multiple (LCM)?",
+      "answer": "The smallest positive integer that is a multiple of each of the numbers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Legendre's conjecture?",
+      "answer": "The unproven statement that there is always at least one prime number between consecutive perfect squares.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Linear Diophantine equations?",
+      "answer": "Equations involving two or more variables, where the variables are integers, and the coefficients are integer constants.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Mersenne primes?",
+      "answer": "Prime numbers that can be written in the form 2^p - 1, where p is a prime number.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Modular arithmetic?",
+      "answer": "A system of arithmetic for integers, where numbers wrap around upon reaching a certain value called the modulus.",
+      "image_url": ""
+        },
+    {
+    "question": "What are Modular forms?",
+    "answer": "Complex analytic functions that exhibit certain symmetries and satisfy specific transformation properties.",
+    "image_url": ""
+    },
+    {
+    "question": "What are Modular inverses?",
+    "answer": "For a given integer 'a' and modulus 'm', the modular inverse is an integer 'b' such that the product of 'a' and 'b' is congruent to 1 modulo 'm'.",
+    "image_url": ""
+    },
+    {
+    "question": "What is the Moebius function?",
+    "answer": "An arithmetic function that assigns values to positive integers based on their prime factorization, used in number theory and combinatorics.",
+    "image_url": ""
+    },
+    {
+    "question": "What is a Multiple?",
+    "answer": "The result of multiplying a number by an integer.",
+    "image_url": ""
+    },
+    {
+    "question": "What is a Natural number?",
+    "answer": "A positive integer, not including zero. Sometimes, zero is also considered a natural number.",
+    "image_url": ""
+    },
+    {
+      "question": "What is a Negative number?",
+      "answer": "A number that is less than zero, located to the left of zero on a number line.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Number theory?",
+      "answer": "A branch of mathematics focused on the properties and relationships of numbers, particularly integers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is an Odd number?",
+      "answer": "An integer that is not divisible by 2.",
+      "image_url": ""
+    },
+    {
+      "question": "What is an Ordinal number?",
+      "answer": "A number that indicates the position or order of items in a list.",
+      "image_url": ""
+    },
+    {
+      "question": "What is the Partition function?",
+      "answer": "A function that counts the number of ways a positive integer can be represented as the sum of smaller integers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Pell's equation?",
+      "answer": "A Diophantine equation of the form x^2 - ny^2 = 1, where n is a positive nonsquare integer.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Perfect numbers?",
+      "answer": "Numbers that are equal to the sum of their proper divisors, excluding themselves.",
+      "image_url": ""
+    },
+    {
+      "question": "What is a Perfect square?",
+      "answer": "A number that can be expressed as the square of an integer.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Polygonal numbers?",
+      "answer": "Numbers that can be represented as regularly spaced points on a plane, forming a polygonal pattern.",
+      "image_url": ""
+    },
+    {
+      "question": "What is a Positive number?",
+      "answer": "A number that is greater than zero, located to the right of zero on a number line.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Prime factorization?",
+      "answer": "The process of breaking down a number into a product of its prime factors.",
+      "image_url": ""
+    },
+    {
+      "question": "What is a Pythagorean triple?",
+      "answer": "A set of three positive integers that satisfy the equation a^2 + b^2 = c^2.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Pythagorean triples?",
+      "answer": "Sets of three positive integers that satisfy the equation a^2 + b^2 = c^2.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Quadratic residues?",
+      "answer": "Numbers that can be obtained by squaring an integer modulo a given modulus.",
+      "image_url": ""
+    },
+    {
+      "question": "What is a Rational number?",
+      "answer": "A number that can be expressed as the quotient or fraction of two integers.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Recurrence relations?",
+      "answer": "Equations that define a sequence based on preceding terms.",
+      "image_url": ""
+    },
+    {
+      "question": "What is the Riemann zeta function?",
+      "answer": "A complex function that is related to the distribution of prime numbers and has important applications in number theory",
+      "image_url": ""
+    },
+    {
+      "question": "What is the Sieve of Eratosthenes?",
+      "answer": "An ancient algorithm for finding all prime numbers up to a given limit by iteratively marking the multiples of primes.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Square-free numbers?",
+      "answer": "Integers that are not divisible by any perfect squares, except for 1.",
+      "image_url": ""
+    },
+    {
+      "question": "What is the Sum of divisors?",
+      "answer": "The sum of all the positive divisors of a given positive integer.",
+      "image_url": ""
+    },
+    {
+      "question": "What are Triangular numbers?",
+      "answer": "A sequence of numbers formed by adding consecutive natural numbers, starting from 1.",
+      "image_url": ""
+    },
+    {
+      "question": "What is the Twin prime conjecture?",
+      "answer": "The conjecture that there are infinitely many pairs of twin primes (prime numbers that differ by 2).",
+      "image_url": ""
+    },
+    {
+      "question": "What is a Whole number?",
+      "answer": "A number without fractions or decimals, including zero and all positive integers.",
+      "image_url": ""
+    },
+    {
+      "question": "What is Wilson's theorem?",
+      "answer": "A theorem stating that a natural number n is a prime number if and only if (n-1)! ≡ -1 (mod n).",
+      "image_url": ""
+    }
+  ]
+
