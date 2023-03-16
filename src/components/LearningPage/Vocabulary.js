@@ -43,7 +43,7 @@ return (
 
   <button id ="button-search">Search</button>
 
-    <div className="card" style="width: 18rem;">
+    <div className="card">
         <div className="card-body">
           <h5 className="card-title" id="wordName"></h5>
           <h5 className="card-text" id ="wordSyl"></h5>
