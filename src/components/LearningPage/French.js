@@ -2,23 +2,23 @@ import React, { useState } from 'react';
 
 const questions = [
   {
-    question: 'What is the capital of France?',
-    options: ['London', 'Paris', 'Berlin', 'Madrid'],
-    answer: 'Paris'
+    question: 'What is the French word for "hello"?',
+    options: ['Bonjour', 'Au revoir', 'Merci', 'Oui'],
+    answer: 'Bonjour'
   },
   {
-    question: 'What is the longest river in the world?',
-    options: ['Nile', 'Amazon', 'Yangtze', 'Mississippi'],
-    answer: 'Nile'
+    question: 'What is the French word for "cat"?',
+    options: ['Chien', 'Chat', 'Cheval', 'Oiseau'],
+    answer: 'Chat'
   },
   {
-    question: 'What is the largest desert in the world?',
-    options: ['Sahara', 'Arabian', 'Gobi', 'Kalahari'],
-    answer: 'Sahara'
+    question: 'What is the French word for "goodbye"?',
+    options: ['Bonsoir', 'Bonne nuit', 'À bientôt', 'Au revoir'],
+    answer: 'Au revoir'
   }
 ];
 
-function GeographyQuiz() {
+function FrenchQuiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [answerStatus, setAnswerStatus] = useState(null);
@@ -37,7 +37,7 @@ function GeographyQuiz() {
     <>
       {currentQuestion < questions.length ? (
         <>
-          <h1>Geography Quiz</h1>
+          <h1>French Quiz</h1>
           <p>{questions[currentQuestion].question}</p>
           <div>
             {questions[currentQuestion].options.map(option => (
@@ -56,4 +56,4 @@ function GeographyQuiz() {
   );
 }
 
-export default GeographyQuiz;
+export default FrenchQuiz;
