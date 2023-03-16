@@ -41,6 +41,7 @@ function App() {
       <Home />
       <NavBar />
       
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Math" element={<Math />} />
