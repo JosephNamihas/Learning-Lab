@@ -23,13 +23,13 @@ h1 {
 }
 
 .card {
-  margin-top: 20px;
+  margin-top: 30px;
   background: var(--green);
   padding: 5%;
 }
 
 .card:hover {
-  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+  box-shadow: var(--shadow);
 }
 
 .container-fluid.row {
@@ -40,8 +40,34 @@ h1 {
   transform: scale(1);
   transition: transform 0.5s ease;
   border-radius: 3%;
+  box-shadow: var(--shadow);
 }
 
 .card-img-top:hover {
+  transform: scale(1.02);
+}
+
+.btn-success {
+  box-shadow: var(--shadow);
+  --bs-btn-border-color: #052f2f;
+}
+
+.btn-warning {
+  --bs-btn-border-color: #ff9900;
+}
+.card-title {
+  font-family: var(--font-logo);
+}
+
+p.card-text {
+  font-size: 1rem;
+}
+
+.my-btn {
+  box-shadow: var(--shadow);
+  background-color: var(--orange);
+}
+
+.my-btn:hover {
   transform: scale(1.02);
 }

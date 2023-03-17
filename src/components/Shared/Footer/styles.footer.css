@@ -1,10 +1,13 @@
 a {
-  color: gray;
+color: rgba(0, 0, 0, 0.55);
+padding: 10px;
 }
 
-.icon {
-  border: var(--dark-green);
+a:hover {
+  color: var(--dark-green);
 }
-.icon:hover {
-  color: var(--orange);
+
+.copy {
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.55);
 }

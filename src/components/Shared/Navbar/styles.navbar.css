@@ -13,3 +13,7 @@
   color: var(--orange);
   transform: scale(1.15);
 }
+
+.text-center {
+  padding: 8px;
+}
