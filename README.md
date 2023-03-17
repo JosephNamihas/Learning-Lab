@@ -57,7 +57,7 @@ Joe - ``` ```
 
 MIT License
 
-Copyright (c) 2023 Joseph Namihas | Augustine Farionla | Sorada Wright | Jenelle Spio-Garbrah
+Copyright (c) 2023 Joseph Namihas | Augustine Farinola | Sorada Wright | Jenelle Spio-Garbrah
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
