@@ -3,7 +3,7 @@ import $ from "jquery";
 
 const Vocabulary = () => {
 
-var searchWord = "/Computer";
+var searchWord = "/Computer"; // Test call
 
 // API CALL
 const settings = {
