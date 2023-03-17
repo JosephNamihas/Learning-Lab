@@ -1,71 +1,84 @@
-import React from "react";
-import $ from "jquery";
+import React, { useState } from "react";
+import axios from "axios";
 
-const Vocabulary = () => {
+const WordsApiComponent = () => {
+  const [word, setWord] = useState("");
+  const [definition, setDefinition] = useState("");
+  const [synonyms, setSynonyms] = useState([]);
+  const [randomWord, setRandomWord] = useState("");
 
-var searchWord = "/Computer"; // Test call
+  const API_KEY = "YOUR_API_KEY"; // Enter your WordsAPI API key here
 
-// API CALL
-const settings = {
-	"async": true,
-	"crossDomain": true,
-	"url": "https://wordsapiv1.p.rapidapi.com/words" + searchWord,
-	"method": "GET",
-	"headers": {
-		"X-RapidAPI-Key": "958ecc0b13msh0ca9342a3cd9f49p1a6a0bjsnba6be6199123",
-		"X-RapidAPI-Host": "wordsapiv1.p.rapidapi.com"
-	}
-}
+  // Function to fetch definition and synonyms for a given word
+  const getWordDetails = async (word) => {
+    try {
+      const response = await axios.get(
+        `https://wordsapiv1.p.rapidapi.com/words/${word}`,
+        {
+          headers: {
+            "x-rapidapi-key": API_KEY,
+            "x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
+          },
+        }
+      );
+      setDefinition(response.data.results[0].definition);
+      setSynonyms(response.data.results[0].synonyms);
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
-$.ajax(settings).done(function (response) {
-  console.log(response);
-  console.log(response.word); // Word
-  console.log(response.syllables.list); // Syllables
-  console.log(response.results[0].definition) // Definition
+  // Function to fetch a random word
+  const getRandomWord = async () => {
+    try {
+      const response = await axios.get(
+        "https://wordsapiv1.p.rapidapi.com/words/?random=true",
+        {
+          headers: {
+            "x-rapidapi-key": API_KEY,
+            "x-rapidapi-host": "wordsapiv1.p.rapidapi.com",
+          },
+        }
+      );
+      setRandomWord(response.data.word);
+      getWordDetails(response.data.word);
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
-  getDictionaryItem(response);
+  // Function to handle search
+  const handleSearch = (e) => {
+    e.preventDefault();
+    getWordDetails(word);
+  };
 
-});
-
-function getDictionaryItem(response) {
-  let wordName = $("<h1>").text(response.word);
-  let wordSyl = $("<p>").text(response.syllables.list)
-  let wordDef = $("<p>").text(response.results[0].definition);
-
-$("#wordName").append(wordName);
-$("#wordSyl").append(wordSyl);
-$("#wordDef").append(wordDef);
-}
-
-
-return (
-<div>
-
-  <button id ="button-search">Search</button>
-
-    <div className="card">
-        <div className="card-body">
-          <h5 className="card-title" id="wordName"></h5>
-          <h5 className="card-text" id ="wordSyl"></h5>
-          <p className="card-text" id="wordDef"></p>
-        </div>
-      </div>
-
-      <form id="search-form" className="form">
-        <div className="form-inline form-group">
-          <div className="input-group">
-            <button type="button" className="btn search-button" id="search-button">
-              Search
-            </button>
-            <input className="form-input" type="text" id="search-input" placeholder="Word"
-              aria-labelledby="form-heading" />
-            <div className="input-group-append">
-            </div>
-
-          </div>
-        </div>
+  return (
+    <div>
+      <h1>Words API</h1>
+      <form onSubmit={handleSearch}>
+        <input
+          type="text"
+          placeholder="Enter a word"
+          value={word}
+          onChange={(e) => setWord(e.target.value)}
+        />
+        <button type="submit">Search</button>
       </form>
-</div>
-)}
+      <button onClick={getRandomWord}>Random Word</button>
+      <h2>{word}</h2>
+      <h3>Definition:</h3>
+      <p>{definition}</p>
+      <h3>Synonyms:</h3>
+      <ul>
+        {synonyms.map((synonym) => (
+          <li key={synonym}>{synonym}</li>
+        ))}
+      </ul>
+      <h3>Random Word:</h3>
+      <p>{randomWord}</p>
+    </div>
+  );
+};
 
-export default Vocabulary;
+export default WordsApiComponent;
