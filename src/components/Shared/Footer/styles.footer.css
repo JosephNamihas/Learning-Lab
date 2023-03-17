@@ -1,0 +1,10 @@
+a {
+  color: gray;
+}
+
+.icon {
+  border: var(--dark-green);
+}
+.icon:hover {
+  color: var(--orange);
+}

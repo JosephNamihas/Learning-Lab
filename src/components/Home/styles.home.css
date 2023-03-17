@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: var(--font-poppins);
+  background-color: var(--yellow);
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-family: var(--font-logo);
+}
+
+.main-btn {
+  background: var(--dark-green);
+  margin-top: 20px;
+}
+
+.main-btn:hover {
+  transform: scale(1.01);
+}
+
+.card {
+  margin-top: 20px;
+  background: var(--green);
+  padding: 5%;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.container-fluid.row {
+  padding-top: 6rem;
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+  border-radius: 3%;
+}
+
+.card-img-top:hover {
+  transform: scale(1.02);
+}
