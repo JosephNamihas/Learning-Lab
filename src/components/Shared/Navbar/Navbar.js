@@ -1,17 +1,18 @@
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import HomeIcon from '@mui/icons-material/Home';
-import HelpIcon from '@mui/icons-material/Help';
-import CalculateIcon from '@mui/icons-material/Calculate';
-import FontDownloadIcon from '@mui/icons-material/FontDownload';
-import NewspaperIcon from '@mui/icons-material/Newspaper';
+import { Container, Nav, Navbar } from "react-bootstrap";
+import styles from "./styles.navbar.css";
+import HomeIcon from "@mui/icons-material/Home";
+import HelpIcon from "@mui/icons-material/Help";
+import CalculateIcon from "@mui/icons-material/Calculate";
+import FontDownloadIcon from "@mui/icons-material/FontDownload";
+import NewspaperIcon from "@mui/icons-material/Newspaper";
 
 
 
 function Collapsible() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">LEARNING_LAB</Navbar.Brand>
+        <Navbar.Brand className="logo" href="#home">LEARNING_LAB</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
