@@ -1,0 +1,15 @@
+.logo {
+  font-family: var(--font-logo) !important;
+  color: var(--orange);
+  font-size: 1.5rem;
+}
+
+.navbar {
+  padding: 1%;
+  background-color: var(--dark-green);
+}
+
+.nav-link:hover {
+  color: var(--orange);
+  transform: scale(1.15);
+}
