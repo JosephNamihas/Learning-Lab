@@ -6,8 +6,9 @@ import Collapsible from "./components/Shared/Navbar";
 import Home from "./components/Home";
 import NavBar from './components/Shared/Nav';
 import Math from './components/LearningPage/Math/Math';
+import Vocabulary from './components/LearningPage/Vocabulary';
 // import Planner from "./components/Journal/Planner";
-// import Vocabulary from './components/LearningPage/Vocabulary';
+
 
 
 
@@ -40,6 +41,7 @@ function App() {
       <Collapsible />
       <Home />
       <NavBar />
+      <Vocabulary />
       
       
         <Routes>

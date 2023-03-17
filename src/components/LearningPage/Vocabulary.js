@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const WordsApiComponent = () => {
+const Vocabulary = () => {
   const [word, setWord] = useState("");
   const [definition, setDefinition] = useState("");
   const [synonyms, setSynonyms] = useState([]);
@@ -40,8 +40,10 @@ const WordsApiComponent = () => {
           },
         }
       );
-      setRandomWord(response.data.word);
-      getWordDetails(response.data.word);
+      const randomWordReceived = response.data.word;
+      setRandomWord(randomWordReceived); // Set the random word state
+      setWord(randomWordReceived); // Update the displayed word state with the new random word
+      getWordDetails(randomWordReceived); // Fetch the details of the new random word
     } catch (error) {
       console.error(error);
     }
@@ -81,4 +83,4 @@ const WordsApiComponent = () => {
   );
 };
 
-export default WordsApiComponent;
+export default Vocabulary;
