@@ -17,7 +17,7 @@ function Home() {
           <div className="py-3 d-flex justify-content-center">
           <Row>
             <Col>
-              <Card style={{ width: "20rem" }}>
+              <Card style={{ width: "20rem", height: "auto" }}>
               <Card.Body>
                 <Card.Title>Mathematics</Card.Title>
                 <Card.Img variant="top" src="./images/math.jpg" />
@@ -29,9 +29,9 @@ function Home() {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "20rem" }}>
+              <Card style={{ width: "20rem", height: "auto" }}>
               <Card.Body>
-                <Card.Title>Vocabulary</Card.Title>
+                <Card.Title>English</Card.Title>
                 <Card.Img variant="top" src="./images/English.jpg" />
                 <Card.Text>
                   Some quick example text to build on the card tite
@@ -41,7 +41,7 @@ function Home() {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "20rem" }}>
+              <Card style={{ width: "20rem", height: "auto" }}>
               <Card.Body>
                 <Card.Title>What's More ?</Card.Title>
                 <Card.Img variant="top" src="./images/more.jpg" />

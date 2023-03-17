@@ -1,13 +1,14 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import * as ReactDOM from 'react-dom';
 import React from "react";
-import Home from "./components/Home/Home";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import * as ReactDOM from 'react-dom';
+import Home from "./components/Home/home";
 import Collapsible from './components/Shared/Navbar/Navbar';
 import Math from './components/LearningPage/Math/Math';
-import Vocabulary from './components/LearningPage/Vocabulary';
+import ContactForm from './components/ContactForm/Form';
+// import Vocabulary from './components/LearningPage/Vocabulary';
 import Footer from './components/Shared/Footer/Footer';
 // import Planner from "./components/Journal/Planner";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 {/*const options = {
   method: "GET",
@@ -26,25 +27,19 @@ axios.request(options).then(function (response) {
 
 function App() {
   return (
+    <Router>
       <div className="App">
-      <Collapsible />
-      <Home />
-
-      <Collapsible />
-      <Vocabulary />
-      
-      
+        <Collapsible />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Math" element={<Math />} />
-
+          <Route path="/ContactForm" element={<ContactForm />} />
           {/* Route Path to Planner */}
           
         </Routes>
-
-      <Footer />
-
+        <Footer />
       </div>
+    </Router>
   );
 }
 

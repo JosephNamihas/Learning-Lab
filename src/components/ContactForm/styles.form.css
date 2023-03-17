@@ -1,0 +1,13 @@
+.form-control {
+  margin: 8px;
+  background-color: rgb(234, 238, 242);
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.text {
+  margin: 0 !important;
+  font-size: 0.8rem;
+}
