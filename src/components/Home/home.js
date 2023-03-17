@@ -16,7 +16,7 @@ function Home() {
           <Button className="py-3 main-btn" variant="success">Awesome Things Here</Button>
           <div className="py-3 d-flex justify-content-center">
           <Row>
-            <Col md-4>
+            <Col>
               <Card style={{ width: "20rem" }}>
               <Card.Body>
                 <Card.Title>Mathematics</Card.Title>
@@ -28,7 +28,7 @@ function Home() {
               </Card.Body>
               </Card>
             </Col>
-            <Col md-4>
+            <Col>
               <Card style={{ width: "20rem" }}>
               <Card.Body>
                 <Card.Title>Vocabulary</Card.Title>
@@ -40,7 +40,7 @@ function Home() {
               </Card.Body>
               </Card>
             </Col>
-            <Col md-4>
+            <Col>
               <Card style={{ width: "20rem" }}>
               <Card.Body>
                 <Card.Title>What's More ?</Card.Title>

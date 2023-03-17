@@ -1,11 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import * as ReactDOM from 'react-dom';
 import React from "react";
-// import Collapsible from "./components/Shared/Navbar";
 import Home from "./components/Home/Home";
 import Collapsible from './components/Shared/Navbar/Navbar';
 import Math from './components/LearningPage/Math/Math';
 import Vocabulary from './components/LearningPage/Vocabulary';
+import Footer from './components/Shared/Footer/Footer';
 // import Planner from "./components/Journal/Planner";
 
 {/*const options = {
@@ -29,7 +30,7 @@ function App() {
       <Collapsible />
       <Home />
 
-      <Navbar />
+      <Collapsible />
       <Vocabulary />
       
       
