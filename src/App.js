@@ -2,16 +2,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
 import axios from "axios";
 import React from "react";
-import Collapsible from "./components/Shared/Navbar/Navbar";
-import Home from "./components/Home/home";
-import Footer from "./components/Shared/Footer/Footer";
-// import NavBar from "./components/Shared/Nav";
-// import Math from "./components/LearningPage/Math/Math";
+
+import Collapsible from "./components/Shared/Navbar";
+import Home from "./components/Home";
+import NavBar from './components/Shared/Nav';
+import Math from './components/LearningPage/Math/Math';
+import Vocabulary from './components/LearningPage/Vocabulary';
 // import Planner from "./components/Journal/Planner";
-// import Vocabulary from "./components/LearningPage/Vocabulary";
-
-
-
 
 const options = {
   method: "GET",
@@ -39,7 +36,21 @@ function App() {
       <div className="App">
       <Collapsible />
       <Home />
+
+      <NavBar />
+      <Vocabulary />
+      
+      
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Math" element={<Math />} />
+
+          {/* Route Path to Planner */}
+          
+        </Routes>
+
       <Footer />
+
       </div>
   );
 }
