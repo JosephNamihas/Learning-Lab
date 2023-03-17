@@ -10,12 +10,12 @@ function Footer() {
     <footer>
       <Container>
         <Row>
-          <div className="icon text-center">
-				    <a href="#" target="_blank"><GitHubIcon /></a>
+          <div className="text-center">
+				    <a className="social" href="#" target="_blank"><GitHubIcon /></a>
             <a href="#" target="_blank"><EmailIcon /></a>
             <a href="#" target="_blank"><ShareIcon /></a>
           </div>
-          <Col className="text-center">
+          <Col className="text-center copy">
             &copy; 2023 Copyright | Learning_Lab
           </Col>
         </Row>

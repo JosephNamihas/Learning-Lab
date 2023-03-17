@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Card, Container, Row, Col } from "react-bootstrap";
 import styles from "./styles.home.css";
-
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 function Home() {
 	return (
@@ -11,7 +11,7 @@ function Home() {
           <Card.Body>
             <p>Hi there, welcome to</p>
 			      <h1>The Learning Lab</h1>
-			      <h3>It"s all about having fun journey !</h3>
+			      <h3>It's all about having fun journey !</h3>
           </Card.Body>
           <Button className="py-3 main-btn" variant="success">Awesome Things Here</Button>
           <div className="py-3 d-flex justify-content-center">
@@ -24,7 +24,7 @@ function Home() {
                 <Card.Text>
                   Some quick example text to build on the card tite
                 </Card.Text>
-                <Button variant="warning">Go somewhere</Button>
+                <Button className="my-btn" variant="warning">Let's Start</Button>
               </Card.Body>
               </Card>
             </Col>
@@ -36,7 +36,7 @@ function Home() {
                 <Card.Text>
                   Some quick example text to build on the card tite
                 </Card.Text>
-                <Button variant="warning">Go somewhere</Button>
+                <Button className="my-btn" variant="warning">Let's Start</Button>
               </Card.Body>
               </Card>
             </Col>
@@ -48,7 +48,7 @@ function Home() {
                 <Card.Text>
                   Some quick example text to build on the card tite
                 </Card.Text>
-                <Button variant="warning">Go somewhere</Button>
+                <Button className="my-btn" variant="warning">Next <NavigateNextIcon /></Button>
               </Card.Body>
               </Card>
             </Col>
