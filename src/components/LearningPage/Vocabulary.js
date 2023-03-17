@@ -7,9 +7,9 @@ const WordsApiComponent = () => {
   const [synonyms, setSynonyms] = useState([]);
   const [randomWord, setRandomWord] = useState("");
 
-  const API_KEY = "YOUR_API_KEY"; // Enter your WordsAPI API key here
+  const API_KEY = "958ecc0b13msh0ca9342a3cd9f49p1a6a0bjsnba6be6199123";
 
-  // Function to fetch definition and synonyms for a given word
+  // Function to fetch definition & synonyms
   const getWordDetails = async (word) => {
     try {
       const response = await axios.get(
