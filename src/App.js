@@ -1,16 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { BrowserRouter, Route, Routes } from "react-router-dom";
-import axios from "axios";
 import React from "react";
-
-import Collapsible from "./components/Shared/Navbar";
-import Home from "./components/Home";
-import NavBar from './components/Shared/Nav';
+// import Collapsible from "./components/Shared/Navbar";
+import Home from "./components/Home/Home";
+import Collapsible from './components/Shared/Navbar/Navbar';
 import Math from './components/LearningPage/Math/Math';
 import Vocabulary from './components/LearningPage/Vocabulary';
 // import Planner from "./components/Journal/Planner";
 
-const options = {
+{/*const options = {
   method: "GET",
   url: "https://wordsapiv1.p.rapidapi.com/words/hatchback/typeOf",
   headers: {
@@ -23,13 +21,7 @@ axios.request(options).then(function (response) {
 	console.log(response.data);
 }).catch(function (error) {
 	console.error(error);
-});
-
-
-
-// Pass props to Vocabuluary (js)
-
-
+});*/}
 
 function App() {
   return (
@@ -37,7 +29,7 @@ function App() {
       <Collapsible />
       <Home />
 
-      <NavBar />
+      <Navbar />
       <Vocabulary />
       
       
