@@ -17,7 +17,7 @@ function Collapsible() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/Math"><CalculateIcon /></Nav.Link>
-            <Nav.Link href="#pricing"><FontDownloadIcon /></Nav.Link>
+            <Nav.Link href="/Vocabulary"><FontDownloadIcon /></Nav.Link>
             <Nav.Link href="/Planner"><NewspaperIcon /></Nav.Link>
           </Nav>
           <Nav>
