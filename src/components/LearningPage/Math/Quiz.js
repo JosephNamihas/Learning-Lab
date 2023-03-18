@@ -104,7 +104,8 @@ const Quiz = () => {
           {showError && (
             <div className="text-danger">Sorry, wrong answer. Try again.</div>
           )}
-          <Button variant="primary" onClick={handleNextQuestion}>
+          <Button variant="warning" onClick={handleNextQuestion}
+          style={{ backgroundColor: "#ff9900", marginTop: "1rem" }}>
             Next
           </Button>
         </div>

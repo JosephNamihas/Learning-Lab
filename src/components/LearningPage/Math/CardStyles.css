@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  align-items: flex-end
 }
 
 .card {
@@ -15,6 +16,7 @@
   cursor: pointer;
   margin-bottom: 1rem;
   margin: 0 auto; /* Add this to center the card */
+  padding: 3%;
 }
 
 .card-content {
@@ -73,4 +75,19 @@
 .navigation-button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
+}
+
+.card-btn {
+  background-color: var(--orange);
+  box-shadow: var(--shadow);
+  margin: 10px;
+  width: 8rem;
+}
+
+.btn-warning {
+  --bs-btn-border-color: #ff9900;
+}
+
+.category {
+  align-items: center;
 }

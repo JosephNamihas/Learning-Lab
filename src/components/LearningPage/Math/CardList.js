@@ -1,7 +1,11 @@
 import React, { useState } from "react";
+import { Button, Container, Row, Col } from "react-bootstrap";
 import Card from "./Card";
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import ChevronLeft from '@mui/icons-material/ChevronLeft';
+
 // import "./Math.module.css";
-// import "./CardStyles.css";
+import "./CardStyles.css";
 
 const CardList = ({ cardData }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,13 +23,16 @@ const CardList = ({ cardData }) => {
   };
 
   return (
-    <div className="main-container">
-      <div className="card-list">
+    <Container className="main-container">
+      <Row className="text-center"></Row>
+      <Col className="card-list">
         <Card flashcard={cardData[currentIndex]} />
-      </div>
-      <button onClick={prevCard}>Back</button>
-      <button onClick={nextCard}>Next</button>
-    </div>
+        <Row>
+          <Button className="card-btn" variant="warning" onClick={prevCard}><ChevronLeft/> Back</Button>
+          <Button className="card-btn" variant="warning" onClick={nextCard}>Next <NavigateNextIcon /></Button>
+        </Row>
+      </Col>
+    </Container>
   );
 };
 
