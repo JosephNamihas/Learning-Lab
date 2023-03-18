@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Button, Form, Container } from "react-bootstrap";
+import styles from "./styles.form.css";
 
 function ContactForm() {
   const [name, setName] = useState('');
@@ -17,40 +19,21 @@ function ContactForm() {
 
   return (
     <div>
-      <h2>Contact Us</h2>
-      <p>We are always looking for ways to serve you better. Please leave us feedback or make enquires using the form below.</p>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            id="message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            required
-          ></textarea>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+      <Container className="py-5 text-center">
+          <h2>Contact Us</h2>
+          <p className="text"> We are always looking for ways to serve you better. </p>
+          <p className="text">Please leave us feedback or make enquires using the form below.</p>
+     
+        <Form className="py-3 d-flex justify-content-center">
+          <Form.Group>
+            <Form.Control style={{ width: "25rem"}} type="text" placeholder="Name" />
+            <Form.Control style={{ width: "25rem"}} type="email" placeholder="Example@email.com" />
+            <Form.Control style={{ width: "25rem"}} type="text" placeholder="Subject" />
+            <Form.Control as="textarea" rows={8} style={{ width: "25rem"}} type="text" placeholder="Message" />
+            </Form.Group>
+        </Form>
+      <Button className="my-btn" variant="warning" type="submit">Submit</Button>
+      </Container>
     </div>
   );
 }
