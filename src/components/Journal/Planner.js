@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import moment from "moment";
+import { Button, Container, Col, Row, Form, InputGroup } from "react-bootstrap";
 import styles from "./styles.planner.css";
 
 const Planner = () => {
@@ -60,16 +61,19 @@ const Planner = () => {
       const value = inputValues[date] || "";
 
       return (
-        <div key={date}>
-          <label>{day.format("dddd, MMMM D")}</label>
-          <input
+        <Container className="text-area" key={date}>
+          <InputGroup>
+          <InputGroup.Text className="date">{day.format("ddd, DD")}
+          </InputGroup.Text>
+          <Form.Control
             type="text"
             value={value}
             onChange={(e) => handleInputChange(date, e.target.value)}
           />
           {/* Add a "Clear" button for each input field that calls the clearInputField function */}
-          <button onClick={() => clearInputField(date)}>Clear</button>
-        </div>
+          <Button variant="secondary" id="button-addon2" onClick={() => clearInputField(date)}>Clear</Button>
+          </InputGroup>
+        </Container>
       );
     });
   };
@@ -77,10 +81,10 @@ const Planner = () => {
   const currentMonth = moment().format("MMMM YYYY");
 
   return (
-    <div>
+    <Container className="text-center py-5">
       <h1>{currentMonth}</h1>
       {renderInputs()}
-    </div>
+    </Container>
   );
 };
 

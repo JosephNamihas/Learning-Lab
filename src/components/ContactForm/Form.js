@@ -79,7 +79,7 @@ function ContactForm() {
           </Form.Group>
         </Form>
         ) : (
-        <p>Thank you, we have received your message.</p>
+        <p className="py-5">Thank you, we have received your message.</p>
       )}
       </Container>
     </div>

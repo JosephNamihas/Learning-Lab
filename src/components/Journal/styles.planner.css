@@ -1,0 +1,9 @@
+.date {
+  width: 6rem;
+  flex-direction: row-reverse;
+}
+
+.text-area {
+  width:50%;
+  margin-top: 1px;
+}

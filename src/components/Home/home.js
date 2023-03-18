@@ -17,9 +17,9 @@ function Home() {
           <div className="py-3 d-flex justify-content-center">
           <Row>
             <Col>
-              <Card style={{ width: "20rem", height: "28rem" }}>
+              <Card style={{ width: "22rem", height: "28rem" }}>
               <Card.Body>
-                <Card.Title>Mathematics</Card.Title>
+                <Card.Title className="title">Mathematics</Card.Title>
                 <Card.Img variant="top" src="./images/math.jpg" />
                 <Card.Text>
                   Maths made fun...Count on us for a fun filled ride!
@@ -29,9 +29,9 @@ function Home() {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "20rem", height: "28rem" }}>
+              <Card style={{ width: "22rem", height: "28rem" }}>
               <Card.Body>
-                <Card.Title>English</Card.Title>
+                <Card.Title className="title">English</Card.Title>
                 <Card.Img variant="top" src="./images/English.jpg" />
                 <Card.Text>
                   Where words come alive! Let's read, write, and explore.
@@ -41,9 +41,9 @@ function Home() {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "20rem", height: "28rem" }}>
+              <Card style={{ width: "22rem", height: "28rem" }}>
               <Card.Body>
-                <Card.Title>What's More ?</Card.Title>
+                <Card.Title className="title">What's More ?</Card.Title>
                 <Card.Img variant="top" src="./images/more.jpg" />
                 <Card.Text>
                   From science to history, we've got it all,
