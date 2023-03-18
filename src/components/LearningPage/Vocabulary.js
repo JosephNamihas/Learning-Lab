@@ -57,16 +57,23 @@ const Vocabulary = () => {
     getWordDetails(word);
   };
 
+  // Function to capitlise
+  const makeUpperCase = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1)
+  }
+
   return (
+    <div>
+    <Container className="py -5 wrapper text-center justify-content-center"></Container>
     <div className="words-form">
       <Container className="py -5 wrapper text-center justify-content-center">
-      <h1 className="words-title">English Lab</h1>
+      <h1 className="words-title">English Corner</h1>
       <Form onSubmit={handleSearch}>
         <Form.Group>
           <Form.Control
           type="text"
           placeholder="Enter a word"
-          value={word}
+          value={makeUpperCase(word)}
           onChange={(e) => setWord(e.target.value)}
         />
 
@@ -75,22 +82,23 @@ const Vocabulary = () => {
       <Button style={{width: "10rem"}} className="words-random" onClick={getRandomWord}>Random Word</Button>
 
       <h2 className="bold">Definition:</h2>
-      <p>{definition}</p>
+      <p>{makeUpperCase(definition)}</p>
       <h2 className="bold">Synonyms:</h2>
       <ul>
         {synonyms.map((synonym) => (
-          <li key={synonym}>{synonym}</li>
+          <li key={makeUpperCase(synonym)}>{makeUpperCase(synonym)}</li>
         ))}
       </ul>
       
       <h2 className="bold">Random Word:</h2>
-      <p>{randomWord}</p> 
+      <p>{makeUpperCase(randomWord)}</p> 
+
 
       </Form.Group>
-      </Form>
-      </Container>
+    </Form>
+  </Container>
     </div>
-    
+  </div>
   );
 };
 
