@@ -11,9 +11,9 @@ function Footer() {
       <Container>
         <Row>
           <div className="text-center">
-				    <a className="social" href="#" target="_blank"><GitHubIcon /></a>
-            <a href="#" target="_blank"><EmailIcon /></a>
-            <a href="#" target="_blank"><ShareIcon /></a>
+				    <a href="https://github.com/JosephNamihas/Learning-Lab" target="_blank"><GitHubIcon /></a>
+            <a href="/ContactForm"><EmailIcon /></a>
+            <a href="#"><ShareIcon /></a>
           </div>
           <Col className="text-center copy">
             &copy; 2023 Copyright | Learning_Lab

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import moment from "moment";
+import styles from "./styles.planner.css";
 
 const Planner = () => {
   // Initialize inputValues state to store the input data

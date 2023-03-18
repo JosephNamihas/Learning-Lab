@@ -12,16 +12,16 @@ function Collapsible() {
   return (
     <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand className="logo" href="#Home">LEARNING_LAB</Navbar.Brand>
+        <Navbar.Brand className="logo" href="/Home">LEARNING_LAB</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/Math"><CalculateIcon /></Nav.Link>
             <Nav.Link href="#pricing"><FontDownloadIcon /></Nav.Link>
-            <Nav.Link href="#Journal"><NewspaperIcon /></Nav.Link>
+            <Nav.Link href="/Planner"><NewspaperIcon /></Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets"> <HomeIcon /> </Nav.Link>
+            <Nav.Link href="/Home"> <HomeIcon /> </Nav.Link>
             <Nav.Link href="/ContactForm"> <HelpIcon /> </Nav.Link>
           </Nav>
         </Navbar.Collapse>
