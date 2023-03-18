@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Button, Container, Form } from "react-bootstrap";
+import './styles.vocabulary.css';
 
 const Vocabulary = () => {
   const [word, setWord] = useState("");
@@ -56,30 +58,39 @@ const Vocabulary = () => {
   };
 
   return (
-    <div>
-      <h1>Words API</h1>
-      <form onSubmit={handleSearch}>
-        <input
+    <div className="words-form">
+      <Container className="py -5 wrapper text-center justify-content-center">
+      <h1 className="words-title">English Lab</h1>
+      <Form onSubmit={handleSearch}>
+        <Form.Group>
+          <Form.Control
           type="text"
           placeholder="Enter a word"
           value={word}
           onChange={(e) => setWord(e.target.value)}
         />
-        <button type="submit">Search</button>
-      </form>
-      <button onClick={getRandomWord}>Random Word</button>
-      <h2>{word}</h2>
-      <h3>Definition:</h3>
+
+        <Button style={{width: "10rem"}} className="words-submit" type="submit">Search</Button>
+       
+      <Button style={{width: "10rem"}} className="words-random" onClick={getRandomWord}>Random Word</Button>
+
+      <h2 className="bold">Definition:</h2>
       <p>{definition}</p>
-      <h3>Synonyms:</h3>
+      <h2 className="bold">Synonyms:</h2>
       <ul>
         {synonyms.map((synonym) => (
           <li key={synonym}>{synonym}</li>
         ))}
       </ul>
-      <h3>Random Word:</h3>
-      <p>{randomWord}</p>
+      
+      <h2 className="bold">Random Word:</h2>
+      <p>{randomWord}</p> 
+
+      </Form.Group>
+      </Form>
+      </Container>
     </div>
+    
   );
 };
 

@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Form, Container } from "react-bootstrap";
-import styles from "./styles.form.css";
 
 
 function ContactForm() {
   const [name, setName] = useState('');
-  const [email, setEmail] = useState(''); 
+  const [email, setEmail] = useState('');
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
@@ -25,7 +24,7 @@ function ContactForm() {
   return (
     <div>
       <Container className="py-5 wrapper text-center justify-content-center">
-      <h2>Contact Us</h2>
+        <h2>Contact Us</h2>
         <p className="text"> We are always looking for ways to serve you better. </p>
         <p className="text">Please leave us feedback or make enquires using the form below.</p>
         {!submitted ? (
