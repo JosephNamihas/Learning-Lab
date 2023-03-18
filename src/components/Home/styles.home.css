@@ -13,6 +13,10 @@ h1 {
   font-family: var(--font-logo);
 }
 
+.title {
+  padding-bottom: 10px;
+}
+
 .main-btn {
   background: var(--dark-green);
   margin-top: 20px;
@@ -56,7 +60,8 @@ h1 {
 }
 
 p.card-text {
-  font-size: 1rem;
+  font-size: 0.9rem;
+  font-style: italic;
 }
 
 .my-btn {
