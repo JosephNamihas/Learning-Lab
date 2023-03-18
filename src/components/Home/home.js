@@ -17,36 +17,37 @@ function Home() {
           <div className="py-3 d-flex justify-content-center">
           <Row>
             <Col>
-              <Card style={{ width: "20rem", height: "auto" }}>
+              <Card style={{ width: "20rem", height: "28rem" }}>
               <Card.Body>
                 <Card.Title>Mathematics</Card.Title>
                 <Card.Img variant="top" src="./images/math.jpg" />
                 <Card.Text>
-                  Some quick example text to build on the card tite
+                  Maths made fun...Count on us for a fun filled ride!
                 </Card.Text>
                 <Button className="my-btn" variant="warning" href="/Math">Let's Start</Button>
               </Card.Body>
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "20rem", height: "auto" }}>
+              <Card style={{ width: "20rem", height: "28rem" }}>
               <Card.Body>
                 <Card.Title>English</Card.Title>
                 <Card.Img variant="top" src="./images/English.jpg" />
                 <Card.Text>
-                  Some quick example text to build on the card tite
+                  Where words come alive! Let's read, write, and explore.
                 </Card.Text>
-                <Button className="my-btn" variant="warning">Let's Start</Button>
+                <Button className="my-btn" variant="warning" href="/Vocabulary">Let's Start</Button>
               </Card.Body>
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "20rem", height: "auto" }}>
+              <Card style={{ width: "20rem", height: "28rem" }}>
               <Card.Body>
                 <Card.Title>What's More ?</Card.Title>
                 <Card.Img variant="top" src="./images/more.jpg" />
                 <Card.Text>
-                  Some quick example text to build on the card tite
+                  From science to history, we've got it all,
+Come learn with us and have a ball! 
                 </Card.Text>
                 <Button className="my-btn" variant="warning">Next <NavigateNextIcon /></Button>
               </Card.Body>
