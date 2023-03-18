@@ -24,7 +24,7 @@ function Home() {
                 <Card.Text>
                   Some quick example text to build on the card tite
                 </Card.Text>
-                <Button className="my-btn" variant="warning">Let's Start</Button>
+                <Button className="my-btn" variant="warning" href="/Math">Let's Start</Button>
               </Card.Body>
               </Card>
             </Col>

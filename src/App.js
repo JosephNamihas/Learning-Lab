@@ -7,7 +7,7 @@ import Math from './components/LearningPage/Math/Math';
 import ContactForm from './components/ContactForm/Form';
 // import Vocabulary from './components/LearningPage/Vocabulary';
 import Footer from './components/Shared/Footer/Footer';
-// import Planner from "./components/Journal/Planner";
+import Planner from "./components/Journal/Planner";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 {/*const options = {
@@ -31,8 +31,9 @@ function App() {
       <div className="App">
         <Collapsible />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/Math" element={<Math />} />
+          <Route path="/Planner" element={<Planner />} />
           <Route path="/ContactForm" element={<ContactForm />} />
           {/* Route Path to Planner */}
           
