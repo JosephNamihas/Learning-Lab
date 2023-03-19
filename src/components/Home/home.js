@@ -49,7 +49,9 @@ function Home() {
                   From science to history, we've got it all,
 Come learn with us and have a ball! 
                 </Card.Text>
+                <Link to="/learn">
                 <Button className="my-btn" variant="warning">Next <NavigateNextIcon /></Button>
+                </Link>
               </Card.Body>
               </Card>
             </Col>

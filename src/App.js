@@ -24,12 +24,12 @@ function App() {
       <div className="App">
         <Collapsible />
         <Routes>
-          <Route path="/Home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Math" element={<Math />} />
           <Route path="/Planner" element={<Planner />} />
           <Route path="/Vocabulary" element={<Vocabulary />} />
           <Route path="/ContactForm" element={<ContactForm />} />
-          <Route path="/" element={<Main />} index />
+          <Route path="/more" element={<Main />} index />
           <Route path="/Learn" element={<Learn />} />
           <Route path="/geography" element={<Geography />} />
           <Route path="/history" element={<History />} />
