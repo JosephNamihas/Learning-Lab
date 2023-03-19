@@ -11,7 +11,7 @@ import Planner from "./components/Journal/Planner";
 import Login from "./components/LandingPage/AvatarSelector";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from './components/LearningPage/Main';
-import Learn from '.components/LearningPage/Learn';
+import Learn from './components/LearningPage/Learn';
 import Geography from "./components/LearningPage/Geography";
 import History from "./components/LearningPage/History";
 import Science from "./components/LearningPage/Science";
@@ -26,12 +26,12 @@ function App() {
       <div className="App">
         <Collapsible />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} index />
           <Route path="/Math" element={<Math />} />
           <Route path="/Planner" element={<Planner />} />
           <Route path="/Vocabulary" element={<Vocabulary />} />
           <Route path="/ContactForm" element={<ContactForm />} />
-          <Route path="/more" element={<Main />} index />
+          <Route path="/Main" element={<Main />} />
           <Route path="/Learn" element={<Learn />} />
           <Route path="/geography" element={<Geography />} />
           <Route path="/history" element={<History />} />
@@ -40,7 +40,6 @@ function App() {
           <Route path="/spanish" element={<Spanish />} />
           <Route path="/french" element={<French />} />
           <Route path="/Login" element={<Login />} />
-          <Route path="/" element={<Main />} index />
 
         </Routes>
         <Footer />
@@ -48,22 +47,5 @@ function App() {
     </Router>
   );
 }
-
-
-
-
-{/*function Learn() {
-  return (
-    <div>
-      <Geography />
-      <History />
-      <Science />
-      <Library />
-      <Spanish />
-      <French />
-    </div>
-  );
-}*/}
-
 
 export default App;

@@ -14,7 +14,7 @@ function Learn() {
               <Card.Title>Library</Card.Title>
               <Card.Text>Explore our library resources.</Card.Text>
               <Link to="/library">
-                <Button variant="primary">Go to Library</Button>
+                <Button className="my-btn" variant="warning">Go to Library</Button>
               </Link>
             </Card.Body>
           </Card>
@@ -25,7 +25,7 @@ function Learn() {
               <Card.Title>Geography</Card.Title>
               <Card.Text>Explore the world of Geography.</Card.Text>
               <Link to="/geography">
-                <Button variant="primary">Go to Geography</Button>
+                <Button className="my-btn" variant="warning">Go to Geography</Button>
               </Link>
             </Card.Body>
           </Card>
@@ -36,7 +36,7 @@ function Learn() {
               <Card.Title>History</Card.Title>
               <Card.Text>Dive into the history of humanity.</Card.Text>
               <Link to="/history">
-                <Button variant="primary">Go to History</Button>
+                <Button className="my-btn" variant="warning">Go to History</Button>
               </Link>
             </Card.Body>
           </Card>
@@ -47,7 +47,7 @@ function Learn() {
               <Card.Title>Science</Card.Title>
               <Card.Text>Discover the wonders of Science.</Card.Text>
               <Link to="/science">
-                <Button variant="primary">Go to Science</Button>
+                <Button className="my-btn" variant="warning">Go to Science</Button>
               </Link>
             </Card.Body>
           </Card>
@@ -59,7 +59,7 @@ function Learn() {
               <Card.Title>Spanish</Card.Title>
               <Card.Text>Learn the Spanish language.</Card.Text>
               <Link to="/spanish">
-                <Button variant="primary">Go to Spanish</Button>
+                <Button className="my-btn" variant="warning">Go to Spanish</Button>
               </Link>
             </Card.Body>
           </Card>
@@ -70,7 +70,7 @@ function Learn() {
               <Card.Title>French</Card.Title>
               <Card.Text>Learn the French language.</Card.Text>
               <Link to="/french">
-                <Button variant="primary">Go to French</Button>
+                <Button className="my-btn" variant="warning">Go to French</Button>
               </Link>
             </Card.Body>
           </Card>
