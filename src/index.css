@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -18,6 +18,7 @@ code {
 :root {
   --font-poppins: "Poppins", sans-serif;
   --font-logo: "Righteous", sans-serif;
+  --font-name: "Pacifico", sans-serif;
   --light-green: #adddce;
   --yellow: #f2bc6b;
   --orange: #ff9900;

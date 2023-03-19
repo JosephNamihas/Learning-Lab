@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
-import AvatarAlex from '../assets/Avatar-Alex.png';
-import AvatarMona from '../assets/Avatar-Mona.png';
-import AvatarHope from '../assets/Avatar-Hope.png';
-import AvatarLux from '../assets/Avatar-Lux.png';
-import AvatarFlash from '../assets/Avatar-Flash.png';
-import AvatarNeya from '../assets/Avatar-Neya.png';
-import AvatarPeony from '../assets/Avatar-Peony.png';
-import AvatarMario from '../assets/Avatar-Mario.png';
-import AvatarZei from '../assets/Avatar-Zei.png';
+import AvatarAlex from './avatars/Avatar-Alex.png';
+import AvatarMona from './avatars/Avatar-Mona.png';
+import AvatarHope from './avatars/Avatar-Hope.png';
+import AvatarLux from './avatars/Avatar-Lux.png';
+import AvatarFlash from './avatars/Avatar-Flash.png';
+import AvatarNeya from './avatars/Avatar-Neya.png';
+import AvatarPeony from './avatars/Avatar-Peony.png';
+import AvatarMario from './avatars/Avatar-Mario.png';
+import AvatarZei from './avatars/Avatar-Zei.png';
+import { Button, Container, Form, InputGroup, DropdownButton } from "react-bootstrap";
+import styles from "./styles.avatars.css";
 
 function Login() {
   const [username, setUsername] = useState(localStorage.getItem('username') || '');
@@ -53,20 +55,25 @@ function Login() {
   return (
     <div className="landing-page">
       {username ? (
-        <div className="welcome-message">
-          <h1>Welcome to the Learning Lab, {username}!</h1>
+        <Container className="welcome-message py-5 text-center">
+          <h2>Welcome to the Learning Lab, <span>{username} !</span></h2>
           <div className="user-info">
-            <div className="user-box">
-              {avatar && <img src={avatarMap[avatar.replace('.png', '')]} alt="Selected avatar" />}
-              <p>{username}</p>
+            <div>
+              {avatar && <img className="user-box" src={avatarMap[avatar.replace('.png', '')]} alt="Selected avatar" />}
             </div>
-            <button onClick={handleClearStorage}> Change Profile</button>
+            <Button 
+              className="change-profile avatar-btn"              
+              variant="outline-success" 
+              onClick={handleClearStorage}> Change Profile
+            </Button>
           </div>
-        </div>
+        </Container>
       ) : (
-        <div className="login-form">
-          <h1>Welcome to the Learning Lab</h1>
-          <input
+        <Container className="login-form py-5 text-center name-area">
+          <h2>Welcome to the Learning Lab</h2>
+          <InputGroup>
+          <Form.Control
+          
             type="text"
             placeholder="Enter your name"
             value={inputValue}
@@ -80,8 +87,13 @@ function Login() {
               ))}
             </select>
           </div>
-          <button onClick={handleLogin}>Login</button>
-        </div>
+          <Button 
+            className="avatar-btn"
+            variant="outline-success" 
+            onClick={handleLogin}>Login
+          </Button>
+          </InputGroup>
+        </Container>
       )}
     </div>
   );

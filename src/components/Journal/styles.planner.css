@@ -1,6 +1,7 @@
 .date {
   width: 6rem;
   flex-direction: row-reverse;
+  font-family: var(--font-poppins);
 }
 
 .text-area {

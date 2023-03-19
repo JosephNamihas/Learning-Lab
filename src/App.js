@@ -1,13 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-// import * as ReactDOM from 'react-dom';
+// import * as ReactDOM from "react-dom";
 import Home from "./components/Home/home";
-import Collapsible from './components/Shared/Navbar/Navbar';
-import Math from './components/LearningPage/Math/Math';
-import ContactForm from './components/ContactForm/Form';
-import Vocabulary from './components/LearningPage/Vocabulary';
-import Footer from './components/Shared/Footer/Footer';
+import Collapsible from "./components/Shared/Navbar/Navbar";
+import Math from "./components/LearningPage/Math/Math";
+import ContactForm from "./components/ContactForm/Form";
+import Vocabulary from "./components/LearningPage/Vocabulary";
+import Footer from "./components/Shared/Footer/Footer";
 import Planner from "./components/Journal/Planner";
+import Login from "./components/LandingPage/AvatarSelector";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from './components/LearningPage/Main';
 import Learn from '.components/LearningPage/Learn';
@@ -17,6 +18,7 @@ import Science from "./components/LearningPage/Science";
 import Library from "./components/LearningPage/Library";
 import Spanish from "./components/LearningPage/Spanish";
 import French from "./components/LearningPage/French";
+
 
 function App() {
   return (
@@ -37,6 +39,9 @@ function App() {
           <Route path="/library" element={<Library />} />
           <Route path="/spanish" element={<Spanish />} />
           <Route path="/french" element={<French />} />
+          <Route path="/Login" element={<Login />} />
+          <Route path="/" element={<Main />} index />
+
         </Routes>
         <Footer />
       </div>
@@ -44,6 +49,21 @@ function App() {
   );
 }
 
+
+
+
+{/*function Learn() {
+  return (
+    <div>
+      <Geography />
+      <History />
+      <Science />
+      <Library />
+      <Spanish />
+      <French />
+    </div>
+  );
+}*/}
 
 
 export default App;
