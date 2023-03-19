@@ -24,7 +24,7 @@ function App() {
           <Route path="/Vocabulary" element={<Vocabulary />} />
           <Route path="/ContactForm" element={<ContactForm />} />
           <Route path="/" element={<Main />} index />
-          <Route path="/learn" element={<Learn />} />
+          <Route path="/Learn" element={<Learn />} />
         </Routes>
         <Footer />
       </div>
@@ -32,17 +32,6 @@ function App() {
   );
 }
 
-function Learn() {
-  return (
-    <div>
-      <Geography />
-      <History />
-      <Science />
-      <Library />
-      <Spanish />
-      <French />
-    </div>
-  );
-}
+
 
 export default App;
