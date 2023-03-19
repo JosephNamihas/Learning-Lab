@@ -11,7 +11,7 @@ import Planner from "./components/Journal/Planner";
 import Login from "./components/LandingPage/AvatarSelector";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from './components/LearningPage/Main';
-import Learn from '.components/LearningPage/Learn';
+// import Learn from '.components/LearningPage/Learn';
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
           <Route path="/ContactForm" element={<ContactForm />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/" element={<Main />} index />
-          <Route path="/learn" element={<Learn />} />
+          {/*<Route path="/learn" element={<Learn />} />*/}
         </Routes>
         <Footer />
       </div>
@@ -34,7 +34,7 @@ function App() {
   );
 }
 
-function Learn() {
+{/*function Learn() {
   return (
     <div>
       <Geography />
@@ -45,6 +45,6 @@ function Learn() {
       <French />
     </div>
   );
-}
+}*/}
 
 export default App;
