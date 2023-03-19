@@ -51,7 +51,7 @@ const Math = () => {
             <div className="category-buttons">
               {categories.map((category, index) => ( 
                 <Row style={{ width: "10rem", height: "2rem", marginTop: "1rem"}}>
-                  <Button variant="outline"
+                  <Button variant="outline-success"
                     key={index}
                     onClick={() => handleCategoryClick(index)}
                     style={{ backgroundColor: "var(--green)", boxShadow: "var(--shadow)" }}
