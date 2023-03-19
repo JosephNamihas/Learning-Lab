@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import moment from "moment";
-import { Button, Container, Col, Row, Form, InputGroup } from "react-bootstrap";
+import { Button, Container, Form, InputGroup } from "react-bootstrap";
 import styles from "./styles.planner.css";
 
 const Planner = () => {
@@ -71,7 +71,11 @@ const Planner = () => {
             onChange={(e) => handleInputChange(date, e.target.value)}
           />
           {/* Add a "Clear" button for each input field that calls the clearInputField function */}
-          <Button variant="secondary" id="button-addon2" onClick={() => clearInputField(date)}>Clear</Button>
+          <Button 
+            variant="secondary" 
+            id="button-addon2" 
+            onClick={() => clearInputField(date)}>Clear
+          </Button>
           </InputGroup>
         </Container>
       );

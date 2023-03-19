@@ -1,0 +1,38 @@
+.avatar-btn {
+  box-shadow: var(--shadow);
+  background-color: var(--green);
+  color: aliceblue;
+}
+
+h2 {
+  font-family: var(--font-poppins);
+  padding-bottom: 20px;
+}
+
+span {
+  font-family: var(--font-name);
+  color: green;
+  font-size: 2.5rem;
+}
+
+.name-area {
+  width: 40rem;
+}
+
+.avatar-choices {
+  padding: 6px 12px;
+  background-color: var(--orange);
+}
+
+.user-box {
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+}
+
+.user-box:hover {
+  transform: scale(1.02);
+}
+
+.change-profile {
+  margin-top: 20px;
+}
