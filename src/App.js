@@ -32,4 +32,17 @@ function App() {
   );
 }
 
+function Learn() {
+  return (
+    <div>
+      <Geography />
+      <History />
+      <Science />
+      <Library />
+      <Spanish />
+      <French />
+    </div>
+  );
+}
+
 export default App;
