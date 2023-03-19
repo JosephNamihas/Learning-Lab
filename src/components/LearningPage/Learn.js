@@ -1,45 +1,82 @@
 // Learn.js
-import { Route, Link } from 'react-router-dom';
-import Geography from './Geography';
-import History from './History';
-import Science from './Science';
-import Library from './Library';
-import Spanish from './Spanish';
-import French from './French';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Card, Container, Row, Col, Button } from "react-bootstrap";
 
 function Learn() {
   return (
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/learn/geography">Geography</Link>
-          </li>
-          <li>
-            <Link to="/learn/history">History</Link>
-          </li>
-          <li>
-            <Link to="/learn/science">Science</Link>
-          </li>
-          <li>
-            <Link to="/learn/library">Library</Link>
-          </li>
-          <li>
-            <Link to="/learn/spanish">Spanish</Link>
-          </li>
-          <li>
-            <Link to="/learn/french">French</Link>
-          </li>
-        </ul>
-      </nav>
+    <Container>
+      <h1 className="text-center">Other Subjects</h1>
+      <Row>
+        <Col md={4} className="mb-4">
+          <Card>
+            <Card.Body>
+              <Card.Title>Library</Card.Title>
+              <Card.Text>Explore our library resources.</Card.Text>
+              <Link to="/library">
+                <Button variant="primary">Go to Library</Button>
+              </Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={4} className="mb-4">
+          <Card>
+            <Card.Body>
+              <Card.Title>Geography</Card.Title>
+              <Card.Text>Explore the world of Geography.</Card.Text>
+              <Link to="/geography">
+                <Button variant="primary">Go to Geography</Button>
+              </Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={4} className="mb-4">
+          <Card>
+            <Card.Body>
+              <Card.Title>History</Card.Title>
+              <Card.Text>Dive into the history of humanity.</Card.Text>
+              <Link to="/history">
+                <Button variant="primary">Go to History</Button>
+              </Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={4} className="mb-4">
+          <Card>
+            <Card.Body>
+              <Card.Title>Science</Card.Title>
+              <Card.Text>Discover the wonders of Science.</Card.Text>
+              <Link to="/science">
+                <Button variant="primary">Go to Science</Button>
+              </Link>
+            </Card.Body>
+          </Card>
+        </Col>
 
-      <Route path="/learn/geography" element={<Geography />} />
-      <Route path="/learn/history" element={<History />} />
-      <Route path="/learn/science" element={<Science />} />
-      <Route path="/learn/library" element={<Library />} />
-      <Route path="/learn/spanish" element={<Spanish />} />
-      <Route path="/learn/french" element={<French />} />
-    </div>
+        <Col md={4} className="mb-4">
+          <Card>
+            <Card.Body>
+              <Card.Title>Spanish</Card.Title>
+              <Card.Text>Learn the Spanish language.</Card.Text>
+              <Link to="/spanish">
+                <Button variant="primary">Go to Spanish</Button>
+              </Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={4} className="mb-4">
+          <Card>
+            <Card.Body>
+              <Card.Title>French</Card.Title>
+              <Card.Text>Learn the French language.</Card.Text>
+              <Link to="/french">
+                <Button variant="primary">Go to French</Button>
+              </Link>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

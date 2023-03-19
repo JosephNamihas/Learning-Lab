@@ -11,6 +11,12 @@ import Planner from "./components/Journal/Planner";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from './components/LearningPage/Main';
 import Learn from '.components/LearningPage/Learn';
+import Geography from "./components/LearningPage/Geography";
+import History from "./components/LearningPage/History";
+import Science from "./components/LearningPage/Science";
+import Library from "./components/LearningPage/Library";
+import Spanish from "./components/LearningPage/Spanish";
+import French from "./components/LearningPage/French";
 
 function App() {
   return (
@@ -25,6 +31,12 @@ function App() {
           <Route path="/ContactForm" element={<ContactForm />} />
           <Route path="/" element={<Main />} index />
           <Route path="/Learn" element={<Learn />} />
+          <Route path="/geography" element={<Geography />} />
+          <Route path="/history" element={<History />} />
+          <Route path="/science" element={<Science />} />
+          <Route path="/library" element={<Library />} />
+          <Route path="/spanish" element={<Spanish />} />
+          <Route path="/french" element={<French />} />
         </Routes>
         <Footer />
       </div>
