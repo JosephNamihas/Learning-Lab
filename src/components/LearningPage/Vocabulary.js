@@ -65,24 +65,33 @@ const Vocabulary = () => {
   console.log(definition);
   return (
     <div>
-    <div className="words-form text-center py-5 ">
-    <h1 className="words-title">English Corner</h1>
-      <Container className="py-3 d-flex justify-content-center">
+    <Container className="py-5 wrapper text-center words-form">
+      <h1 className="words-title">English Corner</h1>
       
-      <Form onSubmit={handleSearch}>
+      <Form onSubmit={handleSearch} className="py-3">
         <Form.Group>
           <Form.Control
-          className="word-input"
+          className="words-box"
           type="text"
           placeholder="Enter a word"
           value={makeUpperCase(word)}
           onChange={(e) => setWord(e.target.value)}
-        />
+          />
 
-        <Button variant="outline-warning" style={{width: "10rem"}} className="words-submit" type="submit">Search</Button>
+        <Button 
+          variant="outline-warning" 
+          style={{width: "10rem"}} 
+          className="words-submit" 
+          type="submit">Search
+        </Button>
        
-        <Button variant="outline-warning" style={{width: "10rem"}} className="words-random" onClick={getRandomWord}>Random Word</Button>
-
+        <Button 
+          variant="outline-warning" 
+          style={{width: "10rem"}} 
+          className="words-random" 
+          onClick={getRandomWord}>Random Word
+        </Button>
+      
       <h2 className="bold">Definition:</h2>
       <p>{makeUpperCase(definition)}</p>
       <h2 className="bold">Synonyms:</h2>
@@ -94,12 +103,9 @@ const Vocabulary = () => {
       
       <h2 className="bold">Random Word:</h2>
       <p>{makeUpperCase(randomWord)}</p> 
-
-
       </Form.Group>
     </Form>
   </Container>
-    </div>
   </div>
   );
 };

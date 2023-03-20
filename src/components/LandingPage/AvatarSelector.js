@@ -56,7 +56,7 @@ function Login() {
     <div className="landing-page">
       {username ? (
         <Container className="welcome-message py-5 text-center">
-          <h2>Welcome to the Learning Lab, <span>{username} !</span></h2>
+          <h2>Welcome to the Learning Lab, <span className="span-name"> {username} !</span></h2>
           <div className="user-info">
             <div>
               {avatar && <img className="user-box" src={avatarMap[avatar.replace('.png', '')]} alt="Selected avatar" />}
