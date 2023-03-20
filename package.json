@@ -6,6 +6,11 @@
     "react",
     "starter"
   ],
+
+  "resolutions": {
+    "@babel/runtime": "7.18.0"
+  },
+  
   "main": "src/index.js",
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -24,7 +29,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@babel/runtime": "^7.13.8",
+    "@babel/runtime": "^7.21.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -53,4 +58,5 @@
     "not ie <= 11",
     "not op_mini all"
   ]
+  
 }
