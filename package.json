@@ -7,8 +7,8 @@
     "starter"
   ],
 
-  "homepage": "https://resilient-sunflower-ac37e6.netlify.app",
-  
+  "homepage": "https://resilient-sunflower-ac37e6.netlify.app/Home",
+
   "resolutions": {
     "@babel/runtime": "7.18.0"
   },
