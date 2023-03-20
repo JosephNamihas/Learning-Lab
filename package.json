@@ -6,6 +6,9 @@
     "react",
     "starter"
   ],
+
+  "homepage": "https://resilient-sunflower-ac37e6.netlify.app",
+  
   "resolutions": {
     "@babel/runtime": "7.18.0"
   },
