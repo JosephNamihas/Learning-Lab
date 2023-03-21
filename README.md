@@ -101,7 +101,7 @@ Suzie - ``` "For this project, I would say that I really enjoyed working with th
 
 Jenelle - ``` ```
 
-Joe - ``` ```
+Joe - ```"It was great working with this team. We had a plan from day one and executed it efficently and with plenty of time to spare. We all agreed on the principle of the app and managed to build and implement the features as we went along.  ```
 
 
 ## Credits
