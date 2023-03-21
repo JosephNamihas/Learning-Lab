@@ -87,7 +87,7 @@ Once the app is running, you can access it by opening a web browser and navigati
 
 Augustine - ``` ```
 
-Suzie - ``` "For this project, I would say that I really enjoyed working with the team. We planned well and kept communicating throughout the project, we came across many challenges but we did manage to get our project done nicely. It was a pleasure to work with you all." ```
+Suzie - ``` "For this project, I would say that I really enjoyed working with the team. We planned well and kept communicating throughout the project, we came across many challenges but we did manage to get our project done nicely. It was a pleasure to work with you all. Thank you team 😊" ```
 
 Jenelle - ``` ```
 
