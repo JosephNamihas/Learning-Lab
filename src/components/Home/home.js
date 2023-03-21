@@ -9,15 +9,8 @@ function Home() {
       <header className="Home-header">
         <Container className="text-center">
           <Card.Body>
-            <p>Hi there, welcome to</p>
-            <h1>The Learning Lab</h1>
             <h3>Get ready to ignite your learning journey with us!</h3>
           </Card.Body>
-          <Button
-            className="py-3 main-btn"
-            variant="success"
-            href="/Login">Awesome Things Here
-          </Button>
           <div className="py-3 d-flex justify-content-center">
             <Row>
               <Col>

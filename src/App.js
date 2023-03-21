@@ -25,7 +25,9 @@ function App() {
     <Router>
       <div className="App">
         <Collapsible />
+        <Login />
         <Routes>
+          <Route path="/" element={<Home />} index />
           <Route path="/Home" element={<Home />} index />
           <Route path="/Math" element={<Math />} />
           <Route path="/Planner" element={<Planner />} />
@@ -39,7 +41,6 @@ function App() {
           <Route path="/library" element={<Library />} />
           <Route path="/spanish" element={<Spanish />} />
           <Route path="/french" element={<French />} />
-          <Route path="/Login" element={<Login />} />
 
         </Routes>
         <Footer />
