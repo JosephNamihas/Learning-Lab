@@ -7,7 +7,7 @@
 The Learning Lab is an educational platform for children that aims to make learning fun and engaging. The platform currently covers three subjects: Maths, Reading, and vocabulary, and utilizes APIs such as Trivia API, Open Library API, and Word API to provide content for the users.
 
 
- ## Table of Contents
+## Table of Contents
 
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
@@ -80,6 +80,14 @@ Once the app is running, you can access it by opening a web browser and navigati
 
 
 ## Future Development
+
+* Add more content to make our website accessible to learners from Early Years to KS4.
+* Cater to the needs of our dedicated educators with a dedicated teacher domain for personalized assignments, group management, and tailor-made resources for easy planning and downloads.
+* Integrate the learning platform with popular LMS systems used by schools, such as Blackboard or Canvas, in addition to a dedicated teacher domain.
+* Create domains for schools to have their own personal account. This will help teachers select appropriate topics for special groups of students based on their interests and learning style, using data from quizzes and other assessments.
+* Translate scores on quizzes and time spent learning into rewards based on the school's behavior policy, such as house points, merits, and badges, to encourage engagement and motivation.
+* Enhance the platform's offerings and appeal to a wider range of learners by incorporating more interactive content, such as simulations, games, and videos.
+* Expand the selection of books by adding more authors to enhance the platform's offerings and appeal to a wider range of learners.
 
 
 
