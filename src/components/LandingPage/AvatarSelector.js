@@ -8,7 +8,7 @@ import AvatarNeya from './avatars/Avatar-Neya.png';
 import AvatarPeony from './avatars/Avatar-Peony.png';
 import AvatarMario from './avatars/Avatar-Mario.png';
 import AvatarZei from './avatars/Avatar-Zei.png';
-import { Button, Container, Form, InputGroup, DropdownButton } from "react-bootstrap";
+import { Button, Container, Form, InputGroup } from "react-bootstrap";
 import styles from "./styles.avatars.css";
 
 function Login() {
@@ -64,7 +64,7 @@ function Login() {
             <Button 
               className="change-profile avatar-btn"              
               variant="outline-success" 
-              onClick={handleClearStorage}> Change Profile
+              onClick={handleClearStorage}>Change Profile
             </Button>
           </div>
         </Container>
