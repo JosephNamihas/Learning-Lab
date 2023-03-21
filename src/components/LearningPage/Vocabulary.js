@@ -66,7 +66,7 @@ const Vocabulary = () => {
   return (
     <div>
     <Container className="py-5 wrapper text-center words-form">
-      <h1 className="words-title">English Corner</h1>
+      <h1 className="words-title">Dictionary</h1>
       
       <Form onSubmit={handleSearch} className="py-3">
         <Form.Group>
@@ -84,13 +84,6 @@ const Vocabulary = () => {
           className="words-submit" 
           type="submit">Search
         </Button>
-       
-        <Button 
-          variant="outline-warning" 
-          style={{width: "10rem"}} 
-          className="words-random" 
-          onClick={getRandomWord}>Random Word
-        </Button>
       
       <h2 className="bold">Definition:</h2>
       <p>{makeUpperCase(definition)}</p>
@@ -101,8 +94,6 @@ const Vocabulary = () => {
         ))}
       </ul>
       
-      <h2 className="bold">Random Word:</h2>
-      <p>{makeUpperCase(randomWord)}</p> 
       </Form.Group>
     </Form>
   </Container>
