@@ -1,6 +1,8 @@
 # The Learning_Lab
 
-![MIT License](https://img.shields.io/badge/license-MIT-yellow)
+![MIT License](https://img.shields.io/badge/license-MIT-yellow) [![Netlify Status](https://api.netlify.com/api/v1/badges/8d3ed95a-1242-46e6-a7ca-9cafc087ebfb/deploy-status)](https://app.netlify.com/sites/thelearninglab-resilient-sunflower/deploys)
+
+
 
 ## Description
 
