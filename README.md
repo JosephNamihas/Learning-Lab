@@ -55,6 +55,7 @@ The Learning Lab should meet the following criteria:
 * React Spinner
 * Maths.js
 * Moment.js
+* ThreeJS
 * CSS
 
 ## Installation
@@ -64,7 +65,7 @@ To access the deployed version of this project, simply visit the following URL:
 
 If you'd like to make changes to the project and deploy your own version, you can follow these steps:
 
-1. Clone this repository to your local machine using the command git clone https://github.com/your-username/your-project.git.
+1. Clone this repository to your local machine using the command git clone https://github.com/JosephNamihas/Learning-Lab.git
 2. Navigate to the project directory in your terminal using the command cd your-project.
 3. Install the required dependencies by running the command npm install.
 4. Deploy the project to Netlify using the command npm run build.
