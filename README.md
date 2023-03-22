@@ -99,7 +99,7 @@ Augustine - ``` ```
 
 Suzie - ``` "For this project, I would say that I really enjoyed working with the team. We planned well and kept communicating throughout the project, we came across many challenges but we did manage to get our project done nicely. It was a pleasure to work with you all. Thank you team 😊" ```
 
-Jenelle - ``` ```"I feel immensely grateful for the opportunity to be a part of this amazing team that developed the Learning_Lab. It was an incredible experience working with some of the best in the field. From planning to creating to deployment, I had a lot of fun while learning and growing."
+Jenelle - ``` "I feel immensely grateful for the opportunity to be a part of this amazing team that developed the Learning_Lab. It was an incredible experience working with some of the best in the field. From planning to creating to deployment, I had a lot of fun while learning and growing." ```
 
 Joe - ```"It was great working with this team. We had a plan from day one and executed it efficently and with plenty of time to spare. We all agreed on the principle of the app and managed to build and implement the features as we went along.  ```
 
