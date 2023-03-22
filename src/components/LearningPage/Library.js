@@ -8,7 +8,7 @@ function Library() {
   useEffect(() => {
     function fetchbooks() {
       document.getElementById("output").innerHTML = "";
-      fetch("http://openlibrary.org/search.json?author=Roald+Dahl&limit=25")
+      fetch("https://openlibrary.org/search.json?author=Roald+Dahl&limit=25")
         .then(response => response.json())
         .then(data => {
           var books = data.docs.filter(doc => doc.cover_i).slice(0, 20); // filter out books without covers and limit to 20
@@ -28,10 +28,10 @@ function Library() {
           <div key={book.key} className="book">
             <h2>{book.title}</h2>
             {book.author_name[0]}<br />
-            <a href={`http://openlibrary.org${book.key}`} target="_blank" rel="noopener noreferrer">
-              <img src={`http://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`} alt={book.title} />
+            <a href={`https://openlibrary.org${book.key}`} target="_blank" rel="noopener noreferrer">
+              <img src={`https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`} alt={book.title} />
             </a><br />
-            <a href={`http://openlibrary.org${book.key}`} target="_blank" rel="noopener noreferrer">Read Book</a>
+            <a href={`https://openlibrary.org${book.key}`} target="_blank" rel="noopener noreferrer">Read Book</a>
           </div>
         ))}
       </div>
