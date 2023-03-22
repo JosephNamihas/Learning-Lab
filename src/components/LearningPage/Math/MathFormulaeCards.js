@@ -1,5 +1,10 @@
 import React, { useState, useEffect } from "react";
 import formulaeData from "./JSON/formulae.json";
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import ChevronLeft from '@mui/icons-material/ChevronLeft';
+import { Container, Button } from "react-bootstrap";
+import styles from "./Math.module.css";
+
 
 const MathFormulaeCards = () => {
   const [formulae, setFormulae] = useState({});
@@ -37,39 +42,41 @@ const MathFormulaeCards = () => {
   const currentCategoryData = formulae[currentCategory];
 
   return (
-    <div className="container">
+    <Container>
       <h1>Math Formulae</h1>
       {Object.keys(formulae).length > 0 ? (
         <>
           <div>
             <h2>{currentCategory}</h2>
-            <div className="row">
+            <div className="row test">
               {currentCategoryData.map((formula) =>
                 renderCard(formula)
               )}
             </div>
           </div>
           <div className="text-center mt-3">
-            <button
-              className="btn btn-primary me-3"
+            <Button
+              className="card-btn"
+              variant="warning"
               disabled={currentCategoryIndex === 0}
               onClick={handlePreviousCategory}
-            >
+            ><ChevronLeft/>
               Back
-            </button>
-            <button
-              className="btn btn-primary"
+            </Button>
+            <Button
+              className="card-btn"
+              variant="warning"
               disabled={currentCategoryIndex === Object.keys(formulae).length - 1}
               onClick={handleNextCategory}
             >
-              Next
-            </button>
+              Next <NavigateNextIcon />
+            </Button>
           </div>
         </>
       ) : (
         <p>Loading...</p>
       )}
-    </div>
+    </ Container>
   );
 };
 

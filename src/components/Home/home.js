@@ -13,7 +13,7 @@ function Home() {
           </Card.Body>
           <div className="py-3 d-flex justify-content-center">
             <Row>
-              <Col>
+              <Col className="main-card">
                 <Card style={{ width: "22rem", height: "28rem" }}>
                   <Card.Body>
                     <Card.Title className="title">Mathematics</Card.Title>
@@ -29,7 +29,7 @@ function Home() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col>
+              <Col className="main-card">
                 <Card style={{ width: "22rem", height: "28rem" }}>
                   <Card.Body>
                     <Card.Title className="title">English</Card.Title>
@@ -45,7 +45,7 @@ function Home() {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col>
+              <Col className="main-card">
                 <Card style={{ width: "22rem", height: "28rem" }}>
                   <Card.Body>
                     <Card.Title className="title">What's More ?</Card.Title>

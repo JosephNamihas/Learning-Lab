@@ -85,7 +85,7 @@ const Planner = () => {
   const currentMonth = moment().format("MMMM YYYY");
 
   return (
-    <Container className="text-center py-5">
+    <Container className="text-center">
       <h1>{currentMonth}</h1>
       {renderInputs()}
     </Container>

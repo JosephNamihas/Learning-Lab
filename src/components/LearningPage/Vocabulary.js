@@ -80,7 +80,6 @@ const Vocabulary = () => {
 
         <Button 
           variant="outline-warning" 
-          style={{width: "10rem"}} 
           className="words-submit" 
           type="submit">Search
         </Button>

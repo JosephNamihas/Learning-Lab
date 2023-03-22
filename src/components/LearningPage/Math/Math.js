@@ -11,7 +11,7 @@ import styles from "./Math.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./CardStyles.css";
 import Quiz from "./Quiz";
-import { Button, Row, Col } from "react-bootstrap";
+import { Container, Button, Row } from "react-bootstrap";
 import ThreeShapes from "./ThreeShapes";
 import MathFormulaeCards from "./MathFormulaeCards"
 
@@ -41,9 +41,9 @@ const Math = () => {
   };
 
   return (
-    <>
-      <div className={styles.container}>
+    <Container>
         <h1 className="my-4">Maths Corner</h1>
+        <Row>
         <div className="row mt-4 category">
           <div className="col-md-8">
             <CardList cardData={cardData} />
@@ -84,10 +84,9 @@ const Math = () => {
           </div>
       
     </div>
-</div>
     
-      
-    </>
+      </Row>
+    </Container>
   );
 };
 
