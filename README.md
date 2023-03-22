@@ -118,8 +118,24 @@ Joe - ```"It was great working with this team. We had a plan from day one and ex
 
 
 ## Screenshots
+### Wire frame using Miro: 
+![Miro Wire-Frame](public/images/readme-images/Miro.png)
+
+### Home page:
+![Home Page](public/images/readme-images/Home.png)
+
+### Maths page:
+![Math Page](public/images/readme-images/Math.png)
+
+### Word page:
+![Vocabulary Page](public/images/readme-images/Vocabulary.png)
+
+### And more:
+![More Page](public/images/readme-images/Learn.png)
 
 ## Video
+
+![More Page](public/images/readme-images/LearningLab.gif)
 
 ## License
 
