@@ -1,5 +1,5 @@
 {
-"geometry": [
+"Geometry": [
 {
 "name": "Rectangle Perimeter",
 "formula": "P = 2(l + w)",
@@ -44,7 +44,7 @@
 }
 }
 ],
-"trigonometry": [
+"Trigonometry": [
 {
 "name": "Sine",
 "formula": "sin(θ) = opposite/hypotenuse",
@@ -70,7 +70,7 @@
 }
 }
 ],
-"statistics": [
+"Statistics": [
 {
 "name": "Mean",
 "formula": "μ = Σx_i / n",
