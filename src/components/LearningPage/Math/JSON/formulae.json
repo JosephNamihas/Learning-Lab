@@ -1,0 +1,124 @@
+{
+"geometry": [
+{
+"name": "Rectangle Perimeter",
+"formula": "P = 2(l + w)",
+"image_url": "",
+"example": {
+"length": 5,
+"width": 3
+}
+},
+{
+"name": "Rectangle Area",
+"formula": "A = l * w",
+"image_url": "",
+"example": {
+"length": 5,
+"width": 3
+}
+},
+{
+"name": "Circle Circumference",
+"formula": "C = 2πr",
+"image_url": "",
+"example": {
+"radius": 4
+}
+},
+{
+"name": "Circle Area",
+"formula": "A = πr^2",
+"image_url": "",
+"example": {
+"radius": 4
+}
+},
+{
+"name": "Triangle Area",
+"formula": "A = 1/2bh",
+"image_url": "",
+"example": {
+"base": 6,
+"height": 8
+}
+}
+],
+"trigonometry": [
+{
+"name": "Sine",
+"formula": "sin(θ) = opposite/hypotenuse",
+"image_url": "",
+"example": {
+"angle": "π/6"
+}
+},
+{
+"name": "Cosine",
+"formula": "cos(θ) = adjacent/hypotenuse",
+"image_url": "",
+"example": {
+"angle": "π/3"
+}
+},
+{
+"name": "Tangent",
+"formula": "tan(θ) = opposite/adjacent",
+"image_url": "",
+"example": {
+"angle": "π/4"
+}
+}
+],
+"statistics": [
+{
+"name": "Mean",
+"formula": "μ = Σx_i / n",
+"image_url": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/mean_tlc9x1.jpg",
+"example": {
+"data": [1, 2, 3, 4, 5]
+}
+},
+{
+"name": "Population Variance",
+"formula": "σ^2 = Σ(x_i - μ)^2 / N",
+"image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStooH2uqVb0qwMLgho5xwzTkvVO-oy0-g8xw&usqp=CAU",
+"example": {
+"data": [1, 2, 3, 4, 5]
+}
+},
+{
+"name": "Sample Variance",
+"formula": "s^2 = Σ(x_i - x̄)^2 / (n-1)",
+"image_url": "https://www.onlinemathlearning.com/image-files/population-variance.png",
+"example": {
+"data": [1, 2, 3, 4, 5]
+}
+},
+{
+"name": "Population Standard Deviation",
+"formula": "σ = sqrt(σ^2)",
+"image_url": "https://curvebreakerstestprep.com/wp-content/uploads/2021/04/population-standard-deviation.png",
+"example": {
+"data": [1, 2, 3, 4, 5]
+}
+},
+{
+"name": "Sample Standard Deviation",
+"formula": "s = sqrt(s^2)",
+"image_url": "",
+"example": {
+"data": [1, 2, 3, 4, 5]
+}
+},
+    {
+      "name": "Correlation Coefficient",
+      "formula": "r = Σ((x_i - x̄)(y_i - ȳ)) / (n-1)s_x*s_y",
+      "image_url": "",
+      "example": {
+        "data1": [1, 2, 3],
+        "data2": [1, 2, 3]
+      }
+    }
+]
+}

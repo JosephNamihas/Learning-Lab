@@ -12,7 +12,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./CardStyles.css";
 import Quiz from "./Quiz";
 import { Button, Row, Col } from "react-bootstrap";
-
+import ThreeShapes from "./ThreeShapes";
+import MathFormulaeCards from "./MathFormulaeCards"
 
 const Math = () => {
   const [cardData, setCardData] = useState(algebra);
@@ -63,14 +64,29 @@ const Math = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div>
-        <div className="mt-4">
+        <div>
+            <div className="mt-4">
           <div className="col-md-12">
-            <Quiz />
+          <MathFormulaeCards />
           </div>
         </div>
-      </div>
+         </div>
+   <div className="row">      
+        
+          <div className="col-md-6">
+            <Quiz />
+          </div>
+        
+        
+          <div className="col-md-6">
+          <h2> Exploring 3D Shapes</h2>
+            <ThreeShapes />
+          </div>
+      
+    </div>
+</div>
+    
+      
     </>
   );
 };
