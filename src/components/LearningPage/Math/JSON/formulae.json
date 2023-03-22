@@ -3,7 +3,7 @@
 {
 "name": "Rectangle Perimeter",
 "formula": "P = 2(l + w)",
-"image_url": "",
+"image_url": "https://www.chilimath.com/wp-content/uploads/2022/08/perimeter-of-rectangle-intro.png",
 "example": {
 "length": 5,
 "width": 3
@@ -12,7 +12,7 @@
 {
 "name": "Rectangle Area",
 "formula": "A = l * w",
-"image_url": "",
+"image_url": "https://www.chilimath.com/wp-content/uploads/2022/08/area-of-rectangle-snapshot.png",
 "example": {
 "length": 5,
 "width": 3
@@ -21,7 +21,7 @@
 {
 "name": "Circle Circumference",
 "formula": "C = 2πr",
-"image_url": "",
+"image_url": "https://www.wikihow.com/images/thumb/a/af/Calculate-the-Circumference-of-a-Circle-Step-1-Version-5.jpg/v4-460px-Calculate-the-Circumference-of-a-Circle-Step-1-Version-5.jpg",
 "example": {
 "radius": 4
 }
@@ -29,7 +29,7 @@
 {
 "name": "Circle Area",
 "formula": "A = πr^2",
-"image_url": "",
+"image_url": "https://curvebreakerstestprep.com/wp-content/uploads/2021/03/Circle-Area-with-Measurements.png",
 "example": {
 "radius": 4
 }
@@ -37,7 +37,7 @@
 {
 "name": "Triangle Area",
 "formula": "A = 1/2bh",
-"image_url": "",
+"image_url": "https://cdn1.byjus.com/wp-content/uploads/2020/02/Area-of-Triangle-1.png",
 "example": {
 "base": 6,
 "height": 8
@@ -48,7 +48,7 @@
 {
 "name": "Sine",
 "formula": "sin(θ) = opposite/hypotenuse",
-"image_url": "",
+"image_url": "https://www.mathematics-monster.com/images/sine_opposite_hypotenuse_image.jpg",
 "example": {
 "angle": "π/6"
 }
@@ -56,7 +56,7 @@
 {
 "name": "Cosine",
 "formula": "cos(θ) = adjacent/hypotenuse",
-"image_url": "",
+"image_url": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201028203922/Cos-2-1024x605.png",
 "example": {
 "angle": "π/3"
 }
@@ -64,7 +64,7 @@
 {
 "name": "Tangent",
 "formula": "tan(θ) = opposite/adjacent",
-"image_url": "",
+"image_url": "https://www.mathematics-monster.com/images/tangent_opposite_adjacent_image.jpg",
 "example": {
 "angle": "π/4"
 }
@@ -106,7 +106,7 @@
 {
 "name": "Sample Standard Deviation",
 "formula": "s = sqrt(s^2)",
-"image_url": "",
+"image_url": "https://www.thoughtco.com/thmb/qmSnmY_b1ztjvvdp-QhdT4-DA8c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/calculate-a-sample-standard-deviation-3126345-v4-CS-01-5b76f58f46e0fb0050bb4ab2.png",
 "example": {
 "data": [1, 2, 3, 4, 5]
 }
