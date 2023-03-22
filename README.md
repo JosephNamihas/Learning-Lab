@@ -103,7 +103,7 @@ Once the app is running, you can access it by opening a web browser and navigati
 
 ## Contributing
 
-Augustine - ``` ```
+Augustine - ```"Collaborating on this web project alongside passionate and innovative team members has been an incredibly inspiring journey. It's heartening to see that our conversations throughout the app's development were centered on enriching the user experience. As a result, we've created a product that is not only user-friendly and intuitive but also aesthetically pleasing" ```
 
 Suzie - ``` "For this project, I would say that I really enjoyed working with the team. We planned well and kept communicating throughout the project, we came across many challenges but we did manage to get our project done nicely. It was a pleasure to work with you all. Thank you team 😊" ```
 
