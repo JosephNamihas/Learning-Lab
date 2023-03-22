@@ -29,7 +29,7 @@ The Learning Lab is an educational platform for children that aims to make learn
 
 ## User Story
 
- As a child, I want to learn new things in a fun and interactive way, so that I can enjoy the process of learning and remember what I've learned.
+ ```As a child, I want to learn new things in a fun and interactive way, so that I can enjoy the process of learning and remember what I've learned.```
 
 ## Acceptance criteria
 
@@ -60,6 +60,7 @@ The Learning Lab should meet the following criteria:
 ## Installation
 
 To access the deployed version of this project, simply visit the following URL: 
+- https://thelearninglab-resilient-sunflower.netlify.app/
 
 If you'd like to make changes to the project and deploy your own version, you can follow these steps:
 
@@ -77,8 +78,14 @@ Once the app is running, you can access it by opening a web browser and navigati
 
 ## Challenges
 
+- Netlify could be difficult at times; Builds would often fail and the logs were not always helpful. With a bit of research, we managed to fix it by adding a _redirect file to the root of the project. After implementing this, the build was succesfull. 
+
 
 ## Successes
+
+- A well organised team! We had two minor git merge conflicts. I believe this was partly due to how well we organised the workload. Even towards the end of the project when we were working on the same files, we always communicated well to make sure no conflicts would likely occur.
+
+- We settled on our application idea before the first project lesson. We all wanted to do something educational, and while that changed slightly after initial plans, we were all passionate about what we were creating
 
 
 ## Future Development
@@ -99,14 +106,14 @@ Augustine - ``` ```
 
 Suzie - ``` "For this project, I would say that I really enjoyed working with the team. We planned well and kept communicating throughout the project, we came across many challenges but we did manage to get our project done nicely. It was a pleasure to work with you all. Thank you team 😊" ```
 
-Jenelle - ``` ```"I feel immensely grateful for the opportunity to be a part of this amazing team that developed the Learning_Lab. It was an incredible experience working with some of the best in the field. From planning to creating to deployment, I had a lot of fun while learning and growing."
+Jenelle - ```"I feel immensely grateful for the opportunity to be a part of this amazing team that developed the Learning_Lab. It was an incredible experience working with some of the best in the field. From planning to creating to deployment, I had a lot of fun while learning and growing."```
 
-Joe - ```"It was great working with this team. We had a plan from day one and executed it efficently and with plenty of time to spare. We all agreed on the principle of the app and managed to build and implement the features as we went along.  ```
+Joe - ```"It was great working with this team. We had a plan from day one and executed it efficently and with plenty of time to spare. We all agreed on the principle of the app and managed to build and implement the features as we went along."  ```
 
 
 ## Credits
 
-- Miss  Anissa Spio-Garbrah for letting us use some of her art work for our Login Avatars.
+- Miss Anissa Spio-Garbrah for letting us use some of her art work for our Login Avatars.
 
 
 ## Screenshots
