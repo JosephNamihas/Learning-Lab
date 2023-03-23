@@ -21,7 +21,7 @@ The Learning Lab is an educational platform for children that aims to make learn
   - [Successes](#successes)
   - [Future Development](#future-development)
   - [Contributing](#contributing)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Video](#video)
   - [License](#license)  
 
@@ -57,6 +57,8 @@ The Learning Lab should meet the following criteria:
 * Moment.js
 * ThreeJS
 * CSS
+
+* Trello, Slack and Zoom for project management and communication
 
 ## Installation
 
