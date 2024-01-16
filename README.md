@@ -29,7 +29,7 @@ The Learning Lab is an educational platform for children that aims to make learn
 
 ## User Story
 
- ```As a child, I want to learn new things in a fun and interactive way, so that I can enjoy the process of learning and remember what I've learned.```
+ ```As a STUDENT, I want to learn new things in a fun and interactive way, so that I can enjoy the process of learning and remember what I've learned.```
 
 ## Acceptance criteria
 
