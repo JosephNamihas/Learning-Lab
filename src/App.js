@@ -18,6 +18,7 @@ import Science from "./components/LearningPage/Science";
 import Library from "./components/LearningPage/Library";
 import Spanish from "./components/LearningPage/Spanish";
 import French from "./components/LearningPage/French";
+import Quiz from "./components/LearningPage/Math/Quiz";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/ContactForm" element={<ContactForm />} />
           <Route path="/Main" element={<Main />} />
           <Route path="/Learn" element={<Learn />} />
+          <Route path="/Quiz" element={<Quiz />} />
           <Route path="/geography" element={<Geography />} />
           <Route path="/history" element={<History />} />
           <Route path="/science" element={<Science />} />
