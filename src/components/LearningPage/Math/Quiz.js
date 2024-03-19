@@ -67,7 +67,7 @@ const Quiz = () => {
         setSelectedOption("");
         setShowError(false);
       }
-    }, 2000); // Show correct answer for 2 seconds
+    }, 5000); // Show correct answer for 5 seconds
   };
 
   const handleCategoryChange = (code) => {
