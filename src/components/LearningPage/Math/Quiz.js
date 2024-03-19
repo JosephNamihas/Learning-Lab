@@ -140,3 +140,5 @@ function renderOptions(question, handleOptionChange, selectedOption) {
   });
 };
 
+export default Quiz;
+
