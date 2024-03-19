@@ -10,7 +10,6 @@ import trigonometry from "./JSON/trigonometry.json";
 import styles from "./Math.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./CardStyles.css";
-import Quiz from "./Quiz";
 import { Container, Button, Row } from "react-bootstrap";
 import ThreeShapes from "./ThreeShapes";
 import MathFormulaeCards from "./MathFormulaeCards"
