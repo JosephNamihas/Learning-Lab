@@ -10,14 +10,12 @@ const Quiz = () => {
   const [selectedOption, setSelectedOption] = useState("");
   const [showError, setShowError] = useState(false);
 
-  // Fetch questions from the Open Trivia Database API on component mount
+  // Fetch questions from the API on component mount
   useEffect(() => {
     axios
-      .get(
-        "https://magustus.pythonanywhere.com/api/questions/"
-      )
+      .get("https://magustus.pythonanywhere.com/api/questions/")
       .then((response) => {
-        setQuestions(response.data.results);
+        setQuestions(response.data); // Assuming the API response directly contains the array of questions
       })
       .catch((error) => {
         console.log(error);
@@ -30,7 +28,7 @@ const Quiz = () => {
   };
 
   const handleNextQuestion = () => {
-    if (selectedOption === questions[currentIndex].correct_answer) {
+    if (selectedOption === `option_${questions[currentIndex].correct_option.toLowerCase()}`) {
       setScore(score + 1);
     } else {
       setShowError(true);
@@ -45,21 +43,34 @@ const Quiz = () => {
   };
 
   const handleRestart = () => {
-    setQuestions([]);
     setCurrentIndex(0);
     setScore(0);
     setShowScore(false);
     setSelectedOption("");
+    setShowError(false);
+    // Fetch the questions again to restart the quiz
     axios
-      .get(
-        "https://opentdb.com/api.php?amount=10&category=19&difficulty=medium&type=multiple"
-      )
+      .get("https://magustus.pythonanywhere.com/api/questions/")
       .then((response) => {
-        setQuestions(response.data.results);
+        setQuestions(response.data);
       })
       .catch((error) => {
         console.log(error);
       });
+  };
+
+  const renderOptions = (question) => {
+    return ['a', 'b', 'c', 'd'].map((option) => (
+      <Form.Check
+        type="radio"
+        label={question[`option_${option}`]}
+        name="quizOption"
+        value={`option_${option}`}
+        checked={selectedOption === `option_${option}`}
+        onChange={handleOptionChange}
+        key={option}
+      />
+    ));
   };
 
   return (
@@ -76,30 +87,9 @@ const Quiz = () => {
         </div>
       ) : (
         <div className="border border-dark p-3 mb-3">
-          <h2>{questions[currentIndex]?.question}</h2>
+          <h2>{questions[currentIndex]?.text}</h2>
           <Form>
-            {questions[currentIndex]?.incorrect_answers?.map((option) => (
-              <Form.Check
-                type="radio"
-                label={option}
-                name="quizOption"
-                value={option}
-                checked={selectedOption === option}
-                onChange={handleOptionChange}
-                key={option}
-              />
-            ))}
-            <Form.Check
-              type="radio"
-              label={questions[currentIndex]?.correct_answer}
-              name="quizOption"
-              value={questions[currentIndex]?.correct_answer}
-              checked={
-                selectedOption === questions[currentIndex]?.correct_answer
-              }
-              onChange={handleOptionChange}
-              key={questions[currentIndex]?.correct_answer}
-            />
+            {questions[currentIndex] && renderOptions(questions[currentIndex])}
           </Form>
           {showError && (
             <div className="text-danger">Sorry, wrong answer. Try again.</div>
