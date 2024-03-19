@@ -14,7 +14,7 @@ const Quiz = () => {
   useEffect(() => {
     axios
       .get(
-        "https://opentdb.com/api.php?amount=10&category=19&difficulty=medium&type=multiple"
+        "https://magustus.pythonanywhere.com/api/questions/"
       )
       .then((response) => {
         setQuestions(response.data.results);
