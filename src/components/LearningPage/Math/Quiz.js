@@ -1,107 +1,142 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { Container, Button, Form } from "react-bootstrap";
+import { Container, Button, Form, Row, Col, DropdownButton, Dropdown } from "react-bootstrap";
 
 const Quiz = () => {
+  const [categories, setCategories] = useState([]);
+  const [selectedCategory, setSelectedCategory] = useState("");
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [selectedOption, setSelectedOption] = useState("");
   const [showError, setShowError] = useState(false);
+  const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
 
-  // Fetch questions from the API on component mount
   useEffect(() => {
     axios
-      .get("https://magustus.pythonanywhere.com/api/questions/")
+      .get("https://magustus.pythonanywhere.com/api/categories/")
       .then((response) => {
-        setQuestions(response.data); // Assuming the API response directly contains the array of questions
+        setCategories(response.data);
       })
       .catch((error) => {
-        console.log(error);
+        console.error("Fetching categories failed:", error);
       });
   }, []);
+
+  useEffect(() => {
+    if (selectedCategory) {
+      axios
+        .get(`https://magustus.pythonanywhere.com/api/questions/?category=${selectedCategory}`)
+        .then((response) => {
+          setQuestions(response.data);
+          setCurrentIndex(0);
+          setScore(0);
+          setShowScore(false);
+          setSelectedOption("");
+          setShowError(false);
+          setShowCorrectAnswer(false);
+        })
+        .catch((error) => {
+          console.error("Fetching questions failed:", error);
+        });
+    }
+  }, [selectedCategory]);
 
   const handleOptionChange = (event) => {
     setShowError(false);
     setSelectedOption(event.target.value);
+    setShowCorrectAnswer(false);
   };
 
   const handleNextQuestion = () => {
-    if (selectedOption === `option_${questions[currentIndex].correct_option.toLowerCase()}`) {
+    const correctOption = `option_${questions[currentIndex].correct_option.toLowerCase()}`;
+    if (selectedOption === correctOption) {
       setScore(score + 1);
     } else {
       setShowError(true);
     }
+    setShowCorrectAnswer(true);
 
-    if (currentIndex === questions.length - 1) {
-      setShowScore(true);
-    } else {
-      setCurrentIndex(currentIndex + 1);
-      setSelectedOption("");
-    }
+    setTimeout(() => {
+      setShowCorrectAnswer(false);
+      if (currentIndex === questions.length - 1) {
+        setShowScore(true);
+      } else {
+        setCurrentIndex(currentIndex + 1);
+        setSelectedOption("");
+        setShowError(false);
+      }
+    }, 2000); // Show correct answer for 2 seconds
   };
 
-  const handleRestart = () => {
-    setCurrentIndex(0);
-    setScore(0);
-    setShowScore(false);
-    setSelectedOption("");
-    setShowError(false);
-    // Fetch the questions again to restart the quiz
-    axios
-      .get("https://magustus.pythonanywhere.com/api/questions/")
-      .then((response) => {
-        setQuestions(response.data);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  };
-
-  const renderOptions = (question) => {
-    return ['a', 'b', 'c', 'd'].map((option) => (
-      <Form.Check
-        type="radio"
-        label={question[`option_${option}`]}
-        name="quizOption"
-        value={`option_${option}`}
-        checked={selectedOption === `option_${option}`}
-        onChange={handleOptionChange}
-        key={option}
-      />
-    ));
+  const handleCategoryChange = (code) => {
+    setSelectedCategory(code);
   };
 
   return (
     <Container className="my-5">
-      <h1 className="text-center mb-5">Quiz</h1>
-      {showScore ? (
-        <div className="border border-dark p-3 mb-3 text-center">
-          <h2>
-            Your score: {score}/{questions.length}
-          </h2>
-          <Button variant="primary" onClick={handleRestart}>
-            Restart
-          </Button>
-        </div>
-      ) : (
-        <div className="border border-dark p-3 mb-3">
-          <h2>{questions[currentIndex]?.text}</h2>
-          <Form>
-            {questions[currentIndex] && renderOptions(questions[currentIndex])}
-          </Form>
-          {showError && (
-            <div className="text-danger">Sorry, wrong answer. Try again.</div>
+      <Row>
+        <Col>
+          <h1 className="text-center mb-5">Quiz</h1>
+          <DropdownButton id="dropdown-basic-button" title="Select Category">
+            {categories.map((category) => (
+              <Dropdown.Item key={category.id} onClick={() => handleCategoryChange(category.code)}>
+                {category.name}
+              </Dropdown.Item>
+            ))}
+          </DropdownButton>
+          {showScore ? (
+            <div className="border border-dark p-3 mb-3 text-center">
+              <h2>
+                Your score: {score}/{questions.length}
+              </h2>
+              <Button variant="primary" onClick={() => setSelectedCategory("")}>
+                Choose another category
+              </Button>
+            </div>
+          ) : (
+            <div className="border border-dark p-3 mb-3">
+              <h2>{questions[currentIndex]?.text}</h2>
+              <Form>
+                {questions[currentIndex] && renderOptions(questions[currentIndex], handleOptionChange, selectedOption)}
+              </Form>
+              {showError && (
+                <div className="text-danger">Sorry, wrong answer. Try again or proceed to the next question.</div>
+              )}
+              <Button variant="warning" onClick={handleNextQuestion} style={{ backgroundColor: "#ff9900", marginTop: "1rem" }}>
+                Next
+              </Button>
+            </div>
           )}
-          <Button variant="warning" onClick={handleNextQuestion}
-          style={{ backgroundColor: "#ff9900", marginTop: "1rem" }}>
-            Next
-          </Button>
-        </div>
-      )}
+        </Col>
+        {showCorrectAnswer && (
+          <Col md={4}>
+            <div className="border border-success p-3">
+              <h4>Correct Answer</h4>
+              <p>{questions[currentIndex]?.[`option_${questions[currentIndex]?.correct_option.toLowerCase()}`]}</p>
+            </div>
+          </Col>
+        )}
+      </Row>
     </Container>
   );
 };
 
-export default Quiz;
+function renderOptions(question, handleOptionChange, selectedOption) {
+  return ['a', 'b', 'c', 'd'].map((optionLetter) => {
+    const optionKey = `option_${optionLetter}`;
+    return (
+      <Form.Check
+        type="radio"
+        label={question[optionKey]}
+        name="quizOption"
+        value={optionKey}
+        checked={selectedOption === optionKey}
+        onChange={handleOptionChange}
+        key={optionLetter}
+      />
+    );
+  });
+};
+
